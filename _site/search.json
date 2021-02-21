@@ -1,0 +1,20 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "Felipe O. Gonçalves",
+      "description": "MESTRANDO EM ECONOMIA (PIMES-UFPE)",
+      "author": [],
+      "contents": "\n\nbody{\n  font-size: 14pt;\n  text-align: justify;\n}\ntd{font-size: 16px;}\ncode.r{font-size: 14px;}\npre{font-size: 12px;}\nEste blog foi criado para compartilhar minha experiência com rotinas em economia aplicada. Seu público-alvo são leitores com alguma iniciação em R que se interessem pela abordagem {tidyverse} para análise e modelagem. \n# contato purrr::map(    list( LinkedIn,  GitHub,  Twitter ),    ~ .x$fdeoliveirag )\n\n\n\n",
+      "last_modified": "2021-02-20T23:05:47-03:00"
+    },
+    {
+      "path": "index.html",
+      "title": "{tidyeconomics}",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-02-20T23:06:00-03:00"
+    }
+  ],
+  "collections": ["posts/posts.json"]
+}

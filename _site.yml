@@ -1,0 +1,13 @@
+name: "tidyeconomics"
+title: "Ciência de Dados Econômicos"
+theme: theme.css
+description: |
+output_dir: "_site"
+navbar:
+  search: false
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Sobre"
+      href: about.html
+output: distill::distill_article

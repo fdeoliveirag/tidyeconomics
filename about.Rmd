@@ -1,0 +1,23 @@
+---
+title: "Felipe O. Gonçalves"
+theme: theme.css
+description: |
+  MESTRANDO EM ECONOMIA (PIMES-UFPE)
+---
+<style type='text/css'>
+body{
+  font-size: 14pt;
+  text-align: justify;
+}
+td{font-size: 16px;}
+code.r{font-size: 14px;}
+pre{font-size: 12px;}
+</style>
+Este blog foi criado para compartilhar minha experiência com rotinas em economia aplicada. Seu público-alvo são leitores com alguma iniciação em **R** que se interessem pela abordagem {[tidyverse](https://www.tidyverse.org/)} para análise e modelagem.
+</br></br>
+
+<span style='color: darkred'># contato</span></br>
+<span style='color: gray'>purrr::map(</span></br>
+\ \ \ list<span style='color: gray'>(</span>\ [LinkedIn](https://www.linkedin.com/in/fdeoliveirag/),\  [GitHub](https://github.com/fdeoliveirag/),\  [Twitter](https://twitter.com/fdeoliveirag)<span style='color: gray'>\ )</span>,</br>
+\ \ \ <span style='color: gray'>~</span> .x<span style='color: gray'>$</span>fdeoliveirag</br>
+<span style='color: gray'>)</span>

@@ -1,0 +1,207 @@
+---
+title: "Desmistificando o SIDRA - Parte I"
+categories:
+  - inflação
+  - ibge
+  - dplyr
+  - purrr
+  - forcats
+  - ggplot2
+theme: theme.css
+description: |
+  Calculando e visualizando o acumulado dos componentes da inflação durante a pandemia no Brasil.
+author:
+  - name: Felipe O. Gonçalves
+date: 02-20-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+<style type='text/css'>
+body{
+  font-size: 14pt;
+  text-align: justify;
+}
+td{font-size: 16px;}
+code.r{font-size: 14px;}
+pre{font-size: 12px;}
+</style>
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(message = FALSE)
+options(scipen = 999)
+```
+
+Para quem ainda não lida com dados do IBGE de maneira sistemática, dificuldades com o SIDRA não são algo incomum. Importar as planilhas sob um formato amigável para trabalho analítico (e futuras estimações) pode trazer dor de cabeça.
+
+Este blog estreia com a primeira parte de uma sequência de postagens --- gradativa em complexidade --- que tentará atenuar essa dificuldade oferecendo um workflow consistente desde a coleta até a visualização dos dados do SIDRA.
+
+Na postagem de hoje, a variação mensal do IPCA desagregada em grupos será usada para a construção de um gráfico sobre a composição da inflação acumulada no Brasil durante a pandemia.
+
+## Pacotes
+
+```{r}
+library(sidrar)    # importação via API
+library(ggthemes)  # estética do gráfico
+#
+library(dplyr)
+library(purrr)
+library(forcats)
+library(ggplot2)
+```
+<br/>
+
+## Dados
+
+Não será preciso baixar nenhum arquivo. Seguindo os passos abaixo, encontra-se a expressão que permitirá levar os dados direto para o **R**:
+  
+* Acessar o portal do [SIDRA](https://sidra.ibge.gov.br/)
+* IPCA > Relação de Tabelas > 7061
+* Definir opções:
+  - Variável: **variação mensal** (%)
+  - Geral, grupo, subgrupo, item e subitem: **9 componentes**
+  - Mês: **mar/2020** a **jan/2021**
+  - Unidade Territorial: **Brasil**
+* Arrastar os blocos até ficarem dispostos assim:
+  
+![](layout.png){}
+  
+* Menu Inferior Direito: Links de Compartilhar > Parâmetros para a API
+<br/><br/>
+
+Feito. Cria-se então um objeto com a expressão --- retirando a parte anterior a `"/t/7061/"`:
+
+```{r}
+t7061 <- "/t/7061/n1/all/v/306/p/last%2011/c315/7170,7445,7486,7558,7625,7660,7712,7766,7786/d/v306%202"
+```
+  
+Torna-se assim possível, com o providencial {[sidrar](https://github.com/rpradosiqueira/sidrar)}, coletar os dados usando apenas o objeto criado:
+
+```{r}
+df_ibge <- sidrar::get_sidra(api = t7061)
+names(df_ibge)
+```
+
+## Manipulação
+
+Dessas treze colunas, são três as necessárias aqui:
+
+```{r}
+ipca <- df_ibge %>%
+  as_tibble() %>%  # início do flow
+  select(
+    date = "Mês",
+    component = "Geral, grupo, subgrupo, item e subitem",
+    mth_inflation = "Valor"
+  )
+head(ipca, 9)
+```
+
+Os dados vêm num padrão "comprido" ao invés de "largo": não há uma coluna para cada componente --- o que faz com que se tenha nove observações para cada mês. Diante da finalidade desta postagem, o ideal é mantê-los assim. Também não será necessário transformar a coluna de meses (de `<chr>` para `<Date>` ou `<yearmon>`).
+
+É preciso agora calcular o acumulado para onze meses de pandemia dos componentes do IPCA. Diante de uma variação mensal inicial $\pi_0 = \pi_0^{ac}$, temos
+
+$$\pi_t^{ac} = (1\ +\ \frac{\pi_t}{100})\ \times\ \pi_{t-1}^{ac}\ +\ \pi_t\ ,$$
+
+uma variável criada a partir de seus próprios valores defasados. Essa atribuição recursiva requer a função `purrr::accumulate()` para ser realizada dentro do flow --- em parceria com `dplyr::group_by()` para ser aplicada a cada componente em separado:
+
+```{r}
+ipca <- ipca %>%
+  group_by(component) %>%         # agrupamento
+  mutate(
+    # .y
+    accum_inflation = accumulate(
+      mth_inflation,              # .x
+      ~ (1 + .x / 100) * .y + .x  # atribuição recursiva de .y
+    )
+  )
+```
+
+Conferindo o primeiro componente --- e mais importante do período:
+
+```{r}
+head(arrange(ipca, component), 11)
+```
+
+Finalmente, chega-se ao valor acumulado no final no período para todos os componentes:
+
+```{r}
+ipca <- ipca %>%
+  summarize(
+    accum_inflation = last(accum_inflation),  # jan/2021
+    .groups = "drop"                          # desagrupamento
+  )
+```
+
+E eis a matéria-prima do gráfico:
+
+```{r}
+arrange(ipca, desc(accum_inflation))
+```
+
+## Visualização
+
+O primeiro passo para o sucesso do gráfico de barras será, seguindo o embalo da formatação (categorias sem numeração e mais concisas), reordenar a sequência de componentes com `forcats::fct_reorder()` de acordo com o tamanho da inflação acumulada:
+
+```{r}
+ipca <- ipca %>%
+  mutate(
+    component = component %>%
+      substring(3) %>%                                    # partindo do 3o. caractere
+      recode("Alimentação e bebidas" = "Alimentação",
+             "Artigos de residência" = "Residência",
+             "Saúde e cuidados pessoais" = "Saúde",
+             "Despesas pessoais" = "Desp. Pessoais") %>%  # concisão das categorias
+      fct_reorder(accum_inflation)                        # critério de ordenação
+  )
+```
+
+A carcaça do gráfico já pode ser criada:
+
+```{r}
+ipca %>%
+  ggplot(aes(accum_inflation, component)) +
+  geom_col()
+```
+
+E é pouco apelativa. O segundo passo será desfrutar das possibilidades que o flow fornece para montagens em cima dessa carcaça --- a função `ggplot2::geom_label()`, por exemplo. Esmiuçá-las exigiria uma postagem à parte.
+
+O último passo é escolher tema e paleta de cores a gosto. No caso do gráfico resultante abaixo, adotou-se um padrão do [Wall Street Journal](https://www.wsj.com/) encontrado no {[ggthemes](https://yutannihilation.github.io/allYourFigureAreBelongToUs/ggthemes/)}:
+
+```{r, echo=FALSE, preview=TRUE}
+ipca %>%
+  ggplot(aes(accum_inflation, component)) +
+  geom_col(aes(fill = ifelse(accum_inflation >= 0, "+", "-"))) +
+  geom_vline(xintercept = 0) +
+  geom_label(
+    aes(
+      label = paste0(round(accum_inflation, 2), "%"),
+      hjust = case_when(between(accum_inflation, -1, 1) ~ -.05,
+                        accum_inflation > 1 ~ .20,
+                        TRUE ~ .60)
+    ),
+    fill = "white",
+    fontface = "bold"
+  ) +
+  expand_limits(x = c(-5, 17.5)) +
+  labs(title = "inflação acumulada \ndurante a pandemia",
+       subtitle = "(mar/2020 - jan/2021)",
+       caption = "fonte: @fdeoliveirag") +
+  scale_x_continuous(labels = function(x) paste0(x, "%")) +
+  ggthemes::scale_fill_wsj(palette = "rgby") +
+  ggthemes::theme_wsj() +
+  theme(legend.position = "none",
+        plot.title = element_text(size = 21),
+        plot.subtitle = element_text(size = 13),
+        plot.caption = element_text(size = 11))
+```
+
+Um senhor ganho de apelo estético.
+
+# Considerações finais
+
+A inspiração para esta postagem veio justamente de [matérias jornalísticas](https://www1.folha.uol.com.br/mercado/2020/11/alta-no-preco-de-alimentos-faz-governo-elevar-projecao-de-inflacao-para-2020-e-2021.shtml) sobre a trajetória recente da inflação de alimentos. Uma boa fonte para a discussão do tema são as [avaliações do IPEA](https://www.ipea.gov.br/cartadeconjuntura/index.php/tag/inflacao-de-alimentos/) a respeito.
+
+Olhando para a deflação dos serviços educacionais, deve-se ter em conta fevereiro como único mês ausente no período da pandemia (e que é [particularmente importante](https://valorinveste.globo.com/mercados/brasil-e-politica/noticia/2021/02/09/inflacao-de-fevereiro-deve-ter-impacto-adicional-de-educacao.ghtml) para o componente).
+
+Na segunda parte da sequência, será possível trabalhar com planilhas mais complexas do SIDRA.
