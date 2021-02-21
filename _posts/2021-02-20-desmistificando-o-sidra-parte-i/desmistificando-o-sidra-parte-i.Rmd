@@ -123,7 +123,7 @@ Conferindo o primeiro componente --- e mais importante do período:
 head(arrange(ipca, component), 11)
 ```
 
-Finalmente, chega-se ao valor acumulado no final no período para todos os componentes:
+Finalmente, chega-se ao valor acumulado no final do período para todos os componentes:
 
 ```{r}
 ipca <- ipca %>%
@@ -203,5 +203,6 @@ Um senhor ganho de apelo estético.
 A inspiração para esta postagem veio justamente de [matérias jornalísticas](https://www1.folha.uol.com.br/mercado/2020/11/alta-no-preco-de-alimentos-faz-governo-elevar-projecao-de-inflacao-para-2020-e-2021.shtml) sobre a trajetória recente da inflação de alimentos. Uma boa fonte para a discussão do tema são as [avaliações do IPEA](https://www.ipea.gov.br/cartadeconjuntura/index.php/tag/inflacao-de-alimentos/) a respeito.
 
 Olhando para a deflação dos serviços educacionais, deve-se ter em conta fevereiro como único mês ausente no período da pandemia (e que é [particularmente importante](https://valorinveste.globo.com/mercados/brasil-e-politica/noticia/2021/02/09/inflacao-de-fevereiro-deve-ter-impacto-adicional-de-educacao.ghtml) para o componente).
+<br/><br/>
 
 Na segunda parte da sequência, será possível trabalhar com planilhas mais complexas do SIDRA.
