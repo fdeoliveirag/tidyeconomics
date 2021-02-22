@@ -11,3 +11,8 @@ navbar:
     - text: "Sobre"
       href: about.html
 output: distill::distill_article
+base_url: https://tidyeconomics.netlify.app/
+collections:
+  posts:
+    share: [twitter, linkedin]
+    citations: false

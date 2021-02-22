@@ -4,3 +4,12 @@ theme: theme.css
 site: distill::distill_website
 listing: posts
 ---
+<style type="text/css">
+body{
+  font-size: 14pt;
+  text-align: justify;
+}
+td{font-size: 16px;}
+code.r{font-size: 14px;}
+pre{font-size: 12px;}
+</style>
