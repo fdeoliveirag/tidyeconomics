@@ -177,33 +177,8 @@ Porém ela é pouco apelativa (apesar de ter seu charme). O segundo passo será 
 Por último, escolhe-se tema e paleta de cores a gosto. Como a inspiração para esta postagem veio justamente de [matérias jornalísticas](https://www1.folha.uol.com.br/mercado/2020/11/alta-no-preco-de-alimentos-faz-governo-elevar-projecao-de-inflacao-para-2020-e-2021.shtml) sobre a trajetória recente da inflação de alimentos, foi escolhido um padrão do [Wall Street Journal](https://www.wsj.com/) encontrado no `{ggthemes}`:
 
 ```{r, echo=FALSE, preview=TRUE}
-ipca %>%
-  ggplot(aes(accum_inflation, component)) +
-  geom_col(aes(fill = ifelse(accum_inflation >= 0, "+", "-"))) +
-  geom_vline(xintercept = 0) +
-  geom_label(
-    aes(
-      label = paste0(round(accum_inflation, 2), "%"),
-      hjust = case_when(between(accum_inflation, -1, 1) ~ -.05,
-                        accum_inflation > 1 ~ .20,
-                        TRUE ~ .60)
-    ),
-    fill = "white",
-    fontface = "bold"
-  ) +
-  expand_limits(x = c(-5, 17.5)) +
-  labs(title = "inflação acumulada \ndurante a pandemia",
-       subtitle = "(mar/2020 - jan/2021)",
-       caption = "fonte: @fdeoliveirag") +
-  scale_x_continuous(labels = function(x) paste0(x, "%")) +
-  ggthemes::scale_fill_wsj(palette = "rgby") +
-  ggthemes::theme_wsj() +
-  theme(legend.position = "none",
-        plot.title = element_text(size = 21),
-        plot.subtitle = element_text(size = 13),
-        plot.caption = element_text(size = 11))
+readRDS("plot-sidra-1.rds")
 ```
-
 Um senhor ganho de apelo estético.
 
 Na segunda parte da sequência, será possível trabalhar com planilhas mais complexas do SIDRA.
