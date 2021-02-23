@@ -85,23 +85,23 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-<title>Ciência de Dados Econômicos: Desmistificando o SIDRA - Parte I</title>
+<title>Ciência de Dados Econômicos: Explorando o SIDRA com tidyverse - Parte I</title>
 
-<meta property="description" itemprop="description" content="Esta postagem de abertura integra uma sequência que procurará explorar as bases de dados do SIDRA através de uma abordagem avançada de workflow no R. Neste primeiro episódio, o IPCA por componentes será utilizado para a construção de um gráfico sobre a inflação acumulada no Brasil durante a pandemia, com atenção especial para a inflação de alimentos."/>
+<meta property="description" itemprop="description" content="Esta postagem de abertura integra uma sequência que procurará explorar as bases de dados do SIDRA através de uma abordagem avançada de workflow no R. Neste primeiro episódio, o IPCA por componentes será utilizado para a construção de um gráfico sobre a inflação acumulada no Brasil durante a pandemia, com atenção especial à inflação de alimentos."/>
 
-<link rel="canonical" href="https://tidyeconomics.netlify.app/posts/2021-02-20-desmistificando-o-sidra-parte-i/"/>
+<link rel="canonical" href="https://tidyeconomics.netlify.app/posts/2021-02-22-explorando-o-sidra-com-tidyverse-parte-i/"/>
 
 <!--  https://schema.org/Article -->
-<meta property="article:published" itemprop="datePublished" content="2021-02-20"/>
-<meta property="article:created" itemprop="dateCreated" content="2021-02-20"/>
+<meta property="article:published" itemprop="datePublished" content="2021-02-22"/>
+<meta property="article:created" itemprop="dateCreated" content="2021-02-22"/>
 <meta name="article:author" content="Felipe O. Gonçalves"/>
 
 <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-<meta property="og:title" content="Ciência de Dados Econômicos: Desmistificando o SIDRA - Parte I"/>
+<meta property="og:title" content="Ciência de Dados Econômicos: Explorando o SIDRA com tidyverse - Parte I"/>
 <meta property="og:type" content="article"/>
-<meta property="og:description" content="Esta postagem de abertura integra uma sequência que procurará explorar as bases de dados do SIDRA através de uma abordagem avançada de workflow no R. Neste primeiro episódio, o IPCA por componentes será utilizado para a construção de um gráfico sobre a inflação acumulada no Brasil durante a pandemia, com atenção especial para a inflação de alimentos."/>
-<meta property="og:url" content="https://tidyeconomics.netlify.app/posts/2021-02-20-desmistificando-o-sidra-parte-i/"/>
-<meta property="og:image" content="https://tidyeconomics.netlify.app/posts/2021-02-20-desmistificando-o-sidra-parte-i/desmistificando-o-sidra-parte-i_files/figure-html5/unnamed-chunk-12-1.png"/>
+<meta property="og:description" content="Esta postagem de abertura integra uma sequência que procurará explorar as bases de dados do SIDRA através de uma abordagem avançada de workflow no R. Neste primeiro episódio, o IPCA por componentes será utilizado para a construção de um gráfico sobre a inflação acumulada no Brasil durante a pandemia, com atenção especial à inflação de alimentos."/>
+<meta property="og:url" content="https://tidyeconomics.netlify.app/posts/2021-02-22-explorando-o-sidra-com-tidyverse-parte-i/"/>
+<meta property="og:image" content="https://tidyeconomics.netlify.app/posts/2021-02-22-explorando-o-sidra-com-tidyverse-parte-i/desmistificando-o-sidra-parte-i_files/figure-html5/unnamed-chunk-12-1.png"/>
 <meta property="og:image:width" content="1248"/>
 <meta property="og:image:height" content="768"/>
 <meta property="og:locale" content="en_US"/>
@@ -109,10 +109,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 <!--  https://dev.twitter.com/cards/types/summary -->
 <meta property="twitter:card" content="summary_large_image"/>
-<meta property="twitter:title" content="Ciência de Dados Econômicos: Desmistificando o SIDRA - Parte I"/>
-<meta property="twitter:description" content="Esta postagem de abertura integra uma sequência que procurará explorar as bases de dados do SIDRA através de uma abordagem avançada de workflow no R. Neste primeiro episódio, o IPCA por componentes será utilizado para a construção de um gráfico sobre a inflação acumulada no Brasil durante a pandemia, com atenção especial para a inflação de alimentos."/>
-<meta property="twitter:url" content="https://tidyeconomics.netlify.app/posts/2021-02-20-desmistificando-o-sidra-parte-i/"/>
-<meta property="twitter:image" content="https://tidyeconomics.netlify.app/posts/2021-02-20-desmistificando-o-sidra-parte-i/desmistificando-o-sidra-parte-i_files/figure-html5/unnamed-chunk-12-1.png"/>
+<meta property="twitter:title" content="Ciência de Dados Econômicos: Explorando o SIDRA com tidyverse - Parte I"/>
+<meta property="twitter:description" content="Esta postagem de abertura integra uma sequência que procurará explorar as bases de dados do SIDRA através de uma abordagem avançada de workflow no R. Neste primeiro episódio, o IPCA por componentes será utilizado para a construção de um gráfico sobre a inflação acumulada no Brasil durante a pandemia, com atenção especial à inflação de alimentos."/>
+<meta property="twitter:url" content="https://tidyeconomics.netlify.app/posts/2021-02-22-explorando-o-sidra-com-tidyverse-parte-i/"/>
+<meta property="twitter:image" content="https://tidyeconomics.netlify.app/posts/2021-02-22-explorando-o-sidra-com-tidyverse-parte-i/desmistificando-o-sidra-parte-i_files/figure-html5/unnamed-chunk-12-1.png"/>
 <meta property="twitter:image:width" content="1248"/>
 <meta property="twitter:image:height" content="768"/>
 
@@ -120,7 +120,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","categories","theme","description","author","date","output","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["Desmistificando o SIDRA - Parte I"]},{"type":"character","attributes":{},"value":["inflação","ibge","dplyr","purrr","forcats","ggplot2"]},{"type":"character","attributes":{},"value":["theme.css"]},{"type":"character","attributes":{},"value":["Esta postagem de abertura integra uma sequência que procurará explorar as bases de dados do SIDRA através de uma abordagem avançada de workflow no R. Neste primeiro episódio, o IPCA por componentes será utilizado para a construção de um gráfico sobre a inflação acumulada no Brasil durante a pandemia, com atenção especial para a inflação de alimentos."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Felipe O. Gonçalves"]}]}]},{"type":"character","attributes":{},"value":["02-20-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["https://tidyeconomics.netlify.app/posts/2021-02-20-desmistificando-o-sidra-parte-i/"]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","categories","theme","description","author","date","output","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["Explorando o SIDRA com tidyverse - Parte I"]},{"type":"character","attributes":{},"value":["inflação","SIDRA","dplyr","purrr","forcats","ggplot2"]},{"type":"character","attributes":{},"value":["theme.css"]},{"type":"character","attributes":{},"value":["Esta postagem de abertura integra uma sequência que procurará explorar as bases de dados do SIDRA através de uma abordagem avançada de workflow no R. Neste primeiro episódio, o IPCA por componentes será utilizado para a construção de um gráfico sobre a inflação acumulada no Brasil durante a pandemia, com atenção especial à inflação de alimentos."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Felipe O. Gonçalves"]}]}]},{"type":"character","attributes":{},"value":["02-22-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["https://tidyeconomics.netlify.app/posts/2021-02-22-explorando-o-sidra-com-tidyverse-parte-i/"]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
@@ -2144,7 +2144,7 @@ d-appendix d-footnote-list a.footnote-backlink {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Desmistificando o SIDRA - Parte I","description":"Esta postagem de abertura integra uma sequência que procurará explorar as bases de dados do SIDRA através de uma abordagem avançada de workflow no R. Neste primeiro episódio, o IPCA por componentes será utilizado para a construção de um gráfico sobre a inflação acumulada no Brasil durante a pandemia, com atenção especial para a inflação de alimentos.","authors":[{"author":"Felipe O. Gonçalves","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-02-20T00:00:00.000-03:00","citationText":"Gonçalves, 2021"}
+{"title":"Explorando o SIDRA com tidyverse - Parte I","description":"Esta postagem de abertura integra uma sequência que procurará explorar as bases de dados do SIDRA através de uma abordagem avançada de workflow no R. Neste primeiro episódio, o IPCA por componentes será utilizado para a construção de um gráfico sobre a inflação acumulada no Brasil durante a pandemia, com atenção especial à inflação de alimentos.","authors":[{"author":"Felipe O. Gonçalves","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-02-22T00:00:00.000-03:00","citationText":"Gonçalves, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2166,24 +2166,24 @@ d-appendix d-footnote-list a.footnote-backlink {
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Desmistificando o SIDRA - Parte I</h1>
+<h1>Explorando o SIDRA com tidyverse - Parte I</h1>
 <!--radix_placeholder_categories-->
 <div class="dt-tags">
   <a href="../../index.html#category:inflação" class="dt-tag">inflação</a>
-  <a href="../../index.html#category:ibge" class="dt-tag">ibge</a>
+  <a href="../../index.html#category:SIDRA" class="dt-tag">SIDRA</a>
   <a href="../../index.html#category:dplyr" class="dt-tag">dplyr</a>
   <a href="../../index.html#category:purrr" class="dt-tag">purrr</a>
   <a href="../../index.html#category:forcats" class="dt-tag">forcats</a>
   <a href="../../index.html#category:ggplot2" class="dt-tag">ggplot2</a>
 </div>
 <!--/radix_placeholder_categories-->
-<p><p>Esta postagem de abertura integra uma sequência que procurará explorar as bases de dados do SIDRA através de uma abordagem avançada de workflow no R. Neste primeiro episódio, o IPCA por componentes será utilizado para a construção de um gráfico sobre a inflação acumulada no Brasil durante a pandemia, com atenção especial para a inflação de alimentos.</p></p>
+<p><p>Esta postagem de abertura integra uma sequência que procurará explorar as bases de dados do SIDRA através de uma abordagem avançada de workflow no R. Neste primeiro episódio, o IPCA por componentes será utilizado para a construção de um gráfico sobre a inflação acumulada no Brasil durante a pandemia, com atenção especial à inflação de alimentos.</p></p>
 </div>
 
 <div class="d-byline">
   Felipe O. Gonçalves  
   
-<br/>02-20-2021
+<br/>02-22-2021
 </div>
 
 <div class="d-article">
@@ -2196,7 +2196,7 @@ td{font-size: 16px;}
 code.r{font-size: 14px;}
 pre{font-size: 12px;}
 </style>
-<p>Para quem ainda não lida com dados do IBGE de maneira sistemática, dificuldades com o SIDRA não são algo incomum. A tentativa de importar as planilhas sob um formato amigável para trabalhos analíticos (e futuras estimações) pode trazer dor de cabeça.</p>
+<p>Para quem ainda não lida com dados do IBGE de maneira sistemática, dificuldades com o SIDRA não são algo incomum. A tentativa de importar as planilhas sob um formato amigável para pesquisa pode trazer dor de cabeça.</p>
 <p>Este blog estreia com a primeira parte de uma sequência de postagens que tentará atenuar essas dificuldades. Na postagem de hoje, utiliza-se a variação mensal do IPCA desagregado em grupos para visualizar a inflação brasileira em tempos de Covid.</p>
 <h2 id="pacotes">Pacotes</h2>
 <div class="layout-chunk" data-layout="l-body">
@@ -2289,7 +2289,7 @@ pre{font-size: 12px;}
 9 março 2020 9.Comunicação                        0.04</code></pre>
 </div>
 <p>Os dados vêm num padrão “comprido” ao invés de “largo”: não há uma coluna para cada componente, e isso faz com que se tenha nove observações para cada mês. Diante da finalidade desta postagem, o ideal será mantê-los assim.</p>
-<p><br/> O cálculo da inflação acumulada para <span class="math inline">\(t \in \{1,\ ..., 11\}\)</span> meses de pandemia é recursivo (depende dos próprios valores defasados). De uma variação mensal inicial <span class="math inline">\(\pi_1 = \pi_1^{ac}\)</span>, tem-se</p>
+<p><br/> O cálculo da inflação acumulada para <span class="math inline">\(t \in \{1,\ ..., 11\}\)</span> meses de pandemia é recursivo (depende dos próprios valores defasados). De uma variação mensal inicial <span class="math inline">\(\pi_1^{ac} = \pi_1\)</span>, tem-se</p>
 <p><span class="math display">\[\pi_t^{ac} = (1\ +\ \frac{\pi_t}{100})\ \times\ \pi_{t-1}^{ac}\ +\ \pi_t\ \]</span></p>
 <p>para <span class="math inline">\(t\neq1\)</span>. Essa atribuição requer a função <code>purrr::accumulate()</code> para ser realizada dentro do flow — em parceria com <code>dplyr::group_by()</code> para ser aplicada a cada componente em separado:</p>
 <div class="layout-chunk" data-layout="l-body">
@@ -2400,10 +2400,10 @@ pre{font-size: 12px;}
   <p class="social_footer">
     <span class="article-sharing">
       Share: &nbsp;
-      <a href="https://twitter.com/share?text=Desmistificando%20o%20SIDRA%20-%20Parte%20I&amp;url=https%3A%2F%2Ftidyeconomics.netlify.app%2Fposts%2F2021-02-20-desmistificando-o-sidra-parte-i%2F">
+      <a href="https://twitter.com/share?text=Explorando%20o%20SIDRA%20com%20tidyverse%20-%20Parte%20I&amp;url=https%3A%2F%2Ftidyeconomics.netlify.app%2Fposts%2F2021-02-22-explorando-o-sidra-com-tidyverse-parte-i%2F">
         <i class="fab fa-twitter"></i>
       </a>
-      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Ftidyeconomics.netlify.app%2Fposts%2F2021-02-20-desmistificando-o-sidra-parte-i%2F&amp;title=Desmistificando%20o%20SIDRA%20-%20Parte%20I">
+      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Ftidyeconomics.netlify.app%2Fposts%2F2021-02-22-explorando-o-sidra-com-tidyverse-parte-i%2F&amp;title=Explorando%20o%20SIDRA%20com%20tidyverse%20-%20Parte%20I">
         <i class="fab fa-linkedin"></i>
       </a>
     </span>

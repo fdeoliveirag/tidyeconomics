@@ -1,18 +1,18 @@
 ---
-title: "Desmistificando o SIDRA - Parte I"
+title: "Explorando o SIDRA com tidyverse - Parte I"
 categories:
   - inflação
-  - ibge
+  - SIDRA
   - dplyr
   - purrr
   - forcats
   - ggplot2
 theme: theme.css
 description: |
-  Esta postagem de abertura integra uma sequência que procurará explorar as bases de dados do SIDRA através de uma abordagem avançada de workflow no R. Neste primeiro episódio, o IPCA por componentes será utilizado para a construção de um gráfico sobre a inflação acumulada no Brasil durante a pandemia, com atenção especial para a inflação de alimentos.
+  Esta postagem de abertura integra uma sequência que procurará explorar as bases de dados do SIDRA através de uma abordagem avançada de workflow no R. Neste primeiro episódio, o IPCA por componentes será utilizado para a construção de um gráfico sobre a inflação acumulada no Brasil durante a pandemia, com atenção especial à inflação de alimentos.
 author:
   - name: Felipe O. Gonçalves
-date: 02-20-2021
+date: 02-22-2021
 output:
   distill::distill_article:
     self_contained: false
@@ -30,7 +30,7 @@ pre{font-size: 12px;}
 knitr::opts_chunk$set(message = FALSE)
 options(scipen = 999)
 ```
-Para quem ainda não lida com dados do IBGE de maneira sistemática, dificuldades com o SIDRA não são algo incomum. A tentativa de importar as planilhas sob um formato amigável para trabalhos analíticos (e futuras estimações) pode trazer dor de cabeça.
+Para quem ainda não lida com dados do IBGE de maneira sistemática, dificuldades com o SIDRA não são algo incomum. A tentativa de importar as planilhas sob um formato amigável para pesquisa pode trazer dor de cabeça.
 
 Este blog estreia com a primeira parte de uma sequência de postagens que tentará atenuar essas dificuldades. Na postagem de hoje, utiliza-se a variação mensal do IPCA desagregado em grupos para visualizar a inflação brasileira em tempos de Covid.
 
@@ -100,7 +100,7 @@ head(ipca, 9)
 Os dados vêm num padrão "comprido" ao invés de "largo": não há uma coluna para cada componente, e isso faz com que se tenha nove observações para cada mês. Diante da finalidade desta postagem, o ideal será mantê-los assim.
   
 <br/>
-O cálculo da inflação acumulada para $t \in \{1,\ ..., 11\}$ meses de pandemia é recursivo (depende dos próprios valores defasados). De uma variação mensal inicial $\pi_1 = \pi_1^{ac}$, tem-se
+O cálculo da inflação acumulada para $t \in \{1,\ ..., 11\}$ meses de pandemia é recursivo (depende dos próprios valores defasados). De uma variação mensal inicial $\pi_1^{ac} = \pi_1$, tem-se
 
 $$\pi_t^{ac} = (1\ +\ \frac{\pi_t}{100})\ \times\ \pi_{t-1}^{ac}\ +\ \pi_t\ $$
 
