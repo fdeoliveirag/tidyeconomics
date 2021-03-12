@@ -102,7 +102,7 @@ df_pop %>%
                   col.names = c("População", "< 1/2", "1/2 a 1",
                                 "1 a 2", "2 a 3", "3 a 5",
                                 "5 a 10", "> 10", "Nenhum")) %>%
-  kableExtra::kable_classic() %>%
+  kableExtra::kable_classic_2(full_width = TRUE) %>%
   kableExtra::add_header_above(c(" " = 1, "Salários Mínimos" = 8))
 ```
 [\@fdeoliveirag]{style="float:right"}
