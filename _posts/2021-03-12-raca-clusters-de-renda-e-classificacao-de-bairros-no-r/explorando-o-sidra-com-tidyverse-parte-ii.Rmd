@@ -101,11 +101,12 @@ df_pop %>%
   kableExtra::kbl(align = "r",
                   col.names = c("População", "< 1/2", "1/2 a 1",
                                 "1 a 2", "2 a 3", "3 a 5",
-                                "5 a 10", "> 10", "Nenhum")) %>%
-  kableExtra::kable_classic_2(full_width = TRUE) %>%
+                                "5 a 10", "> 10", "Nenhum"),
+                  position = "left") %>%
+  kableExtra::kable_classic_2() %>%
   kableExtra::add_header_above(c(" " = 1, "Salários Mínimos" = 8))
 ```
-[\@fdeoliveirag]{style="float:right"}
+[\@fdeoliveirag]{style="float:left"}
 
 As frações da população branca ganhando de dois salários mínimos em diante são sempre --- e gradativamente --- maiores que as respectivas frações dos outros grupos raciais. Estas, por sua vez, somente decrescem na medida em que a renda aumenta.
 <br/><br/>
