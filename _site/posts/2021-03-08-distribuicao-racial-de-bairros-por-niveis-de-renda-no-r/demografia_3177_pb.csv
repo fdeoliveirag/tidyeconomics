@@ -1,0 +1,3403 @@
+bairro,racial,renda,valor
+Aeroclube,Branca,Até 1/2 SM,31
+Aeroclube,Branca,Mais de 1/2 a 1 SM,408
+Aeroclube,Branca,Mais de 1 a 2 SM,716
+Aeroclube,Branca,Mais de 2 a 3 SM,484
+Aeroclube,Branca,Mais de 3 a 5 SM,705
+Aeroclube,Branca,Mais de 5 a 10 SM,807
+Aeroclube,Branca,Mais de 10 SM,564
+Aeroclube,Branca,Sem rendimento,1617
+Aeroclube,Branca,Total,5332
+Aeroclube,Parda,Até 1/2 SM,15
+Aeroclube,Parda,Mais de 1/2 a 1 SM,351
+Aeroclube,Parda,Mais de 1 a 2 SM,452
+Aeroclube,Parda,Mais de 2 a 3 SM,241
+Aeroclube,Parda,Mais de 3 a 5 SM,301
+Aeroclube,Parda,Mais de 5 a 10 SM,415
+Aeroclube,Parda,Mais de 10 SM,220
+Aeroclube,Parda,Sem rendimento,835
+Aeroclube,Parda,Total,2830
+Aeroclube,Preta,Até 1/2 SM,3
+Aeroclube,Preta,Mais de 1/2 a 1 SM,41
+Aeroclube,Preta,Mais de 1 a 2 SM,36
+Aeroclube,Preta,Mais de 2 a 3 SM,20
+Aeroclube,Preta,Mais de 3 a 5 SM,25
+Aeroclube,Preta,Mais de 5 a 10 SM,32
+Aeroclube,Preta,Mais de 10 SM,16
+Aeroclube,Preta,Sem rendimento,55
+Aeroclube,Preta,Total,228
+Aeroclube,Indígena,Até 1/2 SM,0
+Aeroclube,Indígena,Mais de 1/2 a 1 SM,5
+Aeroclube,Indígena,Mais de 1 a 2 SM,5
+Aeroclube,Indígena,Mais de 2 a 3 SM,2
+Aeroclube,Indígena,Mais de 3 a 5 SM,3
+Aeroclube,Indígena,Mais de 5 a 10 SM,6
+Aeroclube,Indígena,Mais de 10 SM,0
+Aeroclube,Indígena,Sem rendimento,4
+Aeroclube,Indígena,Total,25
+Aeroclube,Amarela,Até 1/2 SM,0
+Aeroclube,Amarela,Mais de 1/2 a 1 SM,7
+Aeroclube,Amarela,Mais de 1 a 2 SM,22
+Aeroclube,Amarela,Mais de 2 a 3 SM,12
+Aeroclube,Amarela,Mais de 3 a 5 SM,9
+Aeroclube,Amarela,Mais de 5 a 10 SM,14
+Aeroclube,Amarela,Mais de 10 SM,7
+Aeroclube,Amarela,Sem rendimento,37
+Aeroclube,Amarela,Total,108
+Aeroclube,Total,Até 1/2 SM,49
+Aeroclube,Total,Mais de 1/2 a 1 SM,812
+Aeroclube,Total,Mais de 1 a 2 SM,1231
+Aeroclube,Total,Mais de 2 a 3 SM,759
+Aeroclube,Total,Mais de 3 a 5 SM,1043
+Aeroclube,Total,Mais de 5 a 10 SM,1274
+Aeroclube,Total,Mais de 10 SM,807
+Aeroclube,Total,Sem rendimento,2548
+Aeroclube,Total,Total,8523
+Água Fria,Branca,Até 1/2 SM,16
+Água Fria,Branca,Mais de 1/2 a 1 SM,353
+Água Fria,Branca,Mais de 1 a 2 SM,511
+Água Fria,Branca,Mais de 2 a 3 SM,305
+Água Fria,Branca,Mais de 3 a 5 SM,387
+Água Fria,Branca,Mais de 5 a 10 SM,231
+Água Fria,Branca,Mais de 10 SM,41
+Água Fria,Branca,Sem rendimento,886
+Água Fria,Branca,Total,2730
+Água Fria,Parda,Até 1/2 SM,25
+Água Fria,Parda,Mais de 1/2 a 1 SM,345
+Água Fria,Parda,Mais de 1 a 2 SM,431
+Água Fria,Parda,Mais de 2 a 3 SM,301
+Água Fria,Parda,Mais de 3 a 5 SM,271
+Água Fria,Parda,Mais de 5 a 10 SM,185
+Água Fria,Parda,Mais de 10 SM,40
+Água Fria,Parda,Sem rendimento,734
+Água Fria,Parda,Total,2332
+Água Fria,Preta,Até 1/2 SM,0
+Água Fria,Preta,Mais de 1/2 a 1 SM,41
+Água Fria,Preta,Mais de 1 a 2 SM,64
+Água Fria,Preta,Mais de 2 a 3 SM,38
+Água Fria,Preta,Mais de 3 a 5 SM,37
+Água Fria,Preta,Mais de 5 a 10 SM,22
+Água Fria,Preta,Mais de 10 SM,7
+Água Fria,Preta,Sem rendimento,85
+Água Fria,Preta,Total,294
+Água Fria,Indígena,Até 1/2 SM,0
+Água Fria,Indígena,Mais de 1/2 a 1 SM,2
+Água Fria,Indígena,Mais de 1 a 2 SM,4
+Água Fria,Indígena,Mais de 2 a 3 SM,3
+Água Fria,Indígena,Mais de 3 a 5 SM,0
+Água Fria,Indígena,Mais de 5 a 10 SM,0
+Água Fria,Indígena,Mais de 10 SM,0
+Água Fria,Indígena,Sem rendimento,12
+Água Fria,Indígena,Total,21
+Água Fria,Amarela,Até 1/2 SM,2
+Água Fria,Amarela,Mais de 1/2 a 1 SM,6
+Água Fria,Amarela,Mais de 1 a 2 SM,13
+Água Fria,Amarela,Mais de 2 a 3 SM,7
+Água Fria,Amarela,Mais de 3 a 5 SM,8
+Água Fria,Amarela,Mais de 5 a 10 SM,11
+Água Fria,Amarela,Mais de 10 SM,1
+Água Fria,Amarela,Sem rendimento,22
+Água Fria,Amarela,Total,70
+Água Fria,Total,Até 1/2 SM,43
+Água Fria,Total,Mais de 1/2 a 1 SM,747
+Água Fria,Total,Mais de 1 a 2 SM,1023
+Água Fria,Total,Mais de 2 a 3 SM,654
+Água Fria,Total,Mais de 3 a 5 SM,703
+Água Fria,Total,Mais de 5 a 10 SM,449
+Água Fria,Total,Mais de 10 SM,89
+Água Fria,Total,Sem rendimento,1739
+Água Fria,Total,Total,5447
+Altiplano Cabo Branco,Branca,Até 1/2 SM,70
+Altiplano Cabo Branco,Branca,Mais de 1/2 a 1 SM,348
+Altiplano Cabo Branco,Branca,Mais de 1 a 2 SM,309
+Altiplano Cabo Branco,Branca,Mais de 2 a 3 SM,165
+Altiplano Cabo Branco,Branca,Mais de 3 a 5 SM,200
+Altiplano Cabo Branco,Branca,Mais de 5 a 10 SM,284
+Altiplano Cabo Branco,Branca,Mais de 10 SM,225
+Altiplano Cabo Branco,Branca,Sem rendimento,765
+Altiplano Cabo Branco,Branca,Total,2366
+Altiplano Cabo Branco,Parda,Até 1/2 SM,110
+Altiplano Cabo Branco,Parda,Mais de 1/2 a 1 SM,425
+Altiplano Cabo Branco,Parda,Mais de 1 a 2 SM,233
+Altiplano Cabo Branco,Parda,Mais de 2 a 3 SM,93
+Altiplano Cabo Branco,Parda,Mais de 3 a 5 SM,118
+Altiplano Cabo Branco,Parda,Mais de 5 a 10 SM,137
+Altiplano Cabo Branco,Parda,Mais de 10 SM,93
+Altiplano Cabo Branco,Parda,Sem rendimento,620
+Altiplano Cabo Branco,Parda,Total,1829
+Altiplano Cabo Branco,Preta,Até 1/2 SM,20
+Altiplano Cabo Branco,Preta,Mais de 1/2 a 1 SM,63
+Altiplano Cabo Branco,Preta,Mais de 1 a 2 SM,35
+Altiplano Cabo Branco,Preta,Mais de 2 a 3 SM,8
+Altiplano Cabo Branco,Preta,Mais de 3 a 5 SM,8
+Altiplano Cabo Branco,Preta,Mais de 5 a 10 SM,5
+Altiplano Cabo Branco,Preta,Mais de 10 SM,4
+Altiplano Cabo Branco,Preta,Sem rendimento,77
+Altiplano Cabo Branco,Preta,Total,220
+Altiplano Cabo Branco,Indígena,Até 1/2 SM,0
+Altiplano Cabo Branco,Indígena,Mais de 1/2 a 1 SM,3
+Altiplano Cabo Branco,Indígena,Mais de 1 a 2 SM,2
+Altiplano Cabo Branco,Indígena,Mais de 2 a 3 SM,1
+Altiplano Cabo Branco,Indígena,Mais de 3 a 5 SM,0
+Altiplano Cabo Branco,Indígena,Mais de 5 a 10 SM,2
+Altiplano Cabo Branco,Indígena,Mais de 10 SM,1
+Altiplano Cabo Branco,Indígena,Sem rendimento,6
+Altiplano Cabo Branco,Indígena,Total,15
+Altiplano Cabo Branco,Amarela,Até 1/2 SM,2
+Altiplano Cabo Branco,Amarela,Mais de 1/2 a 1 SM,9
+Altiplano Cabo Branco,Amarela,Mais de 1 a 2 SM,10
+Altiplano Cabo Branco,Amarela,Mais de 2 a 3 SM,3
+Altiplano Cabo Branco,Amarela,Mais de 3 a 5 SM,4
+Altiplano Cabo Branco,Amarela,Mais de 5 a 10 SM,3
+Altiplano Cabo Branco,Amarela,Mais de 10 SM,3
+Altiplano Cabo Branco,Amarela,Sem rendimento,16
+Altiplano Cabo Branco,Amarela,Total,50
+Altiplano Cabo Branco,Total,Até 1/2 SM,202
+Altiplano Cabo Branco,Total,Mais de 1/2 a 1 SM,848
+Altiplano Cabo Branco,Total,Mais de 1 a 2 SM,589
+Altiplano Cabo Branco,Total,Mais de 2 a 3 SM,270
+Altiplano Cabo Branco,Total,Mais de 3 a 5 SM,330
+Altiplano Cabo Branco,Total,Mais de 5 a 10 SM,431
+Altiplano Cabo Branco,Total,Mais de 10 SM,326
+Altiplano Cabo Branco,Total,Sem rendimento,1484
+Altiplano Cabo Branco,Total,Total,4480
+Alto do Céu,Branca,Até 1/2 SM,245
+Alto do Céu,Branca,Mais de 1/2 a 1 SM,1186
+Alto do Céu,Branca,Mais de 1 a 2 SM,479
+Alto do Céu,Branca,Mais de 2 a 3 SM,74
+Alto do Céu,Branca,Mais de 3 a 5 SM,57
+Alto do Céu,Branca,Mais de 5 a 10 SM,22
+Alto do Céu,Branca,Mais de 10 SM,5
+Alto do Céu,Branca,Sem rendimento,1805
+Alto do Céu,Branca,Total,3873
+Alto do Céu,Parda,Até 1/2 SM,667
+Alto do Céu,Parda,Mais de 1/2 a 1 SM,2539
+Alto do Céu,Parda,Mais de 1 a 2 SM,768
+Alto do Céu,Parda,Mais de 2 a 3 SM,117
+Alto do Céu,Parda,Mais de 3 a 5 SM,58
+Alto do Céu,Parda,Mais de 5 a 10 SM,18
+Alto do Céu,Parda,Mais de 10 SM,4
+Alto do Céu,Parda,Sem rendimento,3816
+Alto do Céu,Parda,Total,7987
+Alto do Céu,Preta,Até 1/2 SM,80
+Alto do Céu,Preta,Mais de 1/2 a 1 SM,441
+Alto do Céu,Preta,Mais de 1 a 2 SM,149
+Alto do Céu,Preta,Mais de 2 a 3 SM,30
+Alto do Céu,Preta,Mais de 3 a 5 SM,19
+Alto do Céu,Preta,Mais de 5 a 10 SM,9
+Alto do Céu,Preta,Mais de 10 SM,0
+Alto do Céu,Preta,Sem rendimento,560
+Alto do Céu,Preta,Total,1288
+Alto do Céu,Indígena,Até 1/2 SM,1
+Alto do Céu,Indígena,Mais de 1/2 a 1 SM,5
+Alto do Céu,Indígena,Mais de 1 a 2 SM,2
+Alto do Céu,Indígena,Mais de 2 a 3 SM,0
+Alto do Céu,Indígena,Mais de 3 a 5 SM,1
+Alto do Céu,Indígena,Mais de 5 a 10 SM,0
+Alto do Céu,Indígena,Mais de 10 SM,0
+Alto do Céu,Indígena,Sem rendimento,10
+Alto do Céu,Indígena,Total,19
+Alto do Céu,Amarela,Até 1/2 SM,16
+Alto do Céu,Amarela,Mais de 1/2 a 1 SM,81
+Alto do Céu,Amarela,Mais de 1 a 2 SM,30
+Alto do Céu,Amarela,Mais de 2 a 3 SM,5
+Alto do Céu,Amarela,Mais de 3 a 5 SM,2
+Alto do Céu,Amarela,Mais de 5 a 10 SM,0
+Alto do Céu,Amarela,Mais de 10 SM,0
+Alto do Céu,Amarela,Sem rendimento,131
+Alto do Céu,Amarela,Total,265
+Alto do Céu,Total,Até 1/2 SM,1009
+Alto do Céu,Total,Mais de 1/2 a 1 SM,4252
+Alto do Céu,Total,Mais de 1 a 2 SM,1428
+Alto do Céu,Total,Mais de 2 a 3 SM,226
+Alto do Céu,Total,Mais de 3 a 5 SM,137
+Alto do Céu,Total,Mais de 5 a 10 SM,49
+Alto do Céu,Total,Mais de 10 SM,9
+Alto do Céu,Total,Sem rendimento,6322
+Alto do Céu,Total,Total,13432
+Alto do Mateus,Branca,Até 1/2 SM,277
+Alto do Mateus,Branca,Mais de 1/2 a 1 SM,1312
+Alto do Mateus,Branca,Mais de 1 a 2 SM,742
+Alto do Mateus,Branca,Mais de 2 a 3 SM,183
+Alto do Mateus,Branca,Mais de 3 a 5 SM,103
+Alto do Mateus,Branca,Mais de 5 a 10 SM,46
+Alto do Mateus,Branca,Mais de 10 SM,12
+Alto do Mateus,Branca,Sem rendimento,1985
+Alto do Mateus,Branca,Total,4660
+Alto do Mateus,Parda,Até 1/2 SM,589
+Alto do Mateus,Parda,Mais de 1/2 a 1 SM,2117
+Alto do Mateus,Parda,Mais de 1 a 2 SM,1141
+Alto do Mateus,Parda,Mais de 2 a 3 SM,234
+Alto do Mateus,Parda,Mais de 3 a 5 SM,113
+Alto do Mateus,Parda,Mais de 5 a 10 SM,42
+Alto do Mateus,Parda,Mais de 10 SM,6
+Alto do Mateus,Parda,Sem rendimento,3274
+Alto do Mateus,Parda,Total,7516
+Alto do Mateus,Preta,Até 1/2 SM,102
+Alto do Mateus,Preta,Mais de 1/2 a 1 SM,412
+Alto do Mateus,Preta,Mais de 1 a 2 SM,177
+Alto do Mateus,Preta,Mais de 2 a 3 SM,35
+Alto do Mateus,Preta,Mais de 3 a 5 SM,19
+Alto do Mateus,Preta,Mais de 5 a 10 SM,2
+Alto do Mateus,Preta,Mais de 10 SM,1
+Alto do Mateus,Preta,Sem rendimento,548
+Alto do Mateus,Preta,Total,1296
+Alto do Mateus,Indígena,Até 1/2 SM,3
+Alto do Mateus,Indígena,Mais de 1/2 a 1 SM,5
+Alto do Mateus,Indígena,Mais de 1 a 2 SM,4
+Alto do Mateus,Indígena,Mais de 2 a 3 SM,0
+Alto do Mateus,Indígena,Mais de 3 a 5 SM,1
+Alto do Mateus,Indígena,Mais de 5 a 10 SM,0
+Alto do Mateus,Indígena,Mais de 10 SM,0
+Alto do Mateus,Indígena,Sem rendimento,3
+Alto do Mateus,Indígena,Total,16
+Alto do Mateus,Amarela,Até 1/2 SM,21
+Alto do Mateus,Amarela,Mais de 1/2 a 1 SM,47
+Alto do Mateus,Amarela,Mais de 1 a 2 SM,27
+Alto do Mateus,Amarela,Mais de 2 a 3 SM,8
+Alto do Mateus,Amarela,Mais de 3 a 5 SM,4
+Alto do Mateus,Amarela,Mais de 5 a 10 SM,0
+Alto do Mateus,Amarela,Mais de 10 SM,0
+Alto do Mateus,Amarela,Sem rendimento,125
+Alto do Mateus,Amarela,Total,232
+Alto do Mateus,Total,Até 1/2 SM,992
+Alto do Mateus,Total,Mais de 1/2 a 1 SM,3893
+Alto do Mateus,Total,Mais de 1 a 2 SM,2091
+Alto do Mateus,Total,Mais de 2 a 3 SM,460
+Alto do Mateus,Total,Mais de 3 a 5 SM,240
+Alto do Mateus,Total,Mais de 5 a 10 SM,90
+Alto do Mateus,Total,Mais de 10 SM,19
+Alto do Mateus,Total,Sem rendimento,5935
+Alto do Mateus,Total,Total,13720
+Anatólia,Branca,Até 1/2 SM,10
+Anatólia,Branca,Mais de 1/2 a 1 SM,55
+Anatólia,Branca,Mais de 1 a 2 SM,96
+Anatólia,Branca,Mais de 2 a 3 SM,57
+Anatólia,Branca,Mais de 3 a 5 SM,75
+Anatólia,Branca,Mais de 5 a 10 SM,77
+Anatólia,Branca,Mais de 10 SM,25
+Anatólia,Branca,Sem rendimento,169
+Anatólia,Branca,Total,564
+Anatólia,Parda,Até 1/2 SM,9
+Anatólia,Parda,Mais de 1/2 a 1 SM,58
+Anatólia,Parda,Mais de 1 a 2 SM,79
+Anatólia,Parda,Mais de 2 a 3 SM,43
+Anatólia,Parda,Mais de 3 a 5 SM,56
+Anatólia,Parda,Mais de 5 a 10 SM,62
+Anatólia,Parda,Mais de 10 SM,23
+Anatólia,Parda,Sem rendimento,123
+Anatólia,Parda,Total,453
+Anatólia,Preta,Até 1/2 SM,2
+Anatólia,Preta,Mais de 1/2 a 1 SM,9
+Anatólia,Preta,Mais de 1 a 2 SM,8
+Anatólia,Preta,Mais de 2 a 3 SM,1
+Anatólia,Preta,Mais de 3 a 5 SM,8
+Anatólia,Preta,Mais de 5 a 10 SM,4
+Anatólia,Preta,Mais de 10 SM,1
+Anatólia,Preta,Sem rendimento,8
+Anatólia,Preta,Total,41
+Anatólia,Indígena,Até 1/2 SM,0
+Anatólia,Indígena,Mais de 1/2 a 1 SM,0
+Anatólia,Indígena,Mais de 1 a 2 SM,0
+Anatólia,Indígena,Mais de 2 a 3 SM,0
+Anatólia,Indígena,Mais de 3 a 5 SM,0
+Anatólia,Indígena,Mais de 5 a 10 SM,0
+Anatólia,Indígena,Mais de 10 SM,0
+Anatólia,Indígena,Sem rendimento,0
+Anatólia,Indígena,Total,0
+Anatólia,Amarela,Até 1/2 SM,0
+Anatólia,Amarela,Mais de 1/2 a 1 SM,2
+Anatólia,Amarela,Mais de 1 a 2 SM,0
+Anatólia,Amarela,Mais de 2 a 3 SM,0
+Anatólia,Amarela,Mais de 3 a 5 SM,0
+Anatólia,Amarela,Mais de 5 a 10 SM,0
+Anatólia,Amarela,Mais de 10 SM,1
+Anatólia,Amarela,Sem rendimento,0
+Anatólia,Amarela,Total,3
+Anatólia,Total,Até 1/2 SM,21
+Anatólia,Total,Mais de 1/2 a 1 SM,124
+Anatólia,Total,Mais de 1 a 2 SM,183
+Anatólia,Total,Mais de 2 a 3 SM,101
+Anatólia,Total,Mais de 3 a 5 SM,139
+Anatólia,Total,Mais de 5 a 10 SM,143
+Anatólia,Total,Mais de 10 SM,50
+Anatólia,Total,Sem rendimento,300
+Anatólia,Total,Total,1061
+Bancários,Branca,Até 1/2 SM,219
+Bancários,Branca,Mais de 1/2 a 1 SM,731
+Bancários,Branca,Mais de 1 a 2 SM,738
+Bancários,Branca,Mais de 2 a 3 SM,398
+Bancários,Branca,Mais de 3 a 5 SM,543
+Bancários,Branca,Mais de 5 a 10 SM,570
+Bancários,Branca,Mais de 10 SM,212
+Bancários,Branca,Sem rendimento,1665
+Bancários,Branca,Total,5076
+Bancários,Parda,Até 1/2 SM,266
+Bancários,Parda,Mais de 1/2 a 1 SM,783
+Bancários,Parda,Mais de 1 a 2 SM,615
+Bancários,Parda,Mais de 2 a 3 SM,339
+Bancários,Parda,Mais de 3 a 5 SM,403
+Bancários,Parda,Mais de 5 a 10 SM,397
+Bancários,Parda,Mais de 10 SM,122
+Bancários,Parda,Sem rendimento,1334
+Bancários,Parda,Total,4259
+Bancários,Preta,Até 1/2 SM,102
+Bancários,Preta,Mais de 1/2 a 1 SM,201
+Bancários,Preta,Mais de 1 a 2 SM,107
+Bancários,Preta,Mais de 2 a 3 SM,55
+Bancários,Preta,Mais de 3 a 5 SM,45
+Bancários,Preta,Mais de 5 a 10 SM,39
+Bancários,Preta,Mais de 10 SM,17
+Bancários,Preta,Sem rendimento,241
+Bancários,Preta,Total,807
+Bancários,Indígena,Até 1/2 SM,5
+Bancários,Indígena,Mais de 1/2 a 1 SM,4
+Bancários,Indígena,Mais de 1 a 2 SM,1
+Bancários,Indígena,Mais de 2 a 3 SM,1
+Bancários,Indígena,Mais de 3 a 5 SM,3
+Bancários,Indígena,Mais de 5 a 10 SM,2
+Bancários,Indígena,Mais de 10 SM,0
+Bancários,Indígena,Sem rendimento,5
+Bancários,Indígena,Total,21
+Bancários,Amarela,Até 1/2 SM,14
+Bancários,Amarela,Mais de 1/2 a 1 SM,33
+Bancários,Amarela,Mais de 1 a 2 SM,33
+Bancários,Amarela,Mais de 2 a 3 SM,13
+Bancários,Amarela,Mais de 3 a 5 SM,14
+Bancários,Amarela,Mais de 5 a 10 SM,12
+Bancários,Amarela,Mais de 10 SM,1
+Bancários,Amarela,Sem rendimento,57
+Bancários,Amarela,Total,177
+Bancários,Total,Até 1/2 SM,606
+Bancários,Total,Mais de 1/2 a 1 SM,1752
+Bancários,Total,Mais de 1 a 2 SM,1494
+Bancários,Total,Mais de 2 a 3 SM,806
+Bancários,Total,Mais de 3 a 5 SM,1008
+Bancários,Total,Mais de 5 a 10 SM,1020
+Bancários,Total,Mais de 10 SM,352
+Bancários,Total,Sem rendimento,3302
+Bancários,Total,Total,10340
+Barra de Gramame,Branca,Até 1/2 SM,19
+Barra de Gramame,Branca,Mais de 1/2 a 1 SM,42
+Barra de Gramame,Branca,Mais de 1 a 2 SM,9
+Barra de Gramame,Branca,Mais de 2 a 3 SM,1
+Barra de Gramame,Branca,Mais de 3 a 5 SM,4
+Barra de Gramame,Branca,Mais de 5 a 10 SM,2
+Barra de Gramame,Branca,Mais de 10 SM,0
+Barra de Gramame,Branca,Sem rendimento,44
+Barra de Gramame,Branca,Total,121
+Barra de Gramame,Parda,Até 1/2 SM,14
+Barra de Gramame,Parda,Mais de 1/2 a 1 SM,30
+Barra de Gramame,Parda,Mais de 1 a 2 SM,17
+Barra de Gramame,Parda,Mais de 2 a 3 SM,4
+Barra de Gramame,Parda,Mais de 3 a 5 SM,3
+Barra de Gramame,Parda,Mais de 5 a 10 SM,3
+Barra de Gramame,Parda,Mais de 10 SM,0
+Barra de Gramame,Parda,Sem rendimento,46
+Barra de Gramame,Parda,Total,117
+Barra de Gramame,Preta,Até 1/2 SM,4
+Barra de Gramame,Preta,Mais de 1/2 a 1 SM,15
+Barra de Gramame,Preta,Mais de 1 a 2 SM,4
+Barra de Gramame,Preta,Mais de 2 a 3 SM,1
+Barra de Gramame,Preta,Mais de 3 a 5 SM,0
+Barra de Gramame,Preta,Mais de 5 a 10 SM,0
+Barra de Gramame,Preta,Mais de 10 SM,0
+Barra de Gramame,Preta,Sem rendimento,13
+Barra de Gramame,Preta,Total,37
+Barra de Gramame,Indígena,Até 1/2 SM,0
+Barra de Gramame,Indígena,Mais de 1/2 a 1 SM,1
+Barra de Gramame,Indígena,Mais de 1 a 2 SM,1
+Barra de Gramame,Indígena,Mais de 2 a 3 SM,0
+Barra de Gramame,Indígena,Mais de 3 a 5 SM,0
+Barra de Gramame,Indígena,Mais de 5 a 10 SM,0
+Barra de Gramame,Indígena,Mais de 10 SM,0
+Barra de Gramame,Indígena,Sem rendimento,1
+Barra de Gramame,Indígena,Total,3
+Barra de Gramame,Amarela,Até 1/2 SM,0
+Barra de Gramame,Amarela,Mais de 1/2 a 1 SM,0
+Barra de Gramame,Amarela,Mais de 1 a 2 SM,0
+Barra de Gramame,Amarela,Mais de 2 a 3 SM,0
+Barra de Gramame,Amarela,Mais de 3 a 5 SM,0
+Barra de Gramame,Amarela,Mais de 5 a 10 SM,0
+Barra de Gramame,Amarela,Mais de 10 SM,0
+Barra de Gramame,Amarela,Sem rendimento,0
+Barra de Gramame,Amarela,Total,0
+Barra de Gramame,Total,Até 1/2 SM,37
+Barra de Gramame,Total,Mais de 1/2 a 1 SM,88
+Barra de Gramame,Total,Mais de 1 a 2 SM,31
+Barra de Gramame,Total,Mais de 2 a 3 SM,6
+Barra de Gramame,Total,Mais de 3 a 5 SM,7
+Barra de Gramame,Total,Mais de 5 a 10 SM,5
+Barra de Gramame,Total,Mais de 10 SM,0
+Barra de Gramame,Total,Sem rendimento,104
+Barra de Gramame,Total,Total,278
+Bessa,Branca,Até 1/2 SM,48
+Bessa,Branca,Mais de 1/2 a 1 SM,672
+Bessa,Branca,Mais de 1 a 2 SM,801
+Bessa,Branca,Mais de 2 a 3 SM,607
+Bessa,Branca,Mais de 3 a 5 SM,805
+Bessa,Branca,Mais de 5 a 10 SM,982
+Bessa,Branca,Mais de 10 SM,540
+Bessa,Branca,Sem rendimento,2198
+Bessa,Branca,Total,6653
+Bessa,Parda,Até 1/2 SM,70
+Bessa,Parda,Mais de 1/2 a 1 SM,730
+Bessa,Parda,Mais de 1 a 2 SM,581
+Bessa,Parda,Mais de 2 a 3 SM,333
+Bessa,Parda,Mais de 3 a 5 SM,417
+Bessa,Parda,Mais de 5 a 10 SM,537
+Bessa,Parda,Mais de 10 SM,224
+Bessa,Parda,Sem rendimento,1437
+Bessa,Parda,Total,4329
+Bessa,Preta,Até 1/2 SM,14
+Bessa,Preta,Mais de 1/2 a 1 SM,100
+Bessa,Preta,Mais de 1 a 2 SM,68
+Bessa,Preta,Mais de 2 a 3 SM,28
+Bessa,Preta,Mais de 3 a 5 SM,39
+Bessa,Preta,Mais de 5 a 10 SM,39
+Bessa,Preta,Mais de 10 SM,24
+Bessa,Preta,Sem rendimento,138
+Bessa,Preta,Total,450
+Bessa,Indígena,Até 1/2 SM,0
+Bessa,Indígena,Mais de 1/2 a 1 SM,4
+Bessa,Indígena,Mais de 1 a 2 SM,2
+Bessa,Indígena,Mais de 2 a 3 SM,4
+Bessa,Indígena,Mais de 3 a 5 SM,1
+Bessa,Indígena,Mais de 5 a 10 SM,4
+Bessa,Indígena,Mais de 10 SM,0
+Bessa,Indígena,Sem rendimento,1
+Bessa,Indígena,Total,16
+Bessa,Amarela,Até 1/2 SM,0
+Bessa,Amarela,Mais de 1/2 a 1 SM,16
+Bessa,Amarela,Mais de 1 a 2 SM,25
+Bessa,Amarela,Mais de 2 a 3 SM,16
+Bessa,Amarela,Mais de 3 a 5 SM,17
+Bessa,Amarela,Mais de 5 a 10 SM,20
+Bessa,Amarela,Mais de 10 SM,4
+Bessa,Amarela,Sem rendimento,66
+Bessa,Amarela,Total,164
+Bessa,Total,Até 1/2 SM,132
+Bessa,Total,Mais de 1/2 a 1 SM,1522
+Bessa,Total,Mais de 1 a 2 SM,1477
+Bessa,Total,Mais de 2 a 3 SM,988
+Bessa,Total,Mais de 3 a 5 SM,1279
+Bessa,Total,Mais de 5 a 10 SM,1582
+Bessa,Total,Mais de 10 SM,792
+Bessa,Total,Sem rendimento,3840
+Bessa,Total,Total,11612
+Brisamar,Branca,Até 1/2 SM,10
+Brisamar,Branca,Mais de 1/2 a 1 SM,178
+Brisamar,Branca,Mais de 1 a 2 SM,259
+Brisamar,Branca,Mais de 2 a 3 SM,174
+Brisamar,Branca,Mais de 3 a 5 SM,316
+Brisamar,Branca,Mais de 5 a 10 SM,427
+Brisamar,Branca,Mais de 10 SM,388
+Brisamar,Branca,Sem rendimento,992
+Brisamar,Branca,Total,2744
+Brisamar,Parda,Até 1/2 SM,8
+Brisamar,Parda,Mais de 1/2 a 1 SM,148
+Brisamar,Parda,Mais de 1 a 2 SM,122
+Brisamar,Parda,Mais de 2 a 3 SM,73
+Brisamar,Parda,Mais de 3 a 5 SM,113
+Brisamar,Parda,Mais de 5 a 10 SM,109
+Brisamar,Parda,Mais de 10 SM,101
+Brisamar,Parda,Sem rendimento,407
+Brisamar,Parda,Total,1081
+Brisamar,Preta,Até 1/2 SM,0
+Brisamar,Preta,Mais de 1/2 a 1 SM,27
+Brisamar,Preta,Mais de 1 a 2 SM,8
+Brisamar,Preta,Mais de 2 a 3 SM,4
+Brisamar,Preta,Mais de 3 a 5 SM,5
+Brisamar,Preta,Mais de 5 a 10 SM,2
+Brisamar,Preta,Mais de 10 SM,4
+Brisamar,Preta,Sem rendimento,19
+Brisamar,Preta,Total,69
+Brisamar,Indígena,Até 1/2 SM,0
+Brisamar,Indígena,Mais de 1/2 a 1 SM,0
+Brisamar,Indígena,Mais de 1 a 2 SM,0
+Brisamar,Indígena,Mais de 2 a 3 SM,0
+Brisamar,Indígena,Mais de 3 a 5 SM,0
+Brisamar,Indígena,Mais de 5 a 10 SM,0
+Brisamar,Indígena,Mais de 10 SM,2
+Brisamar,Indígena,Sem rendimento,2
+Brisamar,Indígena,Total,4
+Brisamar,Amarela,Até 1/2 SM,0
+Brisamar,Amarela,Mais de 1/2 a 1 SM,3
+Brisamar,Amarela,Mais de 1 a 2 SM,2
+Brisamar,Amarela,Mais de 2 a 3 SM,1
+Brisamar,Amarela,Mais de 3 a 5 SM,4
+Brisamar,Amarela,Mais de 5 a 10 SM,3
+Brisamar,Amarela,Mais de 10 SM,5
+Brisamar,Amarela,Sem rendimento,9
+Brisamar,Amarela,Total,27
+Brisamar,Total,Até 1/2 SM,18
+Brisamar,Total,Mais de 1/2 a 1 SM,356
+Brisamar,Total,Mais de 1 a 2 SM,391
+Brisamar,Total,Mais de 2 a 3 SM,252
+Brisamar,Total,Mais de 3 a 5 SM,438
+Brisamar,Total,Mais de 5 a 10 SM,541
+Brisamar,Total,Mais de 10 SM,500
+Brisamar,Total,Sem rendimento,1429
+Brisamar,Total,Total,3925
+Cabo Branco,Branca,Até 1/2 SM,24
+Cabo Branco,Branca,Mais de 1/2 a 1 SM,318
+Cabo Branco,Branca,Mais de 1 a 2 SM,408
+Cabo Branco,Branca,Mais de 2 a 3 SM,263
+Cabo Branco,Branca,Mais de 3 a 5 SM,443
+Cabo Branco,Branca,Mais de 5 a 10 SM,954
+Cabo Branco,Branca,Mais de 10 SM,1062
+Cabo Branco,Branca,Sem rendimento,1486
+Cabo Branco,Branca,Total,4958
+Cabo Branco,Parda,Até 1/2 SM,19
+Cabo Branco,Parda,Mais de 1/2 a 1 SM,299
+Cabo Branco,Parda,Mais de 1 a 2 SM,243
+Cabo Branco,Parda,Mais de 2 a 3 SM,110
+Cabo Branco,Parda,Mais de 3 a 5 SM,174
+Cabo Branco,Parda,Mais de 5 a 10 SM,319
+Cabo Branco,Parda,Mais de 10 SM,322
+Cabo Branco,Parda,Sem rendimento,557
+Cabo Branco,Parda,Total,2043
+Cabo Branco,Preta,Até 1/2 SM,1
+Cabo Branco,Preta,Mais de 1/2 a 1 SM,47
+Cabo Branco,Preta,Mais de 1 a 2 SM,19
+Cabo Branco,Preta,Mais de 2 a 3 SM,7
+Cabo Branco,Preta,Mais de 3 a 5 SM,12
+Cabo Branco,Preta,Mais de 5 a 10 SM,21
+Cabo Branco,Preta,Mais de 10 SM,21
+Cabo Branco,Preta,Sem rendimento,30
+Cabo Branco,Preta,Total,158
+Cabo Branco,Indígena,Até 1/2 SM,0
+Cabo Branco,Indígena,Mais de 1/2 a 1 SM,1
+Cabo Branco,Indígena,Mais de 1 a 2 SM,2
+Cabo Branco,Indígena,Mais de 2 a 3 SM,0
+Cabo Branco,Indígena,Mais de 3 a 5 SM,0
+Cabo Branco,Indígena,Mais de 5 a 10 SM,2
+Cabo Branco,Indígena,Mais de 10 SM,1
+Cabo Branco,Indígena,Sem rendimento,2
+Cabo Branco,Indígena,Total,8
+Cabo Branco,Amarela,Até 1/2 SM,0
+Cabo Branco,Amarela,Mais de 1/2 a 1 SM,9
+Cabo Branco,Amarela,Mais de 1 a 2 SM,12
+Cabo Branco,Amarela,Mais de 2 a 3 SM,10
+Cabo Branco,Amarela,Mais de 3 a 5 SM,12
+Cabo Branco,Amarela,Mais de 5 a 10 SM,13
+Cabo Branco,Amarela,Mais de 10 SM,13
+Cabo Branco,Amarela,Sem rendimento,33
+Cabo Branco,Amarela,Total,102
+Cabo Branco,Total,Até 1/2 SM,44
+Cabo Branco,Total,Mais de 1/2 a 1 SM,674
+Cabo Branco,Total,Mais de 1 a 2 SM,684
+Cabo Branco,Total,Mais de 2 a 3 SM,390
+Cabo Branco,Total,Mais de 3 a 5 SM,641
+Cabo Branco,Total,Mais de 5 a 10 SM,1309
+Cabo Branco,Total,Mais de 10 SM,1419
+Cabo Branco,Total,Sem rendimento,2108
+Cabo Branco,Total,Total,7269
+Castelo Branco,Branca,Até 1/2 SM,198
+Castelo Branco,Branca,Mais de 1/2 a 1 SM,1173
+Castelo Branco,Branca,Mais de 1 a 2 SM,760
+Castelo Branco,Branca,Mais de 2 a 3 SM,281
+Castelo Branco,Branca,Mais de 3 a 5 SM,266
+Castelo Branco,Branca,Mais de 5 a 10 SM,202
+Castelo Branco,Branca,Mais de 10 SM,53
+Castelo Branco,Branca,Sem rendimento,1580
+Castelo Branco,Branca,Total,4513
+Castelo Branco,Parda,Até 1/2 SM,236
+Castelo Branco,Parda,Mais de 1/2 a 1 SM,1201
+Castelo Branco,Parda,Mais de 1 a 2 SM,731
+Castelo Branco,Parda,Mais de 2 a 3 SM,281
+Castelo Branco,Parda,Mais de 3 a 5 SM,252
+Castelo Branco,Parda,Mais de 5 a 10 SM,139
+Castelo Branco,Parda,Mais de 10 SM,15
+Castelo Branco,Parda,Sem rendimento,1715
+Castelo Branco,Parda,Total,4570
+Castelo Branco,Preta,Até 1/2 SM,58
+Castelo Branco,Preta,Mais de 1/2 a 1 SM,286
+Castelo Branco,Preta,Mais de 1 a 2 SM,162
+Castelo Branco,Preta,Mais de 2 a 3 SM,65
+Castelo Branco,Preta,Mais de 3 a 5 SM,58
+Castelo Branco,Preta,Mais de 5 a 10 SM,33
+Castelo Branco,Preta,Mais de 10 SM,8
+Castelo Branco,Preta,Sem rendimento,332
+Castelo Branco,Preta,Total,1002
+Castelo Branco,Indígena,Até 1/2 SM,4
+Castelo Branco,Indígena,Mais de 1/2 a 1 SM,21
+Castelo Branco,Indígena,Mais de 1 a 2 SM,2
+Castelo Branco,Indígena,Mais de 2 a 3 SM,2
+Castelo Branco,Indígena,Mais de 3 a 5 SM,2
+Castelo Branco,Indígena,Mais de 5 a 10 SM,1
+Castelo Branco,Indígena,Mais de 10 SM,0
+Castelo Branco,Indígena,Sem rendimento,9
+Castelo Branco,Indígena,Total,41
+Castelo Branco,Amarela,Até 1/2 SM,9
+Castelo Branco,Amarela,Mais de 1/2 a 1 SM,38
+Castelo Branco,Amarela,Mais de 1 a 2 SM,29
+Castelo Branco,Amarela,Mais de 2 a 3 SM,13
+Castelo Branco,Amarela,Mais de 3 a 5 SM,5
+Castelo Branco,Amarela,Mais de 5 a 10 SM,10
+Castelo Branco,Amarela,Mais de 10 SM,1
+Castelo Branco,Amarela,Sem rendimento,66
+Castelo Branco,Amarela,Total,171
+Castelo Branco,Total,Até 1/2 SM,505
+Castelo Branco,Total,Mais de 1/2 a 1 SM,2719
+Castelo Branco,Total,Mais de 1 a 2 SM,1684
+Castelo Branco,Total,Mais de 2 a 3 SM,642
+Castelo Branco,Total,Mais de 3 a 5 SM,583
+Castelo Branco,Total,Mais de 5 a 10 SM,385
+Castelo Branco,Total,Mais de 10 SM,77
+Castelo Branco,Total,Sem rendimento,3702
+Castelo Branco,Total,Total,10297
+Centro,Branca,Até 1/2 SM,27
+Centro,Branca,Mais de 1/2 a 1 SM,384
+Centro,Branca,Mais de 1 a 2 SM,323
+Centro,Branca,Mais de 2 a 3 SM,141
+Centro,Branca,Mais de 3 a 5 SM,168
+Centro,Branca,Mais de 5 a 10 SM,172
+Centro,Branca,Mais de 10 SM,65
+Centro,Branca,Sem rendimento,554
+Centro,Branca,Total,1834
+Centro,Parda,Até 1/2 SM,65
+Centro,Parda,Mais de 1/2 a 1 SM,306
+Centro,Parda,Mais de 1 a 2 SM,196
+Centro,Parda,Mais de 2 a 3 SM,90
+Centro,Parda,Mais de 3 a 5 SM,67
+Centro,Parda,Mais de 5 a 10 SM,75
+Centro,Parda,Mais de 10 SM,31
+Centro,Parda,Sem rendimento,432
+Centro,Parda,Total,1262
+Centro,Preta,Até 1/2 SM,8
+Centro,Preta,Mais de 1/2 a 1 SM,38
+Centro,Preta,Mais de 1 a 2 SM,33
+Centro,Preta,Mais de 2 a 3 SM,8
+Centro,Preta,Mais de 3 a 5 SM,12
+Centro,Preta,Mais de 5 a 10 SM,3
+Centro,Preta,Mais de 10 SM,5
+Centro,Preta,Sem rendimento,62
+Centro,Preta,Total,169
+Centro,Indígena,Até 1/2 SM,0
+Centro,Indígena,Mais de 1/2 a 1 SM,2
+Centro,Indígena,Mais de 1 a 2 SM,1
+Centro,Indígena,Mais de 2 a 3 SM,0
+Centro,Indígena,Mais de 3 a 5 SM,1
+Centro,Indígena,Mais de 5 a 10 SM,0
+Centro,Indígena,Mais de 10 SM,0
+Centro,Indígena,Sem rendimento,2
+Centro,Indígena,Total,6
+Centro,Amarela,Até 1/2 SM,4
+Centro,Amarela,Mais de 1/2 a 1 SM,8
+Centro,Amarela,Mais de 1 a 2 SM,9
+Centro,Amarela,Mais de 2 a 3 SM,6
+Centro,Amarela,Mais de 3 a 5 SM,2
+Centro,Amarela,Mais de 5 a 10 SM,5
+Centro,Amarela,Mais de 10 SM,0
+Centro,Amarela,Sem rendimento,12
+Centro,Amarela,Total,46
+Centro,Total,Até 1/2 SM,104
+Centro,Total,Mais de 1/2 a 1 SM,738
+Centro,Total,Mais de 1 a 2 SM,562
+Centro,Total,Mais de 2 a 3 SM,245
+Centro,Total,Mais de 3 a 5 SM,250
+Centro,Total,Mais de 5 a 10 SM,255
+Centro,Total,Mais de 10 SM,101
+Centro,Total,Sem rendimento,1062
+Centro,Total,Total,3317
+Cidade dos Colibris,Branca,Até 1/2 SM,66
+Cidade dos Colibris,Branca,Mais de 1/2 a 1 SM,250
+Cidade dos Colibris,Branca,Mais de 1 a 2 SM,237
+Cidade dos Colibris,Branca,Mais de 2 a 3 SM,83
+Cidade dos Colibris,Branca,Mais de 3 a 5 SM,72
+Cidade dos Colibris,Branca,Mais de 5 a 10 SM,53
+Cidade dos Colibris,Branca,Mais de 10 SM,15
+Cidade dos Colibris,Branca,Sem rendimento,416
+Cidade dos Colibris,Branca,Total,1192
+Cidade dos Colibris,Parda,Até 1/2 SM,138
+Cidade dos Colibris,Parda,Mais de 1/2 a 1 SM,480
+Cidade dos Colibris,Parda,Mais de 1 a 2 SM,332
+Cidade dos Colibris,Parda,Mais de 2 a 3 SM,93
+Cidade dos Colibris,Parda,Mais de 3 a 5 SM,81
+Cidade dos Colibris,Parda,Mais de 5 a 10 SM,42
+Cidade dos Colibris,Parda,Mais de 10 SM,9
+Cidade dos Colibris,Parda,Sem rendimento,740
+Cidade dos Colibris,Parda,Total,1915
+Cidade dos Colibris,Preta,Até 1/2 SM,10
+Cidade dos Colibris,Preta,Mais de 1/2 a 1 SM,45
+Cidade dos Colibris,Preta,Mais de 1 a 2 SM,35
+Cidade dos Colibris,Preta,Mais de 2 a 3 SM,15
+Cidade dos Colibris,Preta,Mais de 3 a 5 SM,8
+Cidade dos Colibris,Preta,Mais de 5 a 10 SM,4
+Cidade dos Colibris,Preta,Mais de 10 SM,0
+Cidade dos Colibris,Preta,Sem rendimento,61
+Cidade dos Colibris,Preta,Total,178
+Cidade dos Colibris,Indígena,Até 1/2 SM,0
+Cidade dos Colibris,Indígena,Mais de 1/2 a 1 SM,2
+Cidade dos Colibris,Indígena,Mais de 1 a 2 SM,3
+Cidade dos Colibris,Indígena,Mais de 2 a 3 SM,2
+Cidade dos Colibris,Indígena,Mais de 3 a 5 SM,1
+Cidade dos Colibris,Indígena,Mais de 5 a 10 SM,1
+Cidade dos Colibris,Indígena,Mais de 10 SM,0
+Cidade dos Colibris,Indígena,Sem rendimento,1
+Cidade dos Colibris,Indígena,Total,10
+Cidade dos Colibris,Amarela,Até 1/2 SM,0
+Cidade dos Colibris,Amarela,Mais de 1/2 a 1 SM,1
+Cidade dos Colibris,Amarela,Mais de 1 a 2 SM,6
+Cidade dos Colibris,Amarela,Mais de 2 a 3 SM,0
+Cidade dos Colibris,Amarela,Mais de 3 a 5 SM,0
+Cidade dos Colibris,Amarela,Mais de 5 a 10 SM,1
+Cidade dos Colibris,Amarela,Mais de 10 SM,0
+Cidade dos Colibris,Amarela,Sem rendimento,12
+Cidade dos Colibris,Amarela,Total,20
+Cidade dos Colibris,Total,Até 1/2 SM,214
+Cidade dos Colibris,Total,Mais de 1/2 a 1 SM,778
+Cidade dos Colibris,Total,Mais de 1 a 2 SM,613
+Cidade dos Colibris,Total,Mais de 2 a 3 SM,193
+Cidade dos Colibris,Total,Mais de 3 a 5 SM,162
+Cidade dos Colibris,Total,Mais de 5 a 10 SM,101
+Cidade dos Colibris,Total,Mais de 10 SM,24
+Cidade dos Colibris,Total,Sem rendimento,1230
+Cidade dos Colibris,Total,Total,3315
+Costa do Sol,Branca,Até 1/2 SM,227
+Costa do Sol,Branca,Mais de 1/2 a 1 SM,622
+Costa do Sol,Branca,Mais de 1 a 2 SM,405
+Costa do Sol,Branca,Mais de 2 a 3 SM,85
+Costa do Sol,Branca,Mais de 3 a 5 SM,61
+Costa do Sol,Branca,Mais de 5 a 10 SM,15
+Costa do Sol,Branca,Mais de 10 SM,3
+Costa do Sol,Branca,Sem rendimento,924
+Costa do Sol,Branca,Total,2342
+Costa do Sol,Parda,Até 1/2 SM,352
+Costa do Sol,Parda,Mais de 1/2 a 1 SM,865
+Costa do Sol,Parda,Mais de 1 a 2 SM,541
+Costa do Sol,Parda,Mais de 2 a 3 SM,118
+Costa do Sol,Parda,Mais de 3 a 5 SM,75
+Costa do Sol,Parda,Mais de 5 a 10 SM,18
+Costa do Sol,Parda,Mais de 10 SM,0
+Costa do Sol,Parda,Sem rendimento,1691
+Costa do Sol,Parda,Total,3660
+Costa do Sol,Preta,Até 1/2 SM,70
+Costa do Sol,Preta,Mais de 1/2 a 1 SM,185
+Costa do Sol,Preta,Mais de 1 a 2 SM,104
+Costa do Sol,Preta,Mais de 2 a 3 SM,29
+Costa do Sol,Preta,Mais de 3 a 5 SM,20
+Costa do Sol,Preta,Mais de 5 a 10 SM,2
+Costa do Sol,Preta,Mais de 10 SM,0
+Costa do Sol,Preta,Sem rendimento,362
+Costa do Sol,Preta,Total,772
+Costa do Sol,Indígena,Até 1/2 SM,2
+Costa do Sol,Indígena,Mais de 1/2 a 1 SM,5
+Costa do Sol,Indígena,Mais de 1 a 2 SM,3
+Costa do Sol,Indígena,Mais de 2 a 3 SM,0
+Costa do Sol,Indígena,Mais de 3 a 5 SM,1
+Costa do Sol,Indígena,Mais de 5 a 10 SM,1
+Costa do Sol,Indígena,Mais de 10 SM,0
+Costa do Sol,Indígena,Sem rendimento,7
+Costa do Sol,Indígena,Total,19
+Costa do Sol,Amarela,Até 1/2 SM,15
+Costa do Sol,Amarela,Mais de 1/2 a 1 SM,26
+Costa do Sol,Amarela,Mais de 1 a 2 SM,21
+Costa do Sol,Amarela,Mais de 2 a 3 SM,3
+Costa do Sol,Amarela,Mais de 3 a 5 SM,3
+Costa do Sol,Amarela,Mais de 5 a 10 SM,0
+Costa do Sol,Amarela,Mais de 10 SM,0
+Costa do Sol,Amarela,Sem rendimento,39
+Costa do Sol,Amarela,Total,107
+Costa do Sol,Total,Até 1/2 SM,666
+Costa do Sol,Total,Mais de 1/2 a 1 SM,1703
+Costa do Sol,Total,Mais de 1 a 2 SM,1074
+Costa do Sol,Total,Mais de 2 a 3 SM,235
+Costa do Sol,Total,Mais de 3 a 5 SM,160
+Costa do Sol,Total,Mais de 5 a 10 SM,36
+Costa do Sol,Total,Mais de 10 SM,3
+Costa do Sol,Total,Sem rendimento,3023
+Costa do Sol,Total,Total,6900
+Costa e Silva,Branca,Até 1/2 SM,127
+Costa e Silva,Branca,Mais de 1/2 a 1 SM,681
+Costa e Silva,Branca,Mais de 1 a 2 SM,427
+Costa e Silva,Branca,Mais de 2 a 3 SM,87
+Costa e Silva,Branca,Mais de 3 a 5 SM,60
+Costa e Silva,Branca,Mais de 5 a 10 SM,29
+Costa e Silva,Branca,Mais de 10 SM,2
+Costa e Silva,Branca,Sem rendimento,944
+Costa e Silva,Branca,Total,2357
+Costa e Silva,Parda,Até 1/2 SM,285
+Costa e Silva,Parda,Mais de 1/2 a 1 SM,1166
+Costa e Silva,Parda,Mais de 1 a 2 SM,517
+Costa e Silva,Parda,Mais de 2 a 3 SM,86
+Costa e Silva,Parda,Mais de 3 a 5 SM,61
+Costa e Silva,Parda,Mais de 5 a 10 SM,21
+Costa e Silva,Parda,Mais de 10 SM,3
+Costa e Silva,Parda,Sem rendimento,1504
+Costa e Silva,Parda,Total,3643
+Costa e Silva,Preta,Até 1/2 SM,78
+Costa e Silva,Preta,Mais de 1/2 a 1 SM,284
+Costa e Silva,Preta,Mais de 1 a 2 SM,99
+Costa e Silva,Preta,Mais de 2 a 3 SM,14
+Costa e Silva,Preta,Mais de 3 a 5 SM,10
+Costa e Silva,Preta,Mais de 5 a 10 SM,5
+Costa e Silva,Preta,Mais de 10 SM,1
+Costa e Silva,Preta,Sem rendimento,314
+Costa e Silva,Preta,Total,805
+Costa e Silva,Indígena,Até 1/2 SM,0
+Costa e Silva,Indígena,Mais de 1/2 a 1 SM,0
+Costa e Silva,Indígena,Mais de 1 a 2 SM,0
+Costa e Silva,Indígena,Mais de 2 a 3 SM,0
+Costa e Silva,Indígena,Mais de 3 a 5 SM,0
+Costa e Silva,Indígena,Mais de 5 a 10 SM,1
+Costa e Silva,Indígena,Mais de 10 SM,0
+Costa e Silva,Indígena,Sem rendimento,0
+Costa e Silva,Indígena,Total,1
+Costa e Silva,Amarela,Até 1/2 SM,3
+Costa e Silva,Amarela,Mais de 1/2 a 1 SM,25
+Costa e Silva,Amarela,Mais de 1 a 2 SM,23
+Costa e Silva,Amarela,Mais de 2 a 3 SM,5
+Costa e Silva,Amarela,Mais de 3 a 5 SM,3
+Costa e Silva,Amarela,Mais de 5 a 10 SM,1
+Costa e Silva,Amarela,Mais de 10 SM,0
+Costa e Silva,Amarela,Sem rendimento,42
+Costa e Silva,Amarela,Total,102
+Costa e Silva,Total,Até 1/2 SM,493
+Costa e Silva,Total,Mais de 1/2 a 1 SM,2156
+Costa e Silva,Total,Mais de 1 a 2 SM,1066
+Costa e Silva,Total,Mais de 2 a 3 SM,192
+Costa e Silva,Total,Mais de 3 a 5 SM,134
+Costa e Silva,Total,Mais de 5 a 10 SM,57
+Costa e Silva,Total,Mais de 10 SM,6
+Costa e Silva,Total,Sem rendimento,2804
+Costa e Silva,Total,Total,6908
+Cristo Redentor,Branca,Até 1/2 SM,704
+Cristo Redentor,Branca,Mais de 1/2 a 1 SM,2814
+Cristo Redentor,Branca,Mais de 1 a 2 SM,2081
+Cristo Redentor,Branca,Mais de 2 a 3 SM,795
+Cristo Redentor,Branca,Mais de 3 a 5 SM,806
+Cristo Redentor,Branca,Mais de 5 a 10 SM,668
+Cristo Redentor,Branca,Mais de 10 SM,199
+Cristo Redentor,Branca,Sem rendimento,4584
+Cristo Redentor,Branca,Total,12651
+Cristo Redentor,Parda,Até 1/2 SM,1372
+Cristo Redentor,Parda,Mais de 1/2 a 1 SM,4242
+Cristo Redentor,Parda,Mais de 1 a 2 SM,2239
+Cristo Redentor,Parda,Mais de 2 a 3 SM,738
+Cristo Redentor,Parda,Mais de 3 a 5 SM,642
+Cristo Redentor,Parda,Mais de 5 a 10 SM,468
+Cristo Redentor,Parda,Mais de 10 SM,113
+Cristo Redentor,Parda,Sem rendimento,6187
+Cristo Redentor,Parda,Total,16001
+Cristo Redentor,Preta,Até 1/2 SM,287
+Cristo Redentor,Preta,Mais de 1/2 a 1 SM,838
+Cristo Redentor,Preta,Mais de 1 a 2 SM,334
+Cristo Redentor,Preta,Mais de 2 a 3 SM,89
+Cristo Redentor,Preta,Mais de 3 a 5 SM,66
+Cristo Redentor,Preta,Mais de 5 a 10 SM,44
+Cristo Redentor,Preta,Mais de 10 SM,16
+Cristo Redentor,Preta,Sem rendimento,922
+Cristo Redentor,Preta,Total,2596
+Cristo Redentor,Indígena,Até 1/2 SM,13
+Cristo Redentor,Indígena,Mais de 1/2 a 1 SM,38
+Cristo Redentor,Indígena,Mais de 1 a 2 SM,26
+Cristo Redentor,Indígena,Mais de 2 a 3 SM,5
+Cristo Redentor,Indígena,Mais de 3 a 5 SM,4
+Cristo Redentor,Indígena,Mais de 5 a 10 SM,4
+Cristo Redentor,Indígena,Mais de 10 SM,1
+Cristo Redentor,Indígena,Sem rendimento,45
+Cristo Redentor,Indígena,Total,136
+Cristo Redentor,Amarela,Até 1/2 SM,51
+Cristo Redentor,Amarela,Mais de 1/2 a 1 SM,126
+Cristo Redentor,Amarela,Mais de 1 a 2 SM,83
+Cristo Redentor,Amarela,Mais de 2 a 3 SM,26
+Cristo Redentor,Amarela,Mais de 3 a 5 SM,22
+Cristo Redentor,Amarela,Mais de 5 a 10 SM,8
+Cristo Redentor,Amarela,Mais de 10 SM,5
+Cristo Redentor,Amarela,Sem rendimento,213
+Cristo Redentor,Amarela,Total,534
+Cristo Redentor,Total,Até 1/2 SM,2427
+Cristo Redentor,Total,Mais de 1/2 a 1 SM,8058
+Cristo Redentor,Total,Mais de 1 a 2 SM,4763
+Cristo Redentor,Total,Mais de 2 a 3 SM,1653
+Cristo Redentor,Total,Mais de 3 a 5 SM,1540
+Cristo Redentor,Total,Mais de 5 a 10 SM,1192
+Cristo Redentor,Total,Mais de 10 SM,334
+Cristo Redentor,Total,Sem rendimento,11951
+Cristo Redentor,Total,Total,31918
+Cruz das Armas,Branca,Até 1/2 SM,418
+Cruz das Armas,Branca,Mais de 1/2 a 1 SM,2163
+Cruz das Armas,Branca,Mais de 1 a 2 SM,1350
+Cruz das Armas,Branca,Mais de 2 a 3 SM,330
+Cruz das Armas,Branca,Mais de 3 a 5 SM,259
+Cruz das Armas,Branca,Mais de 5 a 10 SM,140
+Cruz das Armas,Branca,Mais de 10 SM,28
+Cruz das Armas,Branca,Sem rendimento,2990
+Cruz das Armas,Branca,Total,7678
+Cruz das Armas,Parda,Até 1/2 SM,879
+Cruz das Armas,Parda,Mais de 1/2 a 1 SM,3604
+Cruz das Armas,Parda,Mais de 1 a 2 SM,1888
+Cruz das Armas,Parda,Mais de 2 a 3 SM,356
+Cruz das Armas,Parda,Mais de 3 a 5 SM,289
+Cruz das Armas,Parda,Mais de 5 a 10 SM,114
+Cruz das Armas,Parda,Mais de 10 SM,17
+Cruz das Armas,Parda,Sem rendimento,5040
+Cruz das Armas,Parda,Total,12187
+Cruz das Armas,Preta,Até 1/2 SM,144
+Cruz das Armas,Preta,Mais de 1/2 a 1 SM,557
+Cruz das Armas,Preta,Mais de 1 a 2 SM,219
+Cruz das Armas,Preta,Mais de 2 a 3 SM,49
+Cruz das Armas,Preta,Mais de 3 a 5 SM,29
+Cruz das Armas,Preta,Mais de 5 a 10 SM,10
+Cruz das Armas,Preta,Mais de 10 SM,2
+Cruz das Armas,Preta,Sem rendimento,541
+Cruz das Armas,Preta,Total,1551
+Cruz das Armas,Indígena,Até 1/2 SM,4
+Cruz das Armas,Indígena,Mais de 1/2 a 1 SM,14
+Cruz das Armas,Indígena,Mais de 1 a 2 SM,8
+Cruz das Armas,Indígena,Mais de 2 a 3 SM,1
+Cruz das Armas,Indígena,Mais de 3 a 5 SM,0
+Cruz das Armas,Indígena,Mais de 5 a 10 SM,0
+Cruz das Armas,Indígena,Mais de 10 SM,0
+Cruz das Armas,Indígena,Sem rendimento,14
+Cruz das Armas,Indígena,Total,41
+Cruz das Armas,Amarela,Até 1/2 SM,35
+Cruz das Armas,Amarela,Mais de 1/2 a 1 SM,82
+Cruz das Armas,Amarela,Mais de 1 a 2 SM,48
+Cruz das Armas,Amarela,Mais de 2 a 3 SM,8
+Cruz das Armas,Amarela,Mais de 3 a 5 SM,5
+Cruz das Armas,Amarela,Mais de 5 a 10 SM,2
+Cruz das Armas,Amarela,Mais de 10 SM,0
+Cruz das Armas,Amarela,Sem rendimento,109
+Cruz das Armas,Amarela,Total,289
+Cruz das Armas,Total,Até 1/2 SM,1480
+Cruz das Armas,Total,Mais de 1/2 a 1 SM,6420
+Cruz das Armas,Total,Mais de 1 a 2 SM,3513
+Cruz das Armas,Total,Mais de 2 a 3 SM,744
+Cruz das Armas,Total,Mais de 3 a 5 SM,582
+Cruz das Armas,Total,Mais de 5 a 10 SM,266
+Cruz das Armas,Total,Mais de 10 SM,47
+Cruz das Armas,Total,Sem rendimento,8694
+Cruz das Armas,Total,Total,21746
+Cuiá,Branca,Até 1/2 SM,66
+Cuiá,Branca,Mais de 1/2 a 1 SM,409
+Cuiá,Branca,Mais de 1 a 2 SM,555
+Cuiá,Branca,Mais de 2 a 3 SM,252
+Cuiá,Branca,Mais de 3 a 5 SM,220
+Cuiá,Branca,Mais de 5 a 10 SM,132
+Cuiá,Branca,Mais de 10 SM,24
+Cuiá,Branca,Sem rendimento,840
+Cuiá,Branca,Total,2498
+Cuiá,Parda,Até 1/2 SM,99
+Cuiá,Parda,Mais de 1/2 a 1 SM,454
+Cuiá,Parda,Mais de 1 a 2 SM,557
+Cuiá,Parda,Mais de 2 a 3 SM,263
+Cuiá,Parda,Mais de 3 a 5 SM,224
+Cuiá,Parda,Mais de 5 a 10 SM,118
+Cuiá,Parda,Mais de 10 SM,20
+Cuiá,Parda,Sem rendimento,921
+Cuiá,Parda,Total,2656
+Cuiá,Preta,Até 1/2 SM,18
+Cuiá,Preta,Mais de 1/2 a 1 SM,93
+Cuiá,Preta,Mais de 1 a 2 SM,121
+Cuiá,Preta,Mais de 2 a 3 SM,49
+Cuiá,Preta,Mais de 3 a 5 SM,27
+Cuiá,Preta,Mais de 5 a 10 SM,23
+Cuiá,Preta,Mais de 10 SM,5
+Cuiá,Preta,Sem rendimento,113
+Cuiá,Preta,Total,449
+Cuiá,Indígena,Até 1/2 SM,1
+Cuiá,Indígena,Mais de 1/2 a 1 SM,8
+Cuiá,Indígena,Mais de 1 a 2 SM,9
+Cuiá,Indígena,Mais de 2 a 3 SM,2
+Cuiá,Indígena,Mais de 3 a 5 SM,4
+Cuiá,Indígena,Mais de 5 a 10 SM,5
+Cuiá,Indígena,Mais de 10 SM,2
+Cuiá,Indígena,Sem rendimento,12
+Cuiá,Indígena,Total,43
+Cuiá,Amarela,Até 1/2 SM,4
+Cuiá,Amarela,Mais de 1/2 a 1 SM,35
+Cuiá,Amarela,Mais de 1 a 2 SM,39
+Cuiá,Amarela,Mais de 2 a 3 SM,16
+Cuiá,Amarela,Mais de 3 a 5 SM,12
+Cuiá,Amarela,Mais de 5 a 10 SM,7
+Cuiá,Amarela,Mais de 10 SM,0
+Cuiá,Amarela,Sem rendimento,61
+Cuiá,Amarela,Total,174
+Cuiá,Total,Até 1/2 SM,188
+Cuiá,Total,Mais de 1/2 a 1 SM,999
+Cuiá,Total,Mais de 1 a 2 SM,1281
+Cuiá,Total,Mais de 2 a 3 SM,582
+Cuiá,Total,Mais de 3 a 5 SM,487
+Cuiá,Total,Mais de 5 a 10 SM,285
+Cuiá,Total,Mais de 10 SM,51
+Cuiá,Total,Sem rendimento,1947
+Cuiá,Total,Total,5820
+Distrito Industrial,Branca,Até 1/2 SM,51
+Distrito Industrial,Branca,Mais de 1/2 a 1 SM,118
+Distrito Industrial,Branca,Mais de 1 a 2 SM,72
+Distrito Industrial,Branca,Mais de 2 a 3 SM,8
+Distrito Industrial,Branca,Mais de 3 a 5 SM,4
+Distrito Industrial,Branca,Mais de 5 a 10 SM,0
+Distrito Industrial,Branca,Mais de 10 SM,3
+Distrito Industrial,Branca,Sem rendimento,216
+Distrito Industrial,Branca,Total,472
+Distrito Industrial,Parda,Até 1/2 SM,119
+Distrito Industrial,Parda,Mais de 1/2 a 1 SM,223
+Distrito Industrial,Parda,Mais de 1 a 2 SM,114
+Distrito Industrial,Parda,Mais de 2 a 3 SM,22
+Distrito Industrial,Parda,Mais de 3 a 5 SM,6
+Distrito Industrial,Parda,Mais de 5 a 10 SM,1
+Distrito Industrial,Parda,Mais de 10 SM,1
+Distrito Industrial,Parda,Sem rendimento,369
+Distrito Industrial,Parda,Total,855
+Distrito Industrial,Preta,Até 1/2 SM,22
+Distrito Industrial,Preta,Mais de 1/2 a 1 SM,49
+Distrito Industrial,Preta,Mais de 1 a 2 SM,19
+Distrito Industrial,Preta,Mais de 2 a 3 SM,5
+Distrito Industrial,Preta,Mais de 3 a 5 SM,0
+Distrito Industrial,Preta,Mais de 5 a 10 SM,0
+Distrito Industrial,Preta,Mais de 10 SM,0
+Distrito Industrial,Preta,Sem rendimento,48
+Distrito Industrial,Preta,Total,143
+Distrito Industrial,Indígena,Até 1/2 SM,0
+Distrito Industrial,Indígena,Mais de 1/2 a 1 SM,0
+Distrito Industrial,Indígena,Mais de 1 a 2 SM,1
+Distrito Industrial,Indígena,Mais de 2 a 3 SM,1
+Distrito Industrial,Indígena,Mais de 3 a 5 SM,0
+Distrito Industrial,Indígena,Mais de 5 a 10 SM,0
+Distrito Industrial,Indígena,Mais de 10 SM,0
+Distrito Industrial,Indígena,Sem rendimento,1
+Distrito Industrial,Indígena,Total,3
+Distrito Industrial,Amarela,Até 1/2 SM,0
+Distrito Industrial,Amarela,Mais de 1/2 a 1 SM,0
+Distrito Industrial,Amarela,Mais de 1 a 2 SM,2
+Distrito Industrial,Amarela,Mais de 2 a 3 SM,0
+Distrito Industrial,Amarela,Mais de 3 a 5 SM,0
+Distrito Industrial,Amarela,Mais de 5 a 10 SM,0
+Distrito Industrial,Amarela,Mais de 10 SM,0
+Distrito Industrial,Amarela,Sem rendimento,6
+Distrito Industrial,Amarela,Total,8
+Distrito Industrial,Total,Até 1/2 SM,192
+Distrito Industrial,Total,Mais de 1/2 a 1 SM,390
+Distrito Industrial,Total,Mais de 1 a 2 SM,208
+Distrito Industrial,Total,Mais de 2 a 3 SM,36
+Distrito Industrial,Total,Mais de 3 a 5 SM,10
+Distrito Industrial,Total,Mais de 5 a 10 SM,1
+Distrito Industrial,Total,Mais de 10 SM,4
+Distrito Industrial,Total,Sem rendimento,640
+Distrito Industrial,Total,Total,1481
+Ernani Sátiro,Branca,Até 1/2 SM,106
+Ernani Sátiro,Branca,Mais de 1/2 a 1 SM,723
+Ernani Sátiro,Branca,Mais de 1 a 2 SM,511
+Ernani Sátiro,Branca,Mais de 2 a 3 SM,141
+Ernani Sátiro,Branca,Mais de 3 a 5 SM,88
+Ernani Sátiro,Branca,Mais de 5 a 10 SM,33
+Ernani Sátiro,Branca,Mais de 10 SM,4
+Ernani Sátiro,Branca,Sem rendimento,1014
+Ernani Sátiro,Branca,Total,2620
+Ernani Sátiro,Parda,Até 1/2 SM,231
+Ernani Sátiro,Parda,Mais de 1/2 a 1 SM,1180
+Ernani Sátiro,Parda,Mais de 1 a 2 SM,837
+Ernani Sátiro,Parda,Mais de 2 a 3 SM,202
+Ernani Sátiro,Parda,Mais de 3 a 5 SM,103
+Ernani Sátiro,Parda,Mais de 5 a 10 SM,41
+Ernani Sátiro,Parda,Mais de 10 SM,2
+Ernani Sátiro,Parda,Sem rendimento,1673
+Ernani Sátiro,Parda,Total,4269
+Ernani Sátiro,Preta,Até 1/2 SM,23
+Ernani Sátiro,Preta,Mais de 1/2 a 1 SM,119
+Ernani Sátiro,Preta,Mais de 1 a 2 SM,100
+Ernani Sátiro,Preta,Mais de 2 a 3 SM,30
+Ernani Sátiro,Preta,Mais de 3 a 5 SM,13
+Ernani Sátiro,Preta,Mais de 5 a 10 SM,9
+Ernani Sátiro,Preta,Mais de 10 SM,1
+Ernani Sátiro,Preta,Sem rendimento,140
+Ernani Sátiro,Preta,Total,435
+Ernani Sátiro,Indígena,Até 1/2 SM,0
+Ernani Sátiro,Indígena,Mais de 1/2 a 1 SM,5
+Ernani Sátiro,Indígena,Mais de 1 a 2 SM,1
+Ernani Sátiro,Indígena,Mais de 2 a 3 SM,0
+Ernani Sátiro,Indígena,Mais de 3 a 5 SM,0
+Ernani Sátiro,Indígena,Mais de 5 a 10 SM,0
+Ernani Sátiro,Indígena,Mais de 10 SM,0
+Ernani Sátiro,Indígena,Sem rendimento,0
+Ernani Sátiro,Indígena,Total,6
+Ernani Sátiro,Amarela,Até 1/2 SM,5
+Ernani Sátiro,Amarela,Mais de 1/2 a 1 SM,26
+Ernani Sátiro,Amarela,Mais de 1 a 2 SM,22
+Ernani Sátiro,Amarela,Mais de 2 a 3 SM,9
+Ernani Sátiro,Amarela,Mais de 3 a 5 SM,9
+Ernani Sátiro,Amarela,Mais de 5 a 10 SM,1
+Ernani Sátiro,Amarela,Mais de 10 SM,0
+Ernani Sátiro,Amarela,Sem rendimento,39
+Ernani Sátiro,Amarela,Total,111
+Ernani Sátiro,Total,Até 1/2 SM,365
+Ernani Sátiro,Total,Mais de 1/2 a 1 SM,2053
+Ernani Sátiro,Total,Mais de 1 a 2 SM,1471
+Ernani Sátiro,Total,Mais de 2 a 3 SM,382
+Ernani Sátiro,Total,Mais de 3 a 5 SM,213
+Ernani Sátiro,Total,Mais de 5 a 10 SM,84
+Ernani Sátiro,Total,Mais de 10 SM,7
+Ernani Sátiro,Total,Sem rendimento,2866
+Ernani Sátiro,Total,Total,7441
+Ernesto Geisel,Branca,Até 1/2 SM,131
+Ernesto Geisel,Branca,Mais de 1/2 a 1 SM,1058
+Ernesto Geisel,Branca,Mais de 1 a 2 SM,1323
+Ernesto Geisel,Branca,Mais de 2 a 3 SM,510
+Ernesto Geisel,Branca,Mais de 3 a 5 SM,440
+Ernesto Geisel,Branca,Mais de 5 a 10 SM,262
+Ernesto Geisel,Branca,Mais de 10 SM,30
+Ernesto Geisel,Branca,Sem rendimento,1929
+Ernesto Geisel,Branca,Total,5683
+Ernesto Geisel,Parda,Até 1/2 SM,158
+Ernesto Geisel,Parda,Mais de 1/2 a 1 SM,1185
+Ernesto Geisel,Parda,Mais de 1 a 2 SM,1395
+Ernesto Geisel,Parda,Mais de 2 a 3 SM,470
+Ernesto Geisel,Parda,Mais de 3 a 5 SM,386
+Ernesto Geisel,Parda,Mais de 5 a 10 SM,207
+Ernesto Geisel,Parda,Mais de 10 SM,34
+Ernesto Geisel,Parda,Sem rendimento,1905
+Ernesto Geisel,Parda,Total,5740
+Ernesto Geisel,Preta,Até 1/2 SM,10
+Ernesto Geisel,Preta,Mais de 1/2 a 1 SM,135
+Ernesto Geisel,Preta,Mais de 1 a 2 SM,169
+Ernesto Geisel,Preta,Mais de 2 a 3 SM,70
+Ernesto Geisel,Preta,Mais de 3 a 5 SM,59
+Ernesto Geisel,Preta,Mais de 5 a 10 SM,34
+Ernesto Geisel,Preta,Mais de 10 SM,6
+Ernesto Geisel,Preta,Sem rendimento,192
+Ernesto Geisel,Preta,Total,675
+Ernesto Geisel,Indígena,Até 1/2 SM,2
+Ernesto Geisel,Indígena,Mais de 1/2 a 1 SM,5
+Ernesto Geisel,Indígena,Mais de 1 a 2 SM,3
+Ernesto Geisel,Indígena,Mais de 2 a 3 SM,2
+Ernesto Geisel,Indígena,Mais de 3 a 5 SM,5
+Ernesto Geisel,Indígena,Mais de 5 a 10 SM,3
+Ernesto Geisel,Indígena,Mais de 10 SM,0
+Ernesto Geisel,Indígena,Sem rendimento,4
+Ernesto Geisel,Indígena,Total,24
+Ernesto Geisel,Amarela,Até 1/2 SM,4
+Ernesto Geisel,Amarela,Mais de 1/2 a 1 SM,43
+Ernesto Geisel,Amarela,Mais de 1 a 2 SM,45
+Ernesto Geisel,Amarela,Mais de 2 a 3 SM,14
+Ernesto Geisel,Amarela,Mais de 3 a 5 SM,12
+Ernesto Geisel,Amarela,Mais de 5 a 10 SM,9
+Ernesto Geisel,Amarela,Mais de 10 SM,0
+Ernesto Geisel,Amarela,Sem rendimento,68
+Ernesto Geisel,Amarela,Total,195
+Ernesto Geisel,Total,Até 1/2 SM,305
+Ernesto Geisel,Total,Mais de 1/2 a 1 SM,2426
+Ernesto Geisel,Total,Mais de 1 a 2 SM,2935
+Ernesto Geisel,Total,Mais de 2 a 3 SM,1066
+Ernesto Geisel,Total,Mais de 3 a 5 SM,902
+Ernesto Geisel,Total,Mais de 5 a 10 SM,515
+Ernesto Geisel,Total,Mais de 10 SM,70
+Ernesto Geisel,Total,Sem rendimento,4098
+Ernesto Geisel,Total,Total,12317
+Estados,Branca,Até 1/2 SM,28
+Estados,Branca,Mais de 1/2 a 1 SM,483
+Estados,Branca,Mais de 1 a 2 SM,516
+Estados,Branca,Mais de 2 a 3 SM,304
+Estados,Branca,Mais de 3 a 5 SM,493
+Estados,Branca,Mais de 5 a 10 SM,718
+Estados,Branca,Mais de 10 SM,536
+Estados,Branca,Sem rendimento,1436
+Estados,Branca,Total,4514
+Estados,Parda,Até 1/2 SM,22
+Estados,Parda,Mais de 1/2 a 1 SM,353
+Estados,Parda,Mais de 1 a 2 SM,235
+Estados,Parda,Mais de 2 a 3 SM,146
+Estados,Parda,Mais de 3 a 5 SM,209
+Estados,Parda,Mais de 5 a 10 SM,295
+Estados,Parda,Mais de 10 SM,194
+Estados,Parda,Sem rendimento,600
+Estados,Parda,Total,2054
+Estados,Preta,Até 1/2 SM,1
+Estados,Preta,Mais de 1/2 a 1 SM,54
+Estados,Preta,Mais de 1 a 2 SM,18
+Estados,Preta,Mais de 2 a 3 SM,11
+Estados,Preta,Mais de 3 a 5 SM,20
+Estados,Preta,Mais de 5 a 10 SM,19
+Estados,Preta,Mais de 10 SM,15
+Estados,Preta,Sem rendimento,44
+Estados,Preta,Total,182
+Estados,Indígena,Até 1/2 SM,0
+Estados,Indígena,Mais de 1/2 a 1 SM,1
+Estados,Indígena,Mais de 1 a 2 SM,2
+Estados,Indígena,Mais de 2 a 3 SM,0
+Estados,Indígena,Mais de 3 a 5 SM,0
+Estados,Indígena,Mais de 5 a 10 SM,0
+Estados,Indígena,Mais de 10 SM,0
+Estados,Indígena,Sem rendimento,2
+Estados,Indígena,Total,5
+Estados,Amarela,Até 1/2 SM,2
+Estados,Amarela,Mais de 1/2 a 1 SM,11
+Estados,Amarela,Mais de 1 a 2 SM,9
+Estados,Amarela,Mais de 2 a 3 SM,8
+Estados,Amarela,Mais de 3 a 5 SM,10
+Estados,Amarela,Mais de 5 a 10 SM,8
+Estados,Amarela,Mais de 10 SM,6
+Estados,Amarela,Sem rendimento,23
+Estados,Amarela,Total,77
+Estados,Total,Até 1/2 SM,53
+Estados,Total,Mais de 1/2 a 1 SM,902
+Estados,Total,Mais de 1 a 2 SM,780
+Estados,Total,Mais de 2 a 3 SM,469
+Estados,Total,Mais de 3 a 5 SM,732
+Estados,Total,Mais de 5 a 10 SM,1040
+Estados,Total,Mais de 10 SM,751
+Estados,Total,Sem rendimento,2105
+Estados,Total,Total,6832
+Expedicionários,Branca,Até 1/2 SM,20
+Expedicionários,Branca,Mais de 1/2 a 1 SM,277
+Expedicionários,Branca,Mais de 1 a 2 SM,243
+Expedicionários,Branca,Mais de 2 a 3 SM,122
+Expedicionários,Branca,Mais de 3 a 5 SM,201
+Expedicionários,Branca,Mais de 5 a 10 SM,247
+Expedicionários,Branca,Mais de 10 SM,138
+Expedicionários,Branca,Sem rendimento,617
+Expedicionários,Branca,Total,1865
+Expedicionários,Parda,Até 1/2 SM,26
+Expedicionários,Parda,Mais de 1/2 a 1 SM,265
+Expedicionários,Parda,Mais de 1 a 2 SM,161
+Expedicionários,Parda,Mais de 2 a 3 SM,84
+Expedicionários,Parda,Mais de 3 a 5 SM,78
+Expedicionários,Parda,Mais de 5 a 10 SM,95
+Expedicionários,Parda,Mais de 10 SM,46
+Expedicionários,Parda,Sem rendimento,421
+Expedicionários,Parda,Total,1176
+Expedicionários,Preta,Até 1/2 SM,3
+Expedicionários,Preta,Mais de 1/2 a 1 SM,61
+Expedicionários,Preta,Mais de 1 a 2 SM,21
+Expedicionários,Preta,Mais de 2 a 3 SM,13
+Expedicionários,Preta,Mais de 3 a 5 SM,6
+Expedicionários,Preta,Mais de 5 a 10 SM,10
+Expedicionários,Preta,Mais de 10 SM,3
+Expedicionários,Preta,Sem rendimento,44
+Expedicionários,Preta,Total,161
+Expedicionários,Indígena,Até 1/2 SM,0
+Expedicionários,Indígena,Mais de 1/2 a 1 SM,0
+Expedicionários,Indígena,Mais de 1 a 2 SM,1
+Expedicionários,Indígena,Mais de 2 a 3 SM,0
+Expedicionários,Indígena,Mais de 3 a 5 SM,0
+Expedicionários,Indígena,Mais de 5 a 10 SM,0
+Expedicionários,Indígena,Mais de 10 SM,0
+Expedicionários,Indígena,Sem rendimento,0
+Expedicionários,Indígena,Total,1
+Expedicionários,Amarela,Até 1/2 SM,3
+Expedicionários,Amarela,Mais de 1/2 a 1 SM,13
+Expedicionários,Amarela,Mais de 1 a 2 SM,4
+Expedicionários,Amarela,Mais de 2 a 3 SM,4
+Expedicionários,Amarela,Mais de 3 a 5 SM,2
+Expedicionários,Amarela,Mais de 5 a 10 SM,6
+Expedicionários,Amarela,Mais de 10 SM,3
+Expedicionários,Amarela,Sem rendimento,27
+Expedicionários,Amarela,Total,62
+Expedicionários,Total,Até 1/2 SM,52
+Expedicionários,Total,Mais de 1/2 a 1 SM,616
+Expedicionários,Total,Mais de 1 a 2 SM,430
+Expedicionários,Total,Mais de 2 a 3 SM,223
+Expedicionários,Total,Mais de 3 a 5 SM,287
+Expedicionários,Total,Mais de 5 a 10 SM,358
+Expedicionários,Total,Mais de 10 SM,190
+Expedicionários,Total,Sem rendimento,1109
+Expedicionários,Total,Total,3265
+Funcionários,Branca,Até 1/2 SM,272
+Funcionários,Branca,Mais de 1/2 a 1 SM,1345
+Funcionários,Branca,Mais de 1 a 2 SM,1032
+Funcionários,Branca,Mais de 2 a 3 SM,336
+Funcionários,Branca,Mais de 3 a 5 SM,245
+Funcionários,Branca,Mais de 5 a 10 SM,123
+Funcionários,Branca,Mais de 10 SM,17
+Funcionários,Branca,Sem rendimento,2127
+Funcionários,Branca,Total,5497
+Funcionários,Parda,Até 1/2 SM,462
+Funcionários,Parda,Mais de 1/2 a 1 SM,1694
+Funcionários,Parda,Mais de 1 a 2 SM,1343
+Funcionários,Parda,Mais de 2 a 3 SM,328
+Funcionários,Parda,Mais de 3 a 5 SM,215
+Funcionários,Parda,Mais de 5 a 10 SM,125
+Funcionários,Parda,Mais de 10 SM,5
+Funcionários,Parda,Sem rendimento,2799
+Funcionários,Parda,Total,6971
+Funcionários,Preta,Até 1/2 SM,42
+Funcionários,Preta,Mais de 1/2 a 1 SM,243
+Funcionários,Preta,Mais de 1 a 2 SM,194
+Funcionários,Preta,Mais de 2 a 3 SM,50
+Funcionários,Preta,Mais de 3 a 5 SM,47
+Funcionários,Preta,Mais de 5 a 10 SM,24
+Funcionários,Preta,Mais de 10 SM,3
+Funcionários,Preta,Sem rendimento,359
+Funcionários,Preta,Total,962
+Funcionários,Indígena,Até 1/2 SM,0
+Funcionários,Indígena,Mais de 1/2 a 1 SM,2
+Funcionários,Indígena,Mais de 1 a 2 SM,7
+Funcionários,Indígena,Mais de 2 a 3 SM,1
+Funcionários,Indígena,Mais de 3 a 5 SM,2
+Funcionários,Indígena,Mais de 5 a 10 SM,0
+Funcionários,Indígena,Mais de 10 SM,0
+Funcionários,Indígena,Sem rendimento,2
+Funcionários,Indígena,Total,14
+Funcionários,Amarela,Até 1/2 SM,6
+Funcionários,Amarela,Mais de 1/2 a 1 SM,49
+Funcionários,Amarela,Mais de 1 a 2 SM,34
+Funcionários,Amarela,Mais de 2 a 3 SM,14
+Funcionários,Amarela,Mais de 3 a 5 SM,9
+Funcionários,Amarela,Mais de 5 a 10 SM,2
+Funcionários,Amarela,Mais de 10 SM,0
+Funcionários,Amarela,Sem rendimento,71
+Funcionários,Amarela,Total,185
+Funcionários,Total,Até 1/2 SM,782
+Funcionários,Total,Mais de 1/2 a 1 SM,3333
+Funcionários,Total,Mais de 1 a 2 SM,2610
+Funcionários,Total,Mais de 2 a 3 SM,729
+Funcionários,Total,Mais de 3 a 5 SM,518
+Funcionários,Total,Mais de 5 a 10 SM,274
+Funcionários,Total,Mais de 10 SM,25
+Funcionários,Total,Sem rendimento,5358
+Funcionários,Total,Total,13629
+Gramame,Branca,Até 1/2 SM,584
+Gramame,Branca,Mais de 1/2 a 1 SM,1911
+Gramame,Branca,Mais de 1 a 2 SM,1466
+Gramame,Branca,Mais de 2 a 3 SM,166
+Gramame,Branca,Mais de 3 a 5 SM,75
+Gramame,Branca,Mais de 5 a 10 SM,36
+Gramame,Branca,Mais de 10 SM,18
+Gramame,Branca,Sem rendimento,3005
+Gramame,Branca,Total,7261
+Gramame,Parda,Até 1/2 SM,1292
+Gramame,Parda,Mais de 1/2 a 1 SM,2942
+Gramame,Parda,Mais de 1 a 2 SM,1518
+Gramame,Parda,Mais de 2 a 3 SM,245
+Gramame,Parda,Mais de 3 a 5 SM,97
+Gramame,Parda,Mais de 5 a 10 SM,32
+Gramame,Parda,Mais de 10 SM,5
+Gramame,Parda,Sem rendimento,4342
+Gramame,Parda,Total,10473
+Gramame,Preta,Até 1/2 SM,189
+Gramame,Preta,Mais de 1/2 a 1 SM,509
+Gramame,Preta,Mais de 1 a 2 SM,252
+Gramame,Preta,Mais de 2 a 3 SM,52
+Gramame,Preta,Mais de 3 a 5 SM,22
+Gramame,Preta,Mais de 5 a 10 SM,7
+Gramame,Preta,Mais de 10 SM,1
+Gramame,Preta,Sem rendimento,570
+Gramame,Preta,Total,1602
+Gramame,Indígena,Até 1/2 SM,9
+Gramame,Indígena,Mais de 1/2 a 1 SM,22
+Gramame,Indígena,Mais de 1 a 2 SM,16
+Gramame,Indígena,Mais de 2 a 3 SM,5
+Gramame,Indígena,Mais de 3 a 5 SM,3
+Gramame,Indígena,Mais de 5 a 10 SM,0
+Gramame,Indígena,Mais de 10 SM,0
+Gramame,Indígena,Sem rendimento,25
+Gramame,Indígena,Total,80
+Gramame,Amarela,Até 1/2 SM,55
+Gramame,Amarela,Mais de 1/2 a 1 SM,105
+Gramame,Amarela,Mais de 1 a 2 SM,59
+Gramame,Amarela,Mais de 2 a 3 SM,9
+Gramame,Amarela,Mais de 3 a 5 SM,4
+Gramame,Amarela,Mais de 5 a 10 SM,0
+Gramame,Amarela,Mais de 10 SM,0
+Gramame,Amarela,Sem rendimento,132
+Gramame,Amarela,Total,364
+Gramame,Total,Até 1/2 SM,2129
+Gramame,Total,Mais de 1/2 a 1 SM,5489
+Gramame,Total,Mais de 1 a 2 SM,3311
+Gramame,Total,Mais de 2 a 3 SM,477
+Gramame,Total,Mais de 3 a 5 SM,201
+Gramame,Total,Mais de 5 a 10 SM,75
+Gramame,Total,Mais de 10 SM,24
+Gramame,Total,Sem rendimento,8074
+Gramame,Total,Total,19780
+Grotão,Branca,Até 1/2 SM,177
+Grotão,Branca,Mais de 1/2 a 1 SM,522
+Grotão,Branca,Mais de 1 a 2 SM,225
+Grotão,Branca,Mais de 2 a 3 SM,26
+Grotão,Branca,Mais de 3 a 5 SM,10
+Grotão,Branca,Mais de 5 a 10 SM,7
+Grotão,Branca,Mais de 10 SM,1
+Grotão,Branca,Sem rendimento,648
+Grotão,Branca,Total,1616
+Grotão,Parda,Até 1/2 SM,362
+Grotão,Parda,Mais de 1/2 a 1 SM,1026
+Grotão,Parda,Mais de 1 a 2 SM,350
+Grotão,Parda,Mais de 2 a 3 SM,42
+Grotão,Parda,Mais de 3 a 5 SM,21
+Grotão,Parda,Mais de 5 a 10 SM,6
+Grotão,Parda,Mais de 10 SM,1
+Grotão,Parda,Sem rendimento,1243
+Grotão,Parda,Total,3051
+Grotão,Preta,Até 1/2 SM,49
+Grotão,Preta,Mais de 1/2 a 1 SM,144
+Grotão,Preta,Mais de 1 a 2 SM,69
+Grotão,Preta,Mais de 2 a 3 SM,8
+Grotão,Preta,Mais de 3 a 5 SM,1
+Grotão,Preta,Mais de 5 a 10 SM,0
+Grotão,Preta,Mais de 10 SM,1
+Grotão,Preta,Sem rendimento,155
+Grotão,Preta,Total,427
+Grotão,Indígena,Até 1/2 SM,3
+Grotão,Indígena,Mais de 1/2 a 1 SM,1
+Grotão,Indígena,Mais de 1 a 2 SM,3
+Grotão,Indígena,Mais de 2 a 3 SM,0
+Grotão,Indígena,Mais de 3 a 5 SM,0
+Grotão,Indígena,Mais de 5 a 10 SM,0
+Grotão,Indígena,Mais de 10 SM,0
+Grotão,Indígena,Sem rendimento,1
+Grotão,Indígena,Total,8
+Grotão,Amarela,Até 1/2 SM,10
+Grotão,Amarela,Mais de 1/2 a 1 SM,37
+Grotão,Amarela,Mais de 1 a 2 SM,21
+Grotão,Amarela,Mais de 2 a 3 SM,6
+Grotão,Amarela,Mais de 3 a 5 SM,0
+Grotão,Amarela,Mais de 5 a 10 SM,0
+Grotão,Amarela,Mais de 10 SM,0
+Grotão,Amarela,Sem rendimento,60
+Grotão,Amarela,Total,134
+Grotão,Total,Até 1/2 SM,601
+Grotão,Total,Mais de 1/2 a 1 SM,1730
+Grotão,Total,Mais de 1 a 2 SM,668
+Grotão,Total,Mais de 2 a 3 SM,82
+Grotão,Total,Mais de 3 a 5 SM,32
+Grotão,Total,Mais de 5 a 10 SM,13
+Grotão,Total,Mais de 10 SM,3
+Grotão,Total,Sem rendimento,2107
+Grotão,Total,Total,5236
+Ilha do Bispo,Branca,Até 1/2 SM,133
+Ilha do Bispo,Branca,Mais de 1/2 a 1 SM,493
+Ilha do Bispo,Branca,Mais de 1 a 2 SM,190
+Ilha do Bispo,Branca,Mais de 2 a 3 SM,35
+Ilha do Bispo,Branca,Mais de 3 a 5 SM,16
+Ilha do Bispo,Branca,Mais de 5 a 10 SM,10
+Ilha do Bispo,Branca,Mais de 10 SM,1
+Ilha do Bispo,Branca,Sem rendimento,1027
+Ilha do Bispo,Branca,Total,1905
+Ilha do Bispo,Parda,Até 1/2 SM,317
+Ilha do Bispo,Parda,Mais de 1/2 a 1 SM,1023
+Ilha do Bispo,Parda,Mais de 1 a 2 SM,310
+Ilha do Bispo,Parda,Mais de 2 a 3 SM,46
+Ilha do Bispo,Parda,Mais de 3 a 5 SM,22
+Ilha do Bispo,Parda,Mais de 5 a 10 SM,3
+Ilha do Bispo,Parda,Mais de 10 SM,3
+Ilha do Bispo,Parda,Sem rendimento,2023
+Ilha do Bispo,Parda,Total,3747
+Ilha do Bispo,Preta,Até 1/2 SM,75
+Ilha do Bispo,Preta,Mais de 1/2 a 1 SM,200
+Ilha do Bispo,Preta,Mais de 1 a 2 SM,74
+Ilha do Bispo,Preta,Mais de 2 a 3 SM,11
+Ilha do Bispo,Preta,Mais de 3 a 5 SM,11
+Ilha do Bispo,Preta,Mais de 5 a 10 SM,3
+Ilha do Bispo,Preta,Mais de 10 SM,1
+Ilha do Bispo,Preta,Sem rendimento,394
+Ilha do Bispo,Preta,Total,769
+Ilha do Bispo,Indígena,Até 1/2 SM,3
+Ilha do Bispo,Indígena,Mais de 1/2 a 1 SM,4
+Ilha do Bispo,Indígena,Mais de 1 a 2 SM,2
+Ilha do Bispo,Indígena,Mais de 2 a 3 SM,0
+Ilha do Bispo,Indígena,Mais de 3 a 5 SM,0
+Ilha do Bispo,Indígena,Mais de 5 a 10 SM,0
+Ilha do Bispo,Indígena,Mais de 10 SM,0
+Ilha do Bispo,Indígena,Sem rendimento,21
+Ilha do Bispo,Indígena,Total,30
+Ilha do Bispo,Amarela,Até 1/2 SM,9
+Ilha do Bispo,Amarela,Mais de 1/2 a 1 SM,26
+Ilha do Bispo,Amarela,Mais de 1 a 2 SM,6
+Ilha do Bispo,Amarela,Mais de 2 a 3 SM,1
+Ilha do Bispo,Amarela,Mais de 3 a 5 SM,0
+Ilha do Bispo,Amarela,Mais de 5 a 10 SM,0
+Ilha do Bispo,Amarela,Mais de 10 SM,0
+Ilha do Bispo,Amarela,Sem rendimento,68
+Ilha do Bispo,Amarela,Total,110
+Ilha do Bispo,Total,Até 1/2 SM,537
+Ilha do Bispo,Total,Mais de 1/2 a 1 SM,1746
+Ilha do Bispo,Total,Mais de 1 a 2 SM,582
+Ilha do Bispo,Total,Mais de 2 a 3 SM,93
+Ilha do Bispo,Total,Mais de 3 a 5 SM,49
+Ilha do Bispo,Total,Mais de 5 a 10 SM,16
+Ilha do Bispo,Total,Mais de 10 SM,5
+Ilha do Bispo,Total,Sem rendimento,3533
+Ilha do Bispo,Total,Total,6561
+Indústrias,Branca,Até 1/2 SM,177
+Indústrias,Branca,Mais de 1/2 a 1 SM,805
+Indústrias,Branca,Mais de 1 a 2 SM,387
+Indústrias,Branca,Mais de 2 a 3 SM,94
+Indústrias,Branca,Mais de 3 a 5 SM,63
+Indústrias,Branca,Mais de 5 a 10 SM,37
+Indústrias,Branca,Mais de 10 SM,5
+Indústrias,Branca,Sem rendimento,1157
+Indústrias,Branca,Total,2725
+Indústrias,Parda,Até 1/2 SM,274
+Indústrias,Parda,Mais de 1/2 a 1 SM,1122
+Indústrias,Parda,Mais de 1 a 2 SM,504
+Indústrias,Parda,Mais de 2 a 3 SM,108
+Indústrias,Parda,Mais de 3 a 5 SM,62
+Indústrias,Parda,Mais de 5 a 10 SM,18
+Indústrias,Parda,Mais de 10 SM,6
+Indústrias,Parda,Sem rendimento,1630
+Indústrias,Parda,Total,3724
+Indústrias,Preta,Até 1/2 SM,59
+Indústrias,Preta,Mais de 1/2 a 1 SM,232
+Indústrias,Preta,Mais de 1 a 2 SM,111
+Indústrias,Preta,Mais de 2 a 3 SM,22
+Indústrias,Preta,Mais de 3 a 5 SM,8
+Indústrias,Preta,Mais de 5 a 10 SM,4
+Indústrias,Preta,Mais de 10 SM,0
+Indústrias,Preta,Sem rendimento,263
+Indústrias,Preta,Total,699
+Indústrias,Indígena,Até 1/2 SM,2
+Indústrias,Indígena,Mais de 1/2 a 1 SM,4
+Indústrias,Indígena,Mais de 1 a 2 SM,3
+Indústrias,Indígena,Mais de 2 a 3 SM,0
+Indústrias,Indígena,Mais de 3 a 5 SM,0
+Indústrias,Indígena,Mais de 5 a 10 SM,1
+Indústrias,Indígena,Mais de 10 SM,0
+Indústrias,Indígena,Sem rendimento,6
+Indústrias,Indígena,Total,16
+Indústrias,Amarela,Até 1/2 SM,14
+Indústrias,Amarela,Mais de 1/2 a 1 SM,47
+Indústrias,Amarela,Mais de 1 a 2 SM,27
+Indústrias,Amarela,Mais de 2 a 3 SM,6
+Indústrias,Amarela,Mais de 3 a 5 SM,5
+Indústrias,Amarela,Mais de 5 a 10 SM,1
+Indústrias,Amarela,Mais de 10 SM,0
+Indústrias,Amarela,Sem rendimento,63
+Indústrias,Amarela,Total,163
+Indústrias,Total,Até 1/2 SM,526
+Indústrias,Total,Mais de 1/2 a 1 SM,2210
+Indústrias,Total,Mais de 1 a 2 SM,1032
+Indústrias,Total,Mais de 2 a 3 SM,230
+Indústrias,Total,Mais de 3 a 5 SM,138
+Indústrias,Total,Mais de 5 a 10 SM,61
+Indústrias,Total,Mais de 10 SM,11
+Indústrias,Total,Sem rendimento,3119
+Indústrias,Total,Total,7327
+Ipês,Branca,Até 1/2 SM,104
+Ipês,Branca,Mais de 1/2 a 1 SM,656
+Ipês,Branca,Mais de 1 a 2 SM,521
+Ipês,Branca,Mais de 2 a 3 SM,232
+Ipês,Branca,Mais de 3 a 5 SM,291
+Ipês,Branca,Mais de 5 a 10 SM,261
+Ipês,Branca,Mais de 10 SM,88
+Ipês,Branca,Sem rendimento,1230
+Ipês,Branca,Total,3383
+Ipês,Parda,Até 1/2 SM,255
+Ipês,Parda,Mais de 1/2 a 1 SM,1000
+Ipês,Parda,Mais de 1 a 2 SM,522
+Ipês,Parda,Mais de 2 a 3 SM,192
+Ipês,Parda,Mais de 3 a 5 SM,204
+Ipês,Parda,Mais de 5 a 10 SM,148
+Ipês,Parda,Mais de 10 SM,41
+Ipês,Parda,Sem rendimento,1453
+Ipês,Parda,Total,3815
+Ipês,Preta,Até 1/2 SM,29
+Ipês,Preta,Mais de 1/2 a 1 SM,146
+Ipês,Preta,Mais de 1 a 2 SM,55
+Ipês,Preta,Mais de 2 a 3 SM,17
+Ipês,Preta,Mais de 3 a 5 SM,12
+Ipês,Preta,Mais de 5 a 10 SM,7
+Ipês,Preta,Mais de 10 SM,4
+Ipês,Preta,Sem rendimento,118
+Ipês,Preta,Total,388
+Ipês,Indígena,Até 1/2 SM,3
+Ipês,Indígena,Mais de 1/2 a 1 SM,2
+Ipês,Indígena,Mais de 1 a 2 SM,0
+Ipês,Indígena,Mais de 2 a 3 SM,2
+Ipês,Indígena,Mais de 3 a 5 SM,0
+Ipês,Indígena,Mais de 5 a 10 SM,1
+Ipês,Indígena,Mais de 10 SM,1
+Ipês,Indígena,Sem rendimento,3
+Ipês,Indígena,Total,12
+Ipês,Amarela,Até 1/2 SM,12
+Ipês,Amarela,Mais de 1/2 a 1 SM,51
+Ipês,Amarela,Mais de 1 a 2 SM,23
+Ipês,Amarela,Mais de 2 a 3 SM,5
+Ipês,Amarela,Mais de 3 a 5 SM,5
+Ipês,Amarela,Mais de 5 a 10 SM,5
+Ipês,Amarela,Mais de 10 SM,1
+Ipês,Amarela,Sem rendimento,51
+Ipês,Amarela,Total,153
+Ipês,Total,Até 1/2 SM,403
+Ipês,Total,Mais de 1/2 a 1 SM,1855
+Ipês,Total,Mais de 1 a 2 SM,1121
+Ipês,Total,Mais de 2 a 3 SM,448
+Ipês,Total,Mais de 3 a 5 SM,512
+Ipês,Total,Mais de 5 a 10 SM,422
+Ipês,Total,Mais de 10 SM,135
+Ipês,Total,Sem rendimento,2855
+Ipês,Total,Total,7751
+Jaguaribe,Branca,Até 1/2 SM,141
+Jaguaribe,Branca,Mais de 1/2 a 1 SM,1262
+Jaguaribe,Branca,Mais de 1 a 2 SM,1158
+Jaguaribe,Branca,Mais de 2 a 3 SM,571
+Jaguaribe,Branca,Mais de 3 a 5 SM,544
+Jaguaribe,Branca,Mais de 5 a 10 SM,490
+Jaguaribe,Branca,Mais de 10 SM,143
+Jaguaribe,Branca,Sem rendimento,2048
+Jaguaribe,Branca,Total,6357
+Jaguaribe,Parda,Até 1/2 SM,254
+Jaguaribe,Parda,Mais de 1/2 a 1 SM,1436
+Jaguaribe,Parda,Mais de 1 a 2 SM,1010
+Jaguaribe,Parda,Mais de 2 a 3 SM,412
+Jaguaribe,Parda,Mais de 3 a 5 SM,422
+Jaguaribe,Parda,Mais de 5 a 10 SM,345
+Jaguaribe,Parda,Mais de 10 SM,102
+Jaguaribe,Parda,Sem rendimento,1956
+Jaguaribe,Parda,Total,5937
+Jaguaribe,Preta,Até 1/2 SM,31
+Jaguaribe,Preta,Mais de 1/2 a 1 SM,163
+Jaguaribe,Preta,Mais de 1 a 2 SM,127
+Jaguaribe,Preta,Mais de 2 a 3 SM,48
+Jaguaribe,Preta,Mais de 3 a 5 SM,36
+Jaguaribe,Preta,Mais de 5 a 10 SM,25
+Jaguaribe,Preta,Mais de 10 SM,10
+Jaguaribe,Preta,Sem rendimento,149
+Jaguaribe,Preta,Total,589
+Jaguaribe,Indígena,Até 1/2 SM,1
+Jaguaribe,Indígena,Mais de 1/2 a 1 SM,12
+Jaguaribe,Indígena,Mais de 1 a 2 SM,6
+Jaguaribe,Indígena,Mais de 2 a 3 SM,6
+Jaguaribe,Indígena,Mais de 3 a 5 SM,6
+Jaguaribe,Indígena,Mais de 5 a 10 SM,4
+Jaguaribe,Indígena,Mais de 10 SM,0
+Jaguaribe,Indígena,Sem rendimento,24
+Jaguaribe,Indígena,Total,59
+Jaguaribe,Amarela,Até 1/2 SM,6
+Jaguaribe,Amarela,Mais de 1/2 a 1 SM,25
+Jaguaribe,Amarela,Mais de 1 a 2 SM,35
+Jaguaribe,Amarela,Mais de 2 a 3 SM,15
+Jaguaribe,Amarela,Mais de 3 a 5 SM,16
+Jaguaribe,Amarela,Mais de 5 a 10 SM,13
+Jaguaribe,Amarela,Mais de 10 SM,0
+Jaguaribe,Amarela,Sem rendimento,51
+Jaguaribe,Amarela,Total,161
+Jaguaribe,Total,Até 1/2 SM,433
+Jaguaribe,Total,Mais de 1/2 a 1 SM,2898
+Jaguaribe,Total,Mais de 1 a 2 SM,2336
+Jaguaribe,Total,Mais de 2 a 3 SM,1052
+Jaguaribe,Total,Mais de 3 a 5 SM,1024
+Jaguaribe,Total,Mais de 5 a 10 SM,877
+Jaguaribe,Total,Mais de 10 SM,255
+Jaguaribe,Total,Sem rendimento,4228
+Jaguaribe,Total,Total,13103
+Jardim Cidade Universitária,Branca,Até 1/2 SM,99
+Jardim Cidade Universitária,Branca,Mais de 1/2 a 1 SM,1246
+Jardim Cidade Universitária,Branca,Mais de 1 a 2 SM,1642
+Jardim Cidade Universitária,Branca,Mais de 2 a 3 SM,976
+Jardim Cidade Universitária,Branca,Mais de 3 a 5 SM,1183
+Jardim Cidade Universitária,Branca,Mais de 5 a 10 SM,1127
+Jardim Cidade Universitária,Branca,Mais de 10 SM,334
+Jardim Cidade Universitária,Branca,Sem rendimento,3145
+Jardim Cidade Universitária,Branca,Total,9752
+Jardim Cidade Universitária,Parda,Até 1/2 SM,128
+Jardim Cidade Universitária,Parda,Mais de 1/2 a 1 SM,1004
+Jardim Cidade Universitária,Parda,Mais de 1 a 2 SM,1314
+Jardim Cidade Universitária,Parda,Mais de 2 a 3 SM,719
+Jardim Cidade Universitária,Parda,Mais de 3 a 5 SM,942
+Jardim Cidade Universitária,Parda,Mais de 5 a 10 SM,730
+Jardim Cidade Universitária,Parda,Mais de 10 SM,228
+Jardim Cidade Universitária,Parda,Sem rendimento,2551
+Jardim Cidade Universitária,Parda,Total,7616
+Jardim Cidade Universitária,Preta,Até 1/2 SM,24
+Jardim Cidade Universitária,Preta,Mais de 1/2 a 1 SM,184
+Jardim Cidade Universitária,Preta,Mais de 1 a 2 SM,204
+Jardim Cidade Universitária,Preta,Mais de 2 a 3 SM,117
+Jardim Cidade Universitária,Preta,Mais de 3 a 5 SM,132
+Jardim Cidade Universitária,Preta,Mais de 5 a 10 SM,108
+Jardim Cidade Universitária,Preta,Mais de 10 SM,31
+Jardim Cidade Universitária,Preta,Sem rendimento,270
+Jardim Cidade Universitária,Preta,Total,1070
+Jardim Cidade Universitária,Indígena,Até 1/2 SM,2
+Jardim Cidade Universitária,Indígena,Mais de 1/2 a 1 SM,11
+Jardim Cidade Universitária,Indígena,Mais de 1 a 2 SM,4
+Jardim Cidade Universitária,Indígena,Mais de 2 a 3 SM,9
+Jardim Cidade Universitária,Indígena,Mais de 3 a 5 SM,12
+Jardim Cidade Universitária,Indígena,Mais de 5 a 10 SM,4
+Jardim Cidade Universitária,Indígena,Mais de 10 SM,6
+Jardim Cidade Universitária,Indígena,Sem rendimento,32
+Jardim Cidade Universitária,Indígena,Total,80
+Jardim Cidade Universitária,Amarela,Até 1/2 SM,6
+Jardim Cidade Universitária,Amarela,Mais de 1/2 a 1 SM,34
+Jardim Cidade Universitária,Amarela,Mais de 1 a 2 SM,76
+Jardim Cidade Universitária,Amarela,Mais de 2 a 3 SM,43
+Jardim Cidade Universitária,Amarela,Mais de 3 a 5 SM,37
+Jardim Cidade Universitária,Amarela,Mais de 5 a 10 SM,40
+Jardim Cidade Universitária,Amarela,Mais de 10 SM,8
+Jardim Cidade Universitária,Amarela,Sem rendimento,109
+Jardim Cidade Universitária,Amarela,Total,353
+Jardim Cidade Universitária,Total,Até 1/2 SM,259
+Jardim Cidade Universitária,Total,Mais de 1/2 a 1 SM,2479
+Jardim Cidade Universitária,Total,Mais de 1 a 2 SM,3240
+Jardim Cidade Universitária,Total,Mais de 2 a 3 SM,1864
+Jardim Cidade Universitária,Total,Mais de 3 a 5 SM,2306
+Jardim Cidade Universitária,Total,Mais de 5 a 10 SM,2009
+Jardim Cidade Universitária,Total,Mais de 10 SM,607
+Jardim Cidade Universitária,Total,Sem rendimento,6107
+Jardim Cidade Universitária,Total,Total,18871
+Jardim Oceania,Branca,Até 1/2 SM,32
+Jardim Oceania,Branca,Mais de 1/2 a 1 SM,629
+Jardim Oceania,Branca,Mais de 1 a 2 SM,887
+Jardim Oceania,Branca,Mais de 2 a 3 SM,705
+Jardim Oceania,Branca,Mais de 3 a 5 SM,1010
+Jardim Oceania,Branca,Mais de 5 a 10 SM,1834
+Jardim Oceania,Branca,Mais de 10 SM,1400
+Jardim Oceania,Branca,Sem rendimento,2892
+Jardim Oceania,Branca,Total,9389
+Jardim Oceania,Parda,Até 1/2 SM,23
+Jardim Oceania,Parda,Mais de 1/2 a 1 SM,451
+Jardim Oceania,Parda,Mais de 1 a 2 SM,423
+Jardim Oceania,Parda,Mais de 2 a 3 SM,288
+Jardim Oceania,Parda,Mais de 3 a 5 SM,437
+Jardim Oceania,Parda,Mais de 5 a 10 SM,680
+Jardim Oceania,Parda,Mais de 10 SM,426
+Jardim Oceania,Parda,Sem rendimento,1169
+Jardim Oceania,Parda,Total,3897
+Jardim Oceania,Preta,Até 1/2 SM,4
+Jardim Oceania,Preta,Mais de 1/2 a 1 SM,55
+Jardim Oceania,Preta,Mais de 1 a 2 SM,40
+Jardim Oceania,Preta,Mais de 2 a 3 SM,27
+Jardim Oceania,Preta,Mais de 3 a 5 SM,41
+Jardim Oceania,Preta,Mais de 5 a 10 SM,43
+Jardim Oceania,Preta,Mais de 10 SM,28
+Jardim Oceania,Preta,Sem rendimento,76
+Jardim Oceania,Preta,Total,314
+Jardim Oceania,Indígena,Até 1/2 SM,0
+Jardim Oceania,Indígena,Mais de 1/2 a 1 SM,3
+Jardim Oceania,Indígena,Mais de 1 a 2 SM,2
+Jardim Oceania,Indígena,Mais de 2 a 3 SM,1
+Jardim Oceania,Indígena,Mais de 3 a 5 SM,3
+Jardim Oceania,Indígena,Mais de 5 a 10 SM,3
+Jardim Oceania,Indígena,Mais de 10 SM,2
+Jardim Oceania,Indígena,Sem rendimento,10
+Jardim Oceania,Indígena,Total,24
+Jardim Oceania,Amarela,Até 1/2 SM,0
+Jardim Oceania,Amarela,Mais de 1/2 a 1 SM,15
+Jardim Oceania,Amarela,Mais de 1 a 2 SM,13
+Jardim Oceania,Amarela,Mais de 2 a 3 SM,14
+Jardim Oceania,Amarela,Mais de 3 a 5 SM,18
+Jardim Oceania,Amarela,Mais de 5 a 10 SM,31
+Jardim Oceania,Amarela,Mais de 10 SM,26
+Jardim Oceania,Amarela,Sem rendimento,53
+Jardim Oceania,Amarela,Total,170
+Jardim Oceania,Total,Até 1/2 SM,59
+Jardim Oceania,Total,Mais de 1/2 a 1 SM,1153
+Jardim Oceania,Total,Mais de 1 a 2 SM,1365
+Jardim Oceania,Total,Mais de 2 a 3 SM,1035
+Jardim Oceania,Total,Mais de 3 a 5 SM,1509
+Jardim Oceania,Total,Mais de 5 a 10 SM,2591
+Jardim Oceania,Total,Mais de 10 SM,1882
+Jardim Oceania,Total,Sem rendimento,4200
+Jardim Oceania,Total,Total,13794
+Jardim São Paulo,Branca,Até 1/2 SM,48
+Jardim São Paulo,Branca,Mais de 1/2 a 1 SM,291
+Jardim São Paulo,Branca,Mais de 1 a 2 SM,385
+Jardim São Paulo,Branca,Mais de 2 a 3 SM,223
+Jardim São Paulo,Branca,Mais de 3 a 5 SM,270
+Jardim São Paulo,Branca,Mais de 5 a 10 SM,251
+Jardim São Paulo,Branca,Mais de 10 SM,70
+Jardim São Paulo,Branca,Sem rendimento,646
+Jardim São Paulo,Branca,Total,2184
+Jardim São Paulo,Parda,Até 1/2 SM,29
+Jardim São Paulo,Parda,Mais de 1/2 a 1 SM,222
+Jardim São Paulo,Parda,Mais de 1 a 2 SM,237
+Jardim São Paulo,Parda,Mais de 2 a 3 SM,170
+Jardim São Paulo,Parda,Mais de 3 a 5 SM,162
+Jardim São Paulo,Parda,Mais de 5 a 10 SM,158
+Jardim São Paulo,Parda,Mais de 10 SM,38
+Jardim São Paulo,Parda,Sem rendimento,441
+Jardim São Paulo,Parda,Total,1457
+Jardim São Paulo,Preta,Até 1/2 SM,8
+Jardim São Paulo,Preta,Mais de 1/2 a 1 SM,65
+Jardim São Paulo,Preta,Mais de 1 a 2 SM,62
+Jardim São Paulo,Preta,Mais de 2 a 3 SM,34
+Jardim São Paulo,Preta,Mais de 3 a 5 SM,39
+Jardim São Paulo,Preta,Mais de 5 a 10 SM,32
+Jardim São Paulo,Preta,Mais de 10 SM,9
+Jardim São Paulo,Preta,Sem rendimento,80
+Jardim São Paulo,Preta,Total,329
+Jardim São Paulo,Indígena,Até 1/2 SM,3
+Jardim São Paulo,Indígena,Mais de 1/2 a 1 SM,9
+Jardim São Paulo,Indígena,Mais de 1 a 2 SM,6
+Jardim São Paulo,Indígena,Mais de 2 a 3 SM,7
+Jardim São Paulo,Indígena,Mais de 3 a 5 SM,3
+Jardim São Paulo,Indígena,Mais de 5 a 10 SM,3
+Jardim São Paulo,Indígena,Mais de 10 SM,0
+Jardim São Paulo,Indígena,Sem rendimento,14
+Jardim São Paulo,Indígena,Total,45
+Jardim São Paulo,Amarela,Até 1/2 SM,4
+Jardim São Paulo,Amarela,Mais de 1/2 a 1 SM,22
+Jardim São Paulo,Amarela,Mais de 1 a 2 SM,21
+Jardim São Paulo,Amarela,Mais de 2 a 3 SM,10
+Jardim São Paulo,Amarela,Mais de 3 a 5 SM,7
+Jardim São Paulo,Amarela,Mais de 5 a 10 SM,14
+Jardim São Paulo,Amarela,Mais de 10 SM,3
+Jardim São Paulo,Amarela,Sem rendimento,29
+Jardim São Paulo,Amarela,Total,110
+Jardim São Paulo,Total,Até 1/2 SM,92
+Jardim São Paulo,Total,Mais de 1/2 a 1 SM,609
+Jardim São Paulo,Total,Mais de 1 a 2 SM,711
+Jardim São Paulo,Total,Mais de 2 a 3 SM,444
+Jardim São Paulo,Total,Mais de 3 a 5 SM,481
+Jardim São Paulo,Total,Mais de 5 a 10 SM,458
+Jardim São Paulo,Total,Mais de 10 SM,120
+Jardim São Paulo,Total,Sem rendimento,1210
+Jardim São Paulo,Total,Total,4125
+Jardim Veneza,Branca,Até 1/2 SM,190
+Jardim Veneza,Branca,Mais de 1/2 a 1 SM,1133
+Jardim Veneza,Branca,Mais de 1 a 2 SM,493
+Jardim Veneza,Branca,Mais de 2 a 3 SM,99
+Jardim Veneza,Branca,Mais de 3 a 5 SM,29
+Jardim Veneza,Branca,Mais de 5 a 10 SM,21
+Jardim Veneza,Branca,Mais de 10 SM,5
+Jardim Veneza,Branca,Sem rendimento,1709
+Jardim Veneza,Branca,Total,3679
+Jardim Veneza,Parda,Até 1/2 SM,410
+Jardim Veneza,Parda,Mais de 1/2 a 1 SM,1725
+Jardim Veneza,Parda,Mais de 1 a 2 SM,713
+Jardim Veneza,Parda,Mais de 2 a 3 SM,131
+Jardim Veneza,Parda,Mais de 3 a 5 SM,57
+Jardim Veneza,Parda,Mais de 5 a 10 SM,14
+Jardim Veneza,Parda,Mais de 10 SM,1
+Jardim Veneza,Parda,Sem rendimento,2901
+Jardim Veneza,Parda,Total,5952
+Jardim Veneza,Preta,Até 1/2 SM,41
+Jardim Veneza,Preta,Mais de 1/2 a 1 SM,278
+Jardim Veneza,Preta,Mais de 1 a 2 SM,112
+Jardim Veneza,Preta,Mais de 2 a 3 SM,26
+Jardim Veneza,Preta,Mais de 3 a 5 SM,13
+Jardim Veneza,Preta,Mais de 5 a 10 SM,4
+Jardim Veneza,Preta,Mais de 10 SM,0
+Jardim Veneza,Preta,Sem rendimento,340
+Jardim Veneza,Preta,Total,814
+Jardim Veneza,Indígena,Até 1/2 SM,1
+Jardim Veneza,Indígena,Mais de 1/2 a 1 SM,3
+Jardim Veneza,Indígena,Mais de 1 a 2 SM,0
+Jardim Veneza,Indígena,Mais de 2 a 3 SM,1
+Jardim Veneza,Indígena,Mais de 3 a 5 SM,0
+Jardim Veneza,Indígena,Mais de 5 a 10 SM,0
+Jardim Veneza,Indígena,Mais de 10 SM,0
+Jardim Veneza,Indígena,Sem rendimento,1
+Jardim Veneza,Indígena,Total,6
+Jardim Veneza,Amarela,Até 1/2 SM,7
+Jardim Veneza,Amarela,Mais de 1/2 a 1 SM,34
+Jardim Veneza,Amarela,Mais de 1 a 2 SM,16
+Jardim Veneza,Amarela,Mais de 2 a 3 SM,1
+Jardim Veneza,Amarela,Mais de 3 a 5 SM,1
+Jardim Veneza,Amarela,Mais de 5 a 10 SM,1
+Jardim Veneza,Amarela,Mais de 10 SM,0
+Jardim Veneza,Amarela,Sem rendimento,66
+Jardim Veneza,Amarela,Total,126
+Jardim Veneza,Total,Até 1/2 SM,649
+Jardim Veneza,Total,Mais de 1/2 a 1 SM,3173
+Jardim Veneza,Total,Mais de 1 a 2 SM,1334
+Jardim Veneza,Total,Mais de 2 a 3 SM,258
+Jardim Veneza,Total,Mais de 3 a 5 SM,100
+Jardim Veneza,Total,Mais de 5 a 10 SM,40
+Jardim Veneza,Total,Mais de 10 SM,6
+Jardim Veneza,Total,Sem rendimento,5017
+Jardim Veneza,Total,Total,10577
+João Agripino,Branca,Até 1/2 SM,7
+João Agripino,Branca,Mais de 1/2 a 1 SM,104
+João Agripino,Branca,Mais de 1 a 2 SM,93
+João Agripino,Branca,Mais de 2 a 3 SM,39
+João Agripino,Branca,Mais de 3 a 5 SM,67
+João Agripino,Branca,Mais de 5 a 10 SM,59
+João Agripino,Branca,Mais de 10 SM,59
+João Agripino,Branca,Sem rendimento,202
+João Agripino,Branca,Total,630
+João Agripino,Parda,Até 1/2 SM,10
+João Agripino,Parda,Mais de 1/2 a 1 SM,73
+João Agripino,Parda,Mais de 1 a 2 SM,89
+João Agripino,Parda,Mais de 2 a 3 SM,27
+João Agripino,Parda,Mais de 3 a 5 SM,35
+João Agripino,Parda,Mais de 5 a 10 SM,27
+João Agripino,Parda,Mais de 10 SM,20
+João Agripino,Parda,Sem rendimento,109
+João Agripino,Parda,Total,390
+João Agripino,Preta,Até 1/2 SM,0
+João Agripino,Preta,Mais de 1/2 a 1 SM,3
+João Agripino,Preta,Mais de 1 a 2 SM,6
+João Agripino,Preta,Mais de 2 a 3 SM,3
+João Agripino,Preta,Mais de 3 a 5 SM,1
+João Agripino,Preta,Mais de 5 a 10 SM,5
+João Agripino,Preta,Mais de 10 SM,2
+João Agripino,Preta,Sem rendimento,3
+João Agripino,Preta,Total,23
+João Agripino,Indígena,Até 1/2 SM,0
+João Agripino,Indígena,Mais de 1/2 a 1 SM,0
+João Agripino,Indígena,Mais de 1 a 2 SM,0
+João Agripino,Indígena,Mais de 2 a 3 SM,0
+João Agripino,Indígena,Mais de 3 a 5 SM,0
+João Agripino,Indígena,Mais de 5 a 10 SM,0
+João Agripino,Indígena,Mais de 10 SM,0
+João Agripino,Indígena,Sem rendimento,1
+João Agripino,Indígena,Total,1
+João Agripino,Amarela,Até 1/2 SM,0
+João Agripino,Amarela,Mais de 1/2 a 1 SM,1
+João Agripino,Amarela,Mais de 1 a 2 SM,3
+João Agripino,Amarela,Mais de 2 a 3 SM,0
+João Agripino,Amarela,Mais de 3 a 5 SM,2
+João Agripino,Amarela,Mais de 5 a 10 SM,1
+João Agripino,Amarela,Mais de 10 SM,0
+João Agripino,Amarela,Sem rendimento,6
+João Agripino,Amarela,Total,13
+João Agripino,Total,Até 1/2 SM,17
+João Agripino,Total,Mais de 1/2 a 1 SM,181
+João Agripino,Total,Mais de 1 a 2 SM,191
+João Agripino,Total,Mais de 2 a 3 SM,69
+João Agripino,Total,Mais de 3 a 5 SM,105
+João Agripino,Total,Mais de 5 a 10 SM,92
+João Agripino,Total,Mais de 10 SM,81
+João Agripino,Total,Sem rendimento,321
+João Agripino,Total,Total,1057
+João Paulo II,Branca,Até 1/2 SM,220
+João Paulo II,Branca,Mais de 1/2 a 1 SM,1026
+João Paulo II,Branca,Mais de 1 a 2 SM,868
+João Paulo II,Branca,Mais de 2 a 3 SM,270
+João Paulo II,Branca,Mais de 3 a 5 SM,184
+João Paulo II,Branca,Mais de 5 a 10 SM,113
+João Paulo II,Branca,Mais de 10 SM,22
+João Paulo II,Branca,Sem rendimento,1812
+João Paulo II,Branca,Total,4515
+João Paulo II,Parda,Até 1/2 SM,442
+João Paulo II,Parda,Mais de 1/2 a 1 SM,1792
+João Paulo II,Parda,Mais de 1 a 2 SM,1134
+João Paulo II,Parda,Mais de 2 a 3 SM,302
+João Paulo II,Parda,Mais de 3 a 5 SM,207
+João Paulo II,Parda,Mais de 5 a 10 SM,98
+João Paulo II,Parda,Mais de 10 SM,27
+João Paulo II,Parda,Sem rendimento,2867
+João Paulo II,Parda,Total,6869
+João Paulo II,Preta,Até 1/2 SM,112
+João Paulo II,Preta,Mais de 1/2 a 1 SM,330
+João Paulo II,Preta,Mais de 1 a 2 SM,201
+João Paulo II,Preta,Mais de 2 a 3 SM,50
+João Paulo II,Preta,Mais de 3 a 5 SM,39
+João Paulo II,Preta,Mais de 5 a 10 SM,8
+João Paulo II,Preta,Mais de 10 SM,0
+João Paulo II,Preta,Sem rendimento,443
+João Paulo II,Preta,Total,1183
+João Paulo II,Indígena,Até 1/2 SM,0
+João Paulo II,Indígena,Mais de 1/2 a 1 SM,1
+João Paulo II,Indígena,Mais de 1 a 2 SM,3
+João Paulo II,Indígena,Mais de 2 a 3 SM,1
+João Paulo II,Indígena,Mais de 3 a 5 SM,0
+João Paulo II,Indígena,Mais de 5 a 10 SM,2
+João Paulo II,Indígena,Mais de 10 SM,0
+João Paulo II,Indígena,Sem rendimento,3
+João Paulo II,Indígena,Total,10
+João Paulo II,Amarela,Até 1/2 SM,9
+João Paulo II,Amarela,Mais de 1/2 a 1 SM,43
+João Paulo II,Amarela,Mais de 1 a 2 SM,29
+João Paulo II,Amarela,Mais de 2 a 3 SM,5
+João Paulo II,Amarela,Mais de 3 a 5 SM,6
+João Paulo II,Amarela,Mais de 5 a 10 SM,3
+João Paulo II,Amarela,Mais de 10 SM,0
+João Paulo II,Amarela,Sem rendimento,91
+João Paulo II,Amarela,Total,186
+João Paulo II,Total,Até 1/2 SM,783
+João Paulo II,Total,Mais de 1/2 a 1 SM,3192
+João Paulo II,Total,Mais de 1 a 2 SM,2235
+João Paulo II,Total,Mais de 2 a 3 SM,628
+João Paulo II,Total,Mais de 3 a 5 SM,436
+João Paulo II,Total,Mais de 5 a 10 SM,224
+João Paulo II,Total,Mais de 10 SM,49
+João Paulo II,Total,Sem rendimento,5216
+João Paulo II,Total,Total,12763
+José Américo,Branca,Até 1/2 SM,211
+José Américo,Branca,Mais de 1/2 a 1 SM,1334
+José Américo,Branca,Mais de 1 a 2 SM,1106
+José Américo,Branca,Mais de 2 a 3 SM,406
+José Américo,Branca,Mais de 3 a 5 SM,412
+José Américo,Branca,Mais de 5 a 10 SM,252
+José Américo,Branca,Mais de 10 SM,54
+José Américo,Branca,Sem rendimento,2084
+José Américo,Branca,Total,5859
+José Américo,Parda,Até 1/2 SM,353
+José Américo,Parda,Mais de 1/2 a 1 SM,1591
+José Américo,Parda,Mais de 1 a 2 SM,1132
+José Américo,Parda,Mais de 2 a 3 SM,373
+José Américo,Parda,Mais de 3 a 5 SM,340
+José Américo,Parda,Mais de 5 a 10 SM,228
+José Américo,Parda,Mais de 10 SM,36
+José Américo,Parda,Sem rendimento,2533
+José Américo,Parda,Total,6586
+José Américo,Preta,Até 1/2 SM,46
+José Américo,Preta,Mais de 1/2 a 1 SM,254
+José Américo,Preta,Mais de 1 a 2 SM,172
+José Américo,Preta,Mais de 2 a 3 SM,56
+José Américo,Preta,Mais de 3 a 5 SM,58
+José Américo,Preta,Mais de 5 a 10 SM,22
+José Américo,Preta,Mais de 10 SM,4
+José Américo,Preta,Sem rendimento,311
+José Américo,Preta,Total,923
+José Américo,Indígena,Até 1/2 SM,9
+José Américo,Indígena,Mais de 1/2 a 1 SM,17
+José Américo,Indígena,Mais de 1 a 2 SM,8
+José Américo,Indígena,Mais de 2 a 3 SM,4
+José Américo,Indígena,Mais de 3 a 5 SM,4
+José Américo,Indígena,Mais de 5 a 10 SM,1
+José Américo,Indígena,Mais de 10 SM,1
+José Américo,Indígena,Sem rendimento,16
+José Américo,Indígena,Total,60
+José Américo,Amarela,Até 1/2 SM,13
+José Américo,Amarela,Mais de 1/2 a 1 SM,37
+José Américo,Amarela,Mais de 1 a 2 SM,36
+José Américo,Amarela,Mais de 2 a 3 SM,14
+José Américo,Amarela,Mais de 3 a 5 SM,6
+José Américo,Amarela,Mais de 5 a 10 SM,8
+José Américo,Amarela,Mais de 10 SM,0
+José Américo,Amarela,Sem rendimento,96
+José Américo,Amarela,Total,210
+José Américo,Total,Até 1/2 SM,632
+José Américo,Total,Mais de 1/2 a 1 SM,3233
+José Américo,Total,Mais de 1 a 2 SM,2454
+José Américo,Total,Mais de 2 a 3 SM,853
+José Américo,Total,Mais de 3 a 5 SM,820
+José Américo,Total,Mais de 5 a 10 SM,511
+José Américo,Total,Mais de 10 SM,95
+José Américo,Total,Sem rendimento,5040
+José Américo,Total,Total,13638
+Manaíra,Branca,Até 1/2 SM,80
+Manaíra,Branca,Mais de 1/2 a 1 SM,1079
+Manaíra,Branca,Mais de 1 a 2 SM,1415
+Manaíra,Branca,Mais de 2 a 3 SM,969
+Manaíra,Branca,Mais de 3 a 5 SM,1589
+Manaíra,Branca,Mais de 5 a 10 SM,2958
+Manaíra,Branca,Mais de 10 SM,2837
+Manaíra,Branca,Sem rendimento,4699
+Manaíra,Branca,Total,15626
+Manaíra,Parda,Até 1/2 SM,109
+Manaíra,Parda,Mais de 1/2 a 1 SM,1103
+Manaíra,Parda,Mais de 1 a 2 SM,790
+Manaíra,Parda,Mais de 2 a 3 SM,410
+Manaíra,Parda,Mais de 3 a 5 SM,631
+Manaíra,Parda,Mais de 5 a 10 SM,1077
+Manaíra,Parda,Mais de 10 SM,869
+Manaíra,Parda,Sem rendimento,2210
+Manaíra,Parda,Total,7199
+Manaíra,Preta,Até 1/2 SM,10
+Manaíra,Preta,Mais de 1/2 a 1 SM,177
+Manaíra,Preta,Mais de 1 a 2 SM,120
+Manaíra,Preta,Mais de 2 a 3 SM,43
+Manaíra,Preta,Mais de 3 a 5 SM,64
+Manaíra,Preta,Mais de 5 a 10 SM,75
+Manaíra,Preta,Mais de 10 SM,61
+Manaíra,Preta,Sem rendimento,186
+Manaíra,Preta,Total,736
+Manaíra,Indígena,Até 1/2 SM,2
+Manaíra,Indígena,Mais de 1/2 a 1 SM,14
+Manaíra,Indígena,Mais de 1 a 2 SM,5
+Manaíra,Indígena,Mais de 2 a 3 SM,4
+Manaíra,Indígena,Mais de 3 a 5 SM,2
+Manaíra,Indígena,Mais de 5 a 10 SM,4
+Manaíra,Indígena,Mais de 10 SM,5
+Manaíra,Indígena,Sem rendimento,22
+Manaíra,Indígena,Total,58
+Manaíra,Amarela,Até 1/2 SM,5
+Manaíra,Amarela,Mais de 1/2 a 1 SM,37
+Manaíra,Amarela,Mais de 1 a 2 SM,36
+Manaíra,Amarela,Mais de 2 a 3 SM,13
+Manaíra,Amarela,Mais de 3 a 5 SM,23
+Manaíra,Amarela,Mais de 5 a 10 SM,43
+Manaíra,Amarela,Mais de 10 SM,28
+Manaíra,Amarela,Sem rendimento,75
+Manaíra,Amarela,Total,260
+Manaíra,Total,Até 1/2 SM,206
+Manaíra,Total,Mais de 1/2 a 1 SM,2410
+Manaíra,Total,Mais de 1 a 2 SM,2366
+Manaíra,Total,Mais de 2 a 3 SM,1439
+Manaíra,Total,Mais de 3 a 5 SM,2309
+Manaíra,Total,Mais de 5 a 10 SM,4157
+Manaíra,Total,Mais de 10 SM,3800
+Manaíra,Total,Sem rendimento,7192
+Manaíra,Total,Total,23879
+Mandacarú,Branca,Até 1/2 SM,187
+Mandacarú,Branca,Mais de 1/2 a 1 SM,1161
+Mandacarú,Branca,Mais de 1 a 2 SM,708
+Mandacarú,Branca,Mais de 2 a 3 SM,163
+Mandacarú,Branca,Mais de 3 a 5 SM,110
+Mandacarú,Branca,Mais de 5 a 10 SM,69
+Mandacarú,Branca,Mais de 10 SM,33
+Mandacarú,Branca,Sem rendimento,1441
+Mandacarú,Branca,Total,3872
+Mandacarú,Parda,Até 1/2 SM,350
+Mandacarú,Parda,Mais de 1/2 a 1 SM,1803
+Mandacarú,Parda,Mais de 1 a 2 SM,814
+Mandacarú,Parda,Mais de 2 a 3 SM,139
+Mandacarú,Parda,Mais de 3 a 5 SM,114
+Mandacarú,Parda,Mais de 5 a 10 SM,54
+Mandacarú,Parda,Mais de 10 SM,17
+Mandacarú,Parda,Sem rendimento,2078
+Mandacarú,Parda,Total,5369
+Mandacarú,Preta,Até 1/2 SM,81
+Mandacarú,Preta,Mais de 1/2 a 1 SM,299
+Mandacarú,Preta,Mais de 1 a 2 SM,137
+Mandacarú,Preta,Mais de 2 a 3 SM,35
+Mandacarú,Preta,Mais de 3 a 5 SM,21
+Mandacarú,Preta,Mais de 5 a 10 SM,11
+Mandacarú,Preta,Mais de 10 SM,1
+Mandacarú,Preta,Sem rendimento,291
+Mandacarú,Preta,Total,876
+Mandacarú,Indígena,Até 1/2 SM,9
+Mandacarú,Indígena,Mais de 1/2 a 1 SM,17
+Mandacarú,Indígena,Mais de 1 a 2 SM,12
+Mandacarú,Indígena,Mais de 2 a 3 SM,0
+Mandacarú,Indígena,Mais de 3 a 5 SM,3
+Mandacarú,Indígena,Mais de 5 a 10 SM,0
+Mandacarú,Indígena,Mais de 10 SM,0
+Mandacarú,Indígena,Sem rendimento,9
+Mandacarú,Indígena,Total,50
+Mandacarú,Amarela,Até 1/2 SM,20
+Mandacarú,Amarela,Mais de 1/2 a 1 SM,125
+Mandacarú,Amarela,Mais de 1 a 2 SM,80
+Mandacarú,Amarela,Mais de 2 a 3 SM,25
+Mandacarú,Amarela,Mais de 3 a 5 SM,13
+Mandacarú,Amarela,Mais de 5 a 10 SM,7
+Mandacarú,Amarela,Mais de 10 SM,0
+Mandacarú,Amarela,Sem rendimento,156
+Mandacarú,Amarela,Total,426
+Mandacarú,Total,Até 1/2 SM,647
+Mandacarú,Total,Mais de 1/2 a 1 SM,3405
+Mandacarú,Total,Mais de 1 a 2 SM,1751
+Mandacarú,Total,Mais de 2 a 3 SM,362
+Mandacarú,Total,Mais de 3 a 5 SM,261
+Mandacarú,Total,Mais de 5 a 10 SM,141
+Mandacarú,Total,Mais de 10 SM,51
+Mandacarú,Total,Sem rendimento,3975
+Mandacarú,Total,Total,10593
+Mangabeira,Branca,Até 1/2 SM,1110
+Mangabeira,Branca,Mais de 1/2 a 1 SM,6716
+Mangabeira,Branca,Mais de 1 a 2 SM,5710
+Mangabeira,Branca,Mais de 2 a 3 SM,1740
+Mangabeira,Branca,Mais de 3 a 5 SM,1201
+Mangabeira,Branca,Mais de 5 a 10 SM,565
+Mangabeira,Branca,Mais de 10 SM,102
+Mangabeira,Branca,Sem rendimento,9302
+Mangabeira,Branca,Total,26446
+Mangabeira,Parda,Até 1/2 SM,1656
+Mangabeira,Parda,Mais de 1/2 a 1 SM,8345
+Mangabeira,Parda,Mais de 1 a 2 SM,6439
+Mangabeira,Parda,Mais de 2 a 3 SM,1738
+Mangabeira,Parda,Mais de 3 a 5 SM,1195
+Mangabeira,Parda,Mais de 5 a 10 SM,509
+Mangabeira,Parda,Mais de 10 SM,68
+Mangabeira,Parda,Sem rendimento,12430
+Mangabeira,Parda,Total,32380
+Mangabeira,Preta,Até 1/2 SM,309
+Mangabeira,Preta,Mais de 1/2 a 1 SM,1543
+Mangabeira,Preta,Mais de 1 a 2 SM,1218
+Mangabeira,Preta,Mais de 2 a 3 SM,326
+Mangabeira,Preta,Mais de 3 a 5 SM,239
+Mangabeira,Preta,Mais de 5 a 10 SM,83
+Mangabeira,Preta,Mais de 10 SM,13
+Mangabeira,Preta,Sem rendimento,1826
+Mangabeira,Preta,Total,5557
+Mangabeira,Indígena,Até 1/2 SM,19
+Mangabeira,Indígena,Mais de 1/2 a 1 SM,74
+Mangabeira,Indígena,Mais de 1 a 2 SM,69
+Mangabeira,Indígena,Mais de 2 a 3 SM,17
+Mangabeira,Indígena,Mais de 3 a 5 SM,7
+Mangabeira,Indígena,Mais de 5 a 10 SM,7
+Mangabeira,Indígena,Mais de 10 SM,0
+Mangabeira,Indígena,Sem rendimento,109
+Mangabeira,Indígena,Total,302
+Mangabeira,Amarela,Até 1/2 SM,71
+Mangabeira,Amarela,Mais de 1/2 a 1 SM,302
+Mangabeira,Amarela,Mais de 1 a 2 SM,223
+Mangabeira,Amarela,Mais de 2 a 3 SM,67
+Mangabeira,Amarela,Mais de 3 a 5 SM,34
+Mangabeira,Amarela,Mais de 5 a 10 SM,11
+Mangabeira,Amarela,Mais de 10 SM,5
+Mangabeira,Amarela,Sem rendimento,355
+Mangabeira,Amarela,Total,1068
+Mangabeira,Total,Até 1/2 SM,3165
+Mangabeira,Total,Mais de 1/2 a 1 SM,16980
+Mangabeira,Total,Mais de 1 a 2 SM,13659
+Mangabeira,Total,Mais de 2 a 3 SM,3888
+Mangabeira,Total,Mais de 3 a 5 SM,2676
+Mangabeira,Total,Mais de 5 a 10 SM,1175
+Mangabeira,Total,Mais de 10 SM,188
+Mangabeira,Total,Sem rendimento,24022
+Mangabeira,Total,Total,65753
+Miramar,Branca,Até 1/2 SM,37
+Miramar,Branca,Mais de 1/2 a 1 SM,484
+Miramar,Branca,Mais de 1 a 2 SM,466
+Miramar,Branca,Mais de 2 a 3 SM,274
+Miramar,Branca,Mais de 3 a 5 SM,436
+Miramar,Branca,Mais de 5 a 10 SM,823
+Miramar,Branca,Mais de 10 SM,789
+Miramar,Branca,Sem rendimento,1835
+Miramar,Branca,Total,5144
+Miramar,Parda,Até 1/2 SM,81
+Miramar,Parda,Mais de 1/2 a 1 SM,675
+Miramar,Parda,Mais de 1 a 2 SM,264
+Miramar,Parda,Mais de 2 a 3 SM,131
+Miramar,Parda,Mais de 3 a 5 SM,183
+Miramar,Parda,Mais de 5 a 10 SM,261
+Miramar,Parda,Mais de 10 SM,254
+Miramar,Parda,Sem rendimento,1091
+Miramar,Parda,Total,2940
+Miramar,Preta,Até 1/2 SM,8
+Miramar,Preta,Mais de 1/2 a 1 SM,94
+Miramar,Preta,Mais de 1 a 2 SM,38
+Miramar,Preta,Mais de 2 a 3 SM,21
+Miramar,Preta,Mais de 3 a 5 SM,6
+Miramar,Preta,Mais de 5 a 10 SM,24
+Miramar,Preta,Mais de 10 SM,19
+Miramar,Preta,Sem rendimento,106
+Miramar,Preta,Total,316
+Miramar,Indígena,Até 1/2 SM,1
+Miramar,Indígena,Mais de 1/2 a 1 SM,1
+Miramar,Indígena,Mais de 1 a 2 SM,1
+Miramar,Indígena,Mais de 2 a 3 SM,1
+Miramar,Indígena,Mais de 3 a 5 SM,1
+Miramar,Indígena,Mais de 5 a 10 SM,1
+Miramar,Indígena,Mais de 10 SM,1
+Miramar,Indígena,Sem rendimento,3
+Miramar,Indígena,Total,10
+Miramar,Amarela,Até 1/2 SM,1
+Miramar,Amarela,Mais de 1/2 a 1 SM,3
+Miramar,Amarela,Mais de 1 a 2 SM,3
+Miramar,Amarela,Mais de 2 a 3 SM,1
+Miramar,Amarela,Mais de 3 a 5 SM,2
+Miramar,Amarela,Mais de 5 a 10 SM,6
+Miramar,Amarela,Mais de 10 SM,9
+Miramar,Amarela,Sem rendimento,18
+Miramar,Amarela,Total,43
+Miramar,Total,Até 1/2 SM,128
+Miramar,Total,Mais de 1/2 a 1 SM,1257
+Miramar,Total,Mais de 1 a 2 SM,772
+Miramar,Total,Mais de 2 a 3 SM,428
+Miramar,Total,Mais de 3 a 5 SM,628
+Miramar,Total,Mais de 5 a 10 SM,1115
+Miramar,Total,Mais de 10 SM,1072
+Miramar,Total,Sem rendimento,3053
+Miramar,Total,Total,8453
+Mucumago,Branca,Até 1/2 SM,152
+Mucumago,Branca,Mais de 1/2 a 1 SM,495
+Mucumago,Branca,Mais de 1 a 2 SM,266
+Mucumago,Branca,Mais de 2 a 3 SM,54
+Mucumago,Branca,Mais de 3 a 5 SM,27
+Mucumago,Branca,Mais de 5 a 10 SM,6
+Mucumago,Branca,Mais de 10 SM,8
+Mucumago,Branca,Sem rendimento,710
+Mucumago,Branca,Total,1718
+Mucumago,Parda,Até 1/2 SM,338
+Mucumago,Parda,Mais de 1/2 a 1 SM,833
+Mucumago,Parda,Mais de 1 a 2 SM,338
+Mucumago,Parda,Mais de 2 a 3 SM,57
+Mucumago,Parda,Mais de 3 a 5 SM,35
+Mucumago,Parda,Mais de 5 a 10 SM,7
+Mucumago,Parda,Mais de 10 SM,1
+Mucumago,Parda,Sem rendimento,1253
+Mucumago,Parda,Total,2862
+Mucumago,Preta,Até 1/2 SM,47
+Mucumago,Preta,Mais de 1/2 a 1 SM,146
+Mucumago,Preta,Mais de 1 a 2 SM,72
+Mucumago,Preta,Mais de 2 a 3 SM,12
+Mucumago,Preta,Mais de 3 a 5 SM,7
+Mucumago,Preta,Mais de 5 a 10 SM,4
+Mucumago,Preta,Mais de 10 SM,0
+Mucumago,Preta,Sem rendimento,151
+Mucumago,Preta,Total,439
+Mucumago,Indígena,Até 1/2 SM,1
+Mucumago,Indígena,Mais de 1/2 a 1 SM,1
+Mucumago,Indígena,Mais de 1 a 2 SM,1
+Mucumago,Indígena,Mais de 2 a 3 SM,0
+Mucumago,Indígena,Mais de 3 a 5 SM,0
+Mucumago,Indígena,Mais de 5 a 10 SM,0
+Mucumago,Indígena,Mais de 10 SM,0
+Mucumago,Indígena,Sem rendimento,3
+Mucumago,Indígena,Total,6
+Mucumago,Amarela,Até 1/2 SM,9
+Mucumago,Amarela,Mais de 1/2 a 1 SM,16
+Mucumago,Amarela,Mais de 1 a 2 SM,18
+Mucumago,Amarela,Mais de 2 a 3 SM,3
+Mucumago,Amarela,Mais de 3 a 5 SM,2
+Mucumago,Amarela,Mais de 5 a 10 SM,0
+Mucumago,Amarela,Mais de 10 SM,1
+Mucumago,Amarela,Sem rendimento,32
+Mucumago,Amarela,Total,81
+Mucumago,Total,Até 1/2 SM,547
+Mucumago,Total,Mais de 1/2 a 1 SM,1491
+Mucumago,Total,Mais de 1 a 2 SM,695
+Mucumago,Total,Mais de 2 a 3 SM,126
+Mucumago,Total,Mais de 3 a 5 SM,71
+Mucumago,Total,Mais de 5 a 10 SM,17
+Mucumago,Total,Mais de 10 SM,10
+Mucumago,Total,Sem rendimento,2149
+Mucumago,Total,Total,5106
+Mumbaba,Branca,Até 1/2 SM,99
+Mumbaba,Branca,Mais de 1/2 a 1 SM,514
+Mumbaba,Branca,Mais de 1 a 2 SM,364
+Mumbaba,Branca,Mais de 2 a 3 SM,55
+Mumbaba,Branca,Mais de 3 a 5 SM,27
+Mumbaba,Branca,Mais de 5 a 10 SM,5
+Mumbaba,Branca,Mais de 10 SM,1
+Mumbaba,Branca,Sem rendimento,742
+Mumbaba,Branca,Total,1807
+Mumbaba,Parda,Até 1/2 SM,239
+Mumbaba,Parda,Mais de 1/2 a 1 SM,1197
+Mumbaba,Parda,Mais de 1 a 2 SM,654
+Mumbaba,Parda,Mais de 2 a 3 SM,77
+Mumbaba,Parda,Mais de 3 a 5 SM,21
+Mumbaba,Parda,Mais de 5 a 10 SM,15
+Mumbaba,Parda,Mais de 10 SM,1
+Mumbaba,Parda,Sem rendimento,1824
+Mumbaba,Parda,Total,4028
+Mumbaba,Preta,Até 1/2 SM,30
+Mumbaba,Preta,Mais de 1/2 a 1 SM,136
+Mumbaba,Preta,Mais de 1 a 2 SM,71
+Mumbaba,Preta,Mais de 2 a 3 SM,7
+Mumbaba,Preta,Mais de 3 a 5 SM,4
+Mumbaba,Preta,Mais de 5 a 10 SM,2
+Mumbaba,Preta,Mais de 10 SM,0
+Mumbaba,Preta,Sem rendimento,140
+Mumbaba,Preta,Total,390
+Mumbaba,Indígena,Até 1/2 SM,0
+Mumbaba,Indígena,Mais de 1/2 a 1 SM,4
+Mumbaba,Indígena,Mais de 1 a 2 SM,0
+Mumbaba,Indígena,Mais de 2 a 3 SM,0
+Mumbaba,Indígena,Mais de 3 a 5 SM,0
+Mumbaba,Indígena,Mais de 5 a 10 SM,0
+Mumbaba,Indígena,Mais de 10 SM,0
+Mumbaba,Indígena,Sem rendimento,1
+Mumbaba,Indígena,Total,5
+Mumbaba,Amarela,Até 1/2 SM,8
+Mumbaba,Amarela,Mais de 1/2 a 1 SM,33
+Mumbaba,Amarela,Mais de 1 a 2 SM,23
+Mumbaba,Amarela,Mais de 2 a 3 SM,0
+Mumbaba,Amarela,Mais de 3 a 5 SM,0
+Mumbaba,Amarela,Mais de 5 a 10 SM,0
+Mumbaba,Amarela,Mais de 10 SM,0
+Mumbaba,Amarela,Sem rendimento,63
+Mumbaba,Amarela,Total,127
+Mumbaba,Total,Até 1/2 SM,376
+Mumbaba,Total,Mais de 1/2 a 1 SM,1884
+Mumbaba,Total,Mais de 1 a 2 SM,1112
+Mumbaba,Total,Mais de 2 a 3 SM,139
+Mumbaba,Total,Mais de 3 a 5 SM,52
+Mumbaba,Total,Mais de 5 a 10 SM,22
+Mumbaba,Total,Mais de 10 SM,2
+Mumbaba,Total,Sem rendimento,2770
+Mumbaba,Total,Total,6357
+Oitizeiro,Branca,Até 1/2 SM,478
+Oitizeiro,Branca,Mais de 1/2 a 1 SM,2868
+Oitizeiro,Branca,Mais de 1 a 2 SM,1434
+Oitizeiro,Branca,Mais de 2 a 3 SM,280
+Oitizeiro,Branca,Mais de 3 a 5 SM,192
+Oitizeiro,Branca,Mais de 5 a 10 SM,76
+Oitizeiro,Branca,Mais de 10 SM,9
+Oitizeiro,Branca,Sem rendimento,3475
+Oitizeiro,Branca,Total,8812
+Oitizeiro,Parda,Até 1/2 SM,935
+Oitizeiro,Parda,Mais de 1/2 a 1 SM,4417
+Oitizeiro,Parda,Mais de 1 a 2 SM,1795
+Oitizeiro,Parda,Mais de 2 a 3 SM,284
+Oitizeiro,Parda,Mais de 3 a 5 SM,196
+Oitizeiro,Parda,Mais de 5 a 10 SM,70
+Oitizeiro,Parda,Mais de 10 SM,12
+Oitizeiro,Parda,Sem rendimento,5676
+Oitizeiro,Parda,Total,13385
+Oitizeiro,Preta,Até 1/2 SM,157
+Oitizeiro,Preta,Mais de 1/2 a 1 SM,726
+Oitizeiro,Preta,Mais de 1 a 2 SM,252
+Oitizeiro,Preta,Mais de 2 a 3 SM,45
+Oitizeiro,Preta,Mais de 3 a 5 SM,29
+Oitizeiro,Preta,Mais de 5 a 10 SM,11
+Oitizeiro,Preta,Mais de 10 SM,2
+Oitizeiro,Preta,Sem rendimento,850
+Oitizeiro,Preta,Total,2072
+Oitizeiro,Indígena,Até 1/2 SM,4
+Oitizeiro,Indígena,Mais de 1/2 a 1 SM,14
+Oitizeiro,Indígena,Mais de 1 a 2 SM,7
+Oitizeiro,Indígena,Mais de 2 a 3 SM,3
+Oitizeiro,Indígena,Mais de 3 a 5 SM,1
+Oitizeiro,Indígena,Mais de 5 a 10 SM,0
+Oitizeiro,Indígena,Mais de 10 SM,0
+Oitizeiro,Indígena,Sem rendimento,14
+Oitizeiro,Indígena,Total,43
+Oitizeiro,Amarela,Até 1/2 SM,26
+Oitizeiro,Amarela,Mais de 1/2 a 1 SM,92
+Oitizeiro,Amarela,Mais de 1 a 2 SM,46
+Oitizeiro,Amarela,Mais de 2 a 3 SM,10
+Oitizeiro,Amarela,Mais de 3 a 5 SM,3
+Oitizeiro,Amarela,Mais de 5 a 10 SM,2
+Oitizeiro,Amarela,Mais de 10 SM,0
+Oitizeiro,Amarela,Sem rendimento,152
+Oitizeiro,Amarela,Total,331
+Oitizeiro,Total,Até 1/2 SM,1600
+Oitizeiro,Total,Mais de 1/2 a 1 SM,8117
+Oitizeiro,Total,Mais de 1 a 2 SM,3534
+Oitizeiro,Total,Mais de 2 a 3 SM,622
+Oitizeiro,Total,Mais de 3 a 5 SM,421
+Oitizeiro,Total,Mais de 5 a 10 SM,159
+Oitizeiro,Total,Mais de 10 SM,23
+Oitizeiro,Total,Sem rendimento,10167
+Oitizeiro,Total,Total,24643
+Padre Zé,Branca,Até 1/2 SM,163
+Padre Zé,Branca,Mais de 1/2 a 1 SM,666
+Padre Zé,Branca,Mais de 1 a 2 SM,285
+Padre Zé,Branca,Mais de 2 a 3 SM,38
+Padre Zé,Branca,Mais de 3 a 5 SM,14
+Padre Zé,Branca,Mais de 5 a 10 SM,12
+Padre Zé,Branca,Mais de 10 SM,3
+Padre Zé,Branca,Sem rendimento,645
+Padre Zé,Branca,Total,1826
+Padre Zé,Parda,Até 1/2 SM,364
+Padre Zé,Parda,Mais de 1/2 a 1 SM,1036
+Padre Zé,Parda,Mais de 1 a 2 SM,362
+Padre Zé,Parda,Mais de 2 a 3 SM,36
+Padre Zé,Parda,Mais de 3 a 5 SM,32
+Padre Zé,Parda,Mais de 5 a 10 SM,6
+Padre Zé,Parda,Mais de 10 SM,1
+Padre Zé,Parda,Sem rendimento,1053
+Padre Zé,Parda,Total,2890
+Padre Zé,Preta,Até 1/2 SM,83
+Padre Zé,Preta,Mais de 1/2 a 1 SM,345
+Padre Zé,Preta,Mais de 1 a 2 SM,116
+Padre Zé,Preta,Mais de 2 a 3 SM,12
+Padre Zé,Preta,Mais de 3 a 5 SM,3
+Padre Zé,Preta,Mais de 5 a 10 SM,1
+Padre Zé,Preta,Mais de 10 SM,1
+Padre Zé,Preta,Sem rendimento,326
+Padre Zé,Preta,Total,887
+Padre Zé,Indígena,Até 1/2 SM,2
+Padre Zé,Indígena,Mais de 1/2 a 1 SM,2
+Padre Zé,Indígena,Mais de 1 a 2 SM,2
+Padre Zé,Indígena,Mais de 2 a 3 SM,1
+Padre Zé,Indígena,Mais de 3 a 5 SM,1
+Padre Zé,Indígena,Mais de 5 a 10 SM,0
+Padre Zé,Indígena,Mais de 10 SM,0
+Padre Zé,Indígena,Sem rendimento,1
+Padre Zé,Indígena,Total,9
+Padre Zé,Amarela,Até 1/2 SM,14
+Padre Zé,Amarela,Mais de 1/2 a 1 SM,37
+Padre Zé,Amarela,Mais de 1 a 2 SM,13
+Padre Zé,Amarela,Mais de 2 a 3 SM,2
+Padre Zé,Amarela,Mais de 3 a 5 SM,1
+Padre Zé,Amarela,Mais de 5 a 10 SM,0
+Padre Zé,Amarela,Mais de 10 SM,0
+Padre Zé,Amarela,Sem rendimento,55
+Padre Zé,Amarela,Total,122
+Padre Zé,Total,Até 1/2 SM,626
+Padre Zé,Total,Mais de 1/2 a 1 SM,2086
+Padre Zé,Total,Mais de 1 a 2 SM,778
+Padre Zé,Total,Mais de 2 a 3 SM,89
+Padre Zé,Total,Mais de 3 a 5 SM,51
+Padre Zé,Total,Mais de 5 a 10 SM,19
+Padre Zé,Total,Mais de 10 SM,5
+Padre Zé,Total,Sem rendimento,2080
+Padre Zé,Total,Total,5734
+Paratibe,Branca,Até 1/2 SM,337
+Paratibe,Branca,Mais de 1/2 a 1 SM,950
+Paratibe,Branca,Mais de 1 a 2 SM,631
+Paratibe,Branca,Mais de 2 a 3 SM,131
+Paratibe,Branca,Mais de 3 a 5 SM,48
+Paratibe,Branca,Mais de 5 a 10 SM,23
+Paratibe,Branca,Mais de 10 SM,9
+Paratibe,Branca,Sem rendimento,1356
+Paratibe,Branca,Total,3485
+Paratibe,Parda,Até 1/2 SM,658
+Paratibe,Parda,Mais de 1/2 a 1 SM,1376
+Paratibe,Parda,Mais de 1 a 2 SM,801
+Paratibe,Parda,Mais de 2 a 3 SM,157
+Paratibe,Parda,Mais de 3 a 5 SM,69
+Paratibe,Parda,Mais de 5 a 10 SM,28
+Paratibe,Parda,Mais de 10 SM,7
+Paratibe,Parda,Sem rendimento,2085
+Paratibe,Parda,Total,5181
+Paratibe,Preta,Até 1/2 SM,154
+Paratibe,Preta,Mais de 1/2 a 1 SM,325
+Paratibe,Preta,Mais de 1 a 2 SM,197
+Paratibe,Preta,Mais de 2 a 3 SM,33
+Paratibe,Preta,Mais de 3 a 5 SM,30
+Paratibe,Preta,Mais de 5 a 10 SM,3
+Paratibe,Preta,Mais de 10 SM,0
+Paratibe,Preta,Sem rendimento,393
+Paratibe,Preta,Total,1135
+Paratibe,Indígena,Até 1/2 SM,8
+Paratibe,Indígena,Mais de 1/2 a 1 SM,17
+Paratibe,Indígena,Mais de 1 a 2 SM,7
+Paratibe,Indígena,Mais de 2 a 3 SM,1
+Paratibe,Indígena,Mais de 3 a 5 SM,2
+Paratibe,Indígena,Mais de 5 a 10 SM,0
+Paratibe,Indígena,Mais de 10 SM,0
+Paratibe,Indígena,Sem rendimento,17
+Paratibe,Indígena,Total,52
+Paratibe,Amarela,Até 1/2 SM,27
+Paratibe,Amarela,Mais de 1/2 a 1 SM,61
+Paratibe,Amarela,Mais de 1 a 2 SM,38
+Paratibe,Amarela,Mais de 2 a 3 SM,3
+Paratibe,Amarela,Mais de 3 a 5 SM,3
+Paratibe,Amarela,Mais de 5 a 10 SM,2
+Paratibe,Amarela,Mais de 10 SM,0
+Paratibe,Amarela,Sem rendimento,72
+Paratibe,Amarela,Total,206
+Paratibe,Total,Até 1/2 SM,1184
+Paratibe,Total,Mais de 1/2 a 1 SM,2729
+Paratibe,Total,Mais de 1 a 2 SM,1674
+Paratibe,Total,Mais de 2 a 3 SM,325
+Paratibe,Total,Mais de 3 a 5 SM,152
+Paratibe,Total,Mais de 5 a 10 SM,56
+Paratibe,Total,Mais de 10 SM,16
+Paratibe,Total,Sem rendimento,3923
+Paratibe,Total,Total,10059
+Pedro Gondim,Branca,Até 1/2 SM,7
+Pedro Gondim,Branca,Mais de 1/2 a 1 SM,174
+Pedro Gondim,Branca,Mais de 1 a 2 SM,248
+Pedro Gondim,Branca,Mais de 2 a 3 SM,184
+Pedro Gondim,Branca,Mais de 3 a 5 SM,230
+Pedro Gondim,Branca,Mais de 5 a 10 SM,306
+Pedro Gondim,Branca,Mais de 10 SM,215
+Pedro Gondim,Branca,Sem rendimento,603
+Pedro Gondim,Branca,Total,1967
+Pedro Gondim,Parda,Até 1/2 SM,10
+Pedro Gondim,Parda,Mais de 1/2 a 1 SM,127
+Pedro Gondim,Parda,Mais de 1 a 2 SM,141
+Pedro Gondim,Parda,Mais de 2 a 3 SM,71
+Pedro Gondim,Parda,Mais de 3 a 5 SM,102
+Pedro Gondim,Parda,Mais de 5 a 10 SM,112
+Pedro Gondim,Parda,Mais de 10 SM,53
+Pedro Gondim,Parda,Sem rendimento,312
+Pedro Gondim,Parda,Total,928
+Pedro Gondim,Preta,Até 1/2 SM,1
+Pedro Gondim,Preta,Mais de 1/2 a 1 SM,20
+Pedro Gondim,Preta,Mais de 1 a 2 SM,18
+Pedro Gondim,Preta,Mais de 2 a 3 SM,10
+Pedro Gondim,Preta,Mais de 3 a 5 SM,10
+Pedro Gondim,Preta,Mais de 5 a 10 SM,16
+Pedro Gondim,Preta,Mais de 10 SM,5
+Pedro Gondim,Preta,Sem rendimento,33
+Pedro Gondim,Preta,Total,113
+Pedro Gondim,Indígena,Até 1/2 SM,0
+Pedro Gondim,Indígena,Mais de 1/2 a 1 SM,0
+Pedro Gondim,Indígena,Mais de 1 a 2 SM,0
+Pedro Gondim,Indígena,Mais de 2 a 3 SM,0
+Pedro Gondim,Indígena,Mais de 3 a 5 SM,0
+Pedro Gondim,Indígena,Mais de 5 a 10 SM,1
+Pedro Gondim,Indígena,Mais de 10 SM,0
+Pedro Gondim,Indígena,Sem rendimento,0
+Pedro Gondim,Indígena,Total,1
+Pedro Gondim,Amarela,Até 1/2 SM,0
+Pedro Gondim,Amarela,Mais de 1/2 a 1 SM,1
+Pedro Gondim,Amarela,Mais de 1 a 2 SM,4
+Pedro Gondim,Amarela,Mais de 2 a 3 SM,6
+Pedro Gondim,Amarela,Mais de 3 a 5 SM,3
+Pedro Gondim,Amarela,Mais de 5 a 10 SM,1
+Pedro Gondim,Amarela,Mais de 10 SM,1
+Pedro Gondim,Amarela,Sem rendimento,4
+Pedro Gondim,Amarela,Total,20
+Pedro Gondim,Total,Até 1/2 SM,18
+Pedro Gondim,Total,Mais de 1/2 a 1 SM,322
+Pedro Gondim,Total,Mais de 1 a 2 SM,411
+Pedro Gondim,Total,Mais de 2 a 3 SM,271
+Pedro Gondim,Total,Mais de 3 a 5 SM,345
+Pedro Gondim,Total,Mais de 5 a 10 SM,436
+Pedro Gondim,Total,Mais de 10 SM,274
+Pedro Gondim,Total,Sem rendimento,952
+Pedro Gondim,Total,Total,3029
+Penha,Branca,Até 1/2 SM,12
+Penha,Branca,Mais de 1/2 a 1 SM,59
+Penha,Branca,Mais de 1 a 2 SM,23
+Penha,Branca,Mais de 2 a 3 SM,11
+Penha,Branca,Mais de 3 a 5 SM,10
+Penha,Branca,Mais de 5 a 10 SM,5
+Penha,Branca,Mais de 10 SM,2
+Penha,Branca,Sem rendimento,88
+Penha,Branca,Total,210
+Penha,Parda,Até 1/2 SM,21
+Penha,Parda,Mais de 1/2 a 1 SM,101
+Penha,Parda,Mais de 1 a 2 SM,47
+Penha,Parda,Mais de 2 a 3 SM,12
+Penha,Parda,Mais de 3 a 5 SM,9
+Penha,Parda,Mais de 5 a 10 SM,2
+Penha,Parda,Mais de 10 SM,2
+Penha,Parda,Sem rendimento,152
+Penha,Parda,Total,346
+Penha,Preta,Até 1/2 SM,7
+Penha,Preta,Mais de 1/2 a 1 SM,25
+Penha,Preta,Mais de 1 a 2 SM,10
+Penha,Preta,Mais de 2 a 3 SM,1
+Penha,Preta,Mais de 3 a 5 SM,1
+Penha,Preta,Mais de 5 a 10 SM,0
+Penha,Preta,Mais de 10 SM,0
+Penha,Preta,Sem rendimento,40
+Penha,Preta,Total,84
+Penha,Indígena,Até 1/2 SM,0
+Penha,Indígena,Mais de 1/2 a 1 SM,4
+Penha,Indígena,Mais de 1 a 2 SM,1
+Penha,Indígena,Mais de 2 a 3 SM,0
+Penha,Indígena,Mais de 3 a 5 SM,0
+Penha,Indígena,Mais de 5 a 10 SM,0
+Penha,Indígena,Mais de 10 SM,1
+Penha,Indígena,Sem rendimento,1
+Penha,Indígena,Total,7
+Penha,Amarela,Até 1/2 SM,1
+Penha,Amarela,Mais de 1/2 a 1 SM,7
+Penha,Amarela,Mais de 1 a 2 SM,1
+Penha,Amarela,Mais de 2 a 3 SM,1
+Penha,Amarela,Mais de 3 a 5 SM,0
+Penha,Amarela,Mais de 5 a 10 SM,0
+Penha,Amarela,Mais de 10 SM,0
+Penha,Amarela,Sem rendimento,4
+Penha,Amarela,Total,14
+Penha,Total,Até 1/2 SM,41
+Penha,Total,Mais de 1/2 a 1 SM,196
+Penha,Total,Mais de 1 a 2 SM,82
+Penha,Total,Mais de 2 a 3 SM,25
+Penha,Total,Mais de 3 a 5 SM,20
+Penha,Total,Mais de 5 a 10 SM,7
+Penha,Total,Mais de 10 SM,5
+Penha,Total,Sem rendimento,285
+Penha,Total,Total,661
+Planalto da Boa Esperança,Branca,Até 1/2 SM,75
+Planalto da Boa Esperança,Branca,Mais de 1/2 a 1 SM,467
+Planalto da Boa Esperança,Branca,Mais de 1 a 2 SM,440
+Planalto da Boa Esperança,Branca,Mais de 2 a 3 SM,91
+Planalto da Boa Esperança,Branca,Mais de 3 a 5 SM,73
+Planalto da Boa Esperança,Branca,Mais de 5 a 10 SM,29
+Planalto da Boa Esperança,Branca,Mais de 10 SM,3
+Planalto da Boa Esperança,Branca,Sem rendimento,698
+Planalto da Boa Esperança,Branca,Total,1876
+Planalto da Boa Esperança,Parda,Até 1/2 SM,131
+Planalto da Boa Esperança,Parda,Mais de 1/2 a 1 SM,752
+Planalto da Boa Esperança,Parda,Mais de 1 a 2 SM,582
+Planalto da Boa Esperança,Parda,Mais de 2 a 3 SM,145
+Planalto da Boa Esperança,Parda,Mais de 3 a 5 SM,61
+Planalto da Boa Esperança,Parda,Mais de 5 a 10 SM,36
+Planalto da Boa Esperança,Parda,Mais de 10 SM,7
+Planalto da Boa Esperança,Parda,Sem rendimento,1129
+Planalto da Boa Esperança,Parda,Total,2843
+Planalto da Boa Esperança,Preta,Até 1/2 SM,20
+Planalto da Boa Esperança,Preta,Mais de 1/2 a 1 SM,84
+Planalto da Boa Esperança,Preta,Mais de 1 a 2 SM,83
+Planalto da Boa Esperança,Preta,Mais de 2 a 3 SM,18
+Planalto da Boa Esperança,Preta,Mais de 3 a 5 SM,15
+Planalto da Boa Esperança,Preta,Mais de 5 a 10 SM,5
+Planalto da Boa Esperança,Preta,Mais de 10 SM,2
+Planalto da Boa Esperança,Preta,Sem rendimento,108
+Planalto da Boa Esperança,Preta,Total,335
+Planalto da Boa Esperança,Indígena,Até 1/2 SM,3
+Planalto da Boa Esperança,Indígena,Mais de 1/2 a 1 SM,4
+Planalto da Boa Esperança,Indígena,Mais de 1 a 2 SM,6
+Planalto da Boa Esperança,Indígena,Mais de 2 a 3 SM,0
+Planalto da Boa Esperança,Indígena,Mais de 3 a 5 SM,0
+Planalto da Boa Esperança,Indígena,Mais de 5 a 10 SM,0
+Planalto da Boa Esperança,Indígena,Mais de 10 SM,0
+Planalto da Boa Esperança,Indígena,Sem rendimento,7
+Planalto da Boa Esperança,Indígena,Total,20
+Planalto da Boa Esperança,Amarela,Até 1/2 SM,6
+Planalto da Boa Esperança,Amarela,Mais de 1/2 a 1 SM,18
+Planalto da Boa Esperança,Amarela,Mais de 1 a 2 SM,15
+Planalto da Boa Esperança,Amarela,Mais de 2 a 3 SM,3
+Planalto da Boa Esperança,Amarela,Mais de 3 a 5 SM,3
+Planalto da Boa Esperança,Amarela,Mais de 5 a 10 SM,1
+Planalto da Boa Esperança,Amarela,Mais de 10 SM,0
+Planalto da Boa Esperança,Amarela,Sem rendimento,41
+Planalto da Boa Esperança,Amarela,Total,87
+Planalto da Boa Esperança,Total,Até 1/2 SM,235
+Planalto da Boa Esperança,Total,Mais de 1/2 a 1 SM,1325
+Planalto da Boa Esperança,Total,Mais de 1 a 2 SM,1126
+Planalto da Boa Esperança,Total,Mais de 2 a 3 SM,257
+Planalto da Boa Esperança,Total,Mais de 3 a 5 SM,152
+Planalto da Boa Esperança,Total,Mais de 5 a 10 SM,71
+Planalto da Boa Esperança,Total,Mais de 10 SM,12
+Planalto da Boa Esperança,Total,Sem rendimento,1983
+Planalto da Boa Esperança,Total,Total,5161
+Ponta do Seixas,Branca,Até 1/2 SM,7
+Ponta do Seixas,Branca,Mais de 1/2 a 1 SM,25
+Ponta do Seixas,Branca,Mais de 1 a 2 SM,25
+Ponta do Seixas,Branca,Mais de 2 a 3 SM,11
+Ponta do Seixas,Branca,Mais de 3 a 5 SM,27
+Ponta do Seixas,Branca,Mais de 5 a 10 SM,36
+Ponta do Seixas,Branca,Mais de 10 SM,48
+Ponta do Seixas,Branca,Sem rendimento,57
+Ponta do Seixas,Branca,Total,236
+Ponta do Seixas,Parda,Até 1/2 SM,4
+Ponta do Seixas,Parda,Mais de 1/2 a 1 SM,33
+Ponta do Seixas,Parda,Mais de 1 a 2 SM,23
+Ponta do Seixas,Parda,Mais de 2 a 3 SM,12
+Ponta do Seixas,Parda,Mais de 3 a 5 SM,9
+Ponta do Seixas,Parda,Mais de 5 a 10 SM,16
+Ponta do Seixas,Parda,Mais de 10 SM,6
+Ponta do Seixas,Parda,Sem rendimento,55
+Ponta do Seixas,Parda,Total,158
+Ponta do Seixas,Preta,Até 1/2 SM,0
+Ponta do Seixas,Preta,Mais de 1/2 a 1 SM,2
+Ponta do Seixas,Preta,Mais de 1 a 2 SM,2
+Ponta do Seixas,Preta,Mais de 2 a 3 SM,0
+Ponta do Seixas,Preta,Mais de 3 a 5 SM,2
+Ponta do Seixas,Preta,Mais de 5 a 10 SM,2
+Ponta do Seixas,Preta,Mais de 10 SM,2
+Ponta do Seixas,Preta,Sem rendimento,0
+Ponta do Seixas,Preta,Total,10
+Ponta do Seixas,Indígena,Até 1/2 SM,0
+Ponta do Seixas,Indígena,Mais de 1/2 a 1 SM,0
+Ponta do Seixas,Indígena,Mais de 1 a 2 SM,1
+Ponta do Seixas,Indígena,Mais de 2 a 3 SM,0
+Ponta do Seixas,Indígena,Mais de 3 a 5 SM,0
+Ponta do Seixas,Indígena,Mais de 5 a 10 SM,0
+Ponta do Seixas,Indígena,Mais de 10 SM,1
+Ponta do Seixas,Indígena,Sem rendimento,2
+Ponta do Seixas,Indígena,Total,4
+Ponta do Seixas,Amarela,Até 1/2 SM,0
+Ponta do Seixas,Amarela,Mais de 1/2 a 1 SM,2
+Ponta do Seixas,Amarela,Mais de 1 a 2 SM,2
+Ponta do Seixas,Amarela,Mais de 2 a 3 SM,0
+Ponta do Seixas,Amarela,Mais de 3 a 5 SM,1
+Ponta do Seixas,Amarela,Mais de 5 a 10 SM,1
+Ponta do Seixas,Amarela,Mais de 10 SM,1
+Ponta do Seixas,Amarela,Sem rendimento,1
+Ponta do Seixas,Amarela,Total,8
+Ponta do Seixas,Total,Até 1/2 SM,11
+Ponta do Seixas,Total,Mais de 1/2 a 1 SM,62
+Ponta do Seixas,Total,Mais de 1 a 2 SM,53
+Ponta do Seixas,Total,Mais de 2 a 3 SM,23
+Ponta do Seixas,Total,Mais de 3 a 5 SM,39
+Ponta do Seixas,Total,Mais de 5 a 10 SM,55
+Ponta do Seixas,Total,Mais de 10 SM,58
+Ponta do Seixas,Total,Sem rendimento,115
+Ponta do Seixas,Total,Total,416
+Portal do Sol,Branca,Até 1/2 SM,28
+Portal do Sol,Branca,Mais de 1/2 a 1 SM,210
+Portal do Sol,Branca,Mais de 1 a 2 SM,206
+Portal do Sol,Branca,Mais de 2 a 3 SM,76
+Portal do Sol,Branca,Mais de 3 a 5 SM,144
+Portal do Sol,Branca,Mais de 5 a 10 SM,222
+Portal do Sol,Branca,Mais de 10 SM,213
+Portal do Sol,Branca,Sem rendimento,668
+Portal do Sol,Branca,Total,1767
+Portal do Sol,Parda,Até 1/2 SM,81
+Portal do Sol,Parda,Mais de 1/2 a 1 SM,329
+Portal do Sol,Parda,Mais de 1 a 2 SM,186
+Portal do Sol,Parda,Mais de 2 a 3 SM,64
+Portal do Sol,Parda,Mais de 3 a 5 SM,76
+Portal do Sol,Parda,Mais de 5 a 10 SM,106
+Portal do Sol,Parda,Mais de 10 SM,68
+Portal do Sol,Parda,Sem rendimento,662
+Portal do Sol,Parda,Total,1572
+Portal do Sol,Preta,Até 1/2 SM,16
+Portal do Sol,Preta,Mais de 1/2 a 1 SM,30
+Portal do Sol,Preta,Mais de 1 a 2 SM,15
+Portal do Sol,Preta,Mais de 2 a 3 SM,2
+Portal do Sol,Preta,Mais de 3 a 5 SM,6
+Portal do Sol,Preta,Mais de 5 a 10 SM,1
+Portal do Sol,Preta,Mais de 10 SM,4
+Portal do Sol,Preta,Sem rendimento,39
+Portal do Sol,Preta,Total,113
+Portal do Sol,Indígena,Até 1/2 SM,2
+Portal do Sol,Indígena,Mais de 1/2 a 1 SM,0
+Portal do Sol,Indígena,Mais de 1 a 2 SM,2
+Portal do Sol,Indígena,Mais de 2 a 3 SM,0
+Portal do Sol,Indígena,Mais de 3 a 5 SM,0
+Portal do Sol,Indígena,Mais de 5 a 10 SM,0
+Portal do Sol,Indígena,Mais de 10 SM,0
+Portal do Sol,Indígena,Sem rendimento,1
+Portal do Sol,Indígena,Total,5
+Portal do Sol,Amarela,Até 1/2 SM,4
+Portal do Sol,Amarela,Mais de 1/2 a 1 SM,6
+Portal do Sol,Amarela,Mais de 1 a 2 SM,8
+Portal do Sol,Amarela,Mais de 2 a 3 SM,0
+Portal do Sol,Amarela,Mais de 3 a 5 SM,2
+Portal do Sol,Amarela,Mais de 5 a 10 SM,3
+Portal do Sol,Amarela,Mais de 10 SM,2
+Portal do Sol,Amarela,Sem rendimento,17
+Portal do Sol,Amarela,Total,42
+Portal do Sol,Total,Até 1/2 SM,131
+Portal do Sol,Total,Mais de 1/2 a 1 SM,575
+Portal do Sol,Total,Mais de 1 a 2 SM,417
+Portal do Sol,Total,Mais de 2 a 3 SM,142
+Portal do Sol,Total,Mais de 3 a 5 SM,228
+Portal do Sol,Total,Mais de 5 a 10 SM,332
+Portal do Sol,Total,Mais de 10 SM,287
+Portal do Sol,Total,Sem rendimento,1387
+Portal do Sol,Total,Total,3499
+Roger,Branca,Até 1/2 SM,171
+Roger,Branca,Mais de 1/2 a 1 SM,1048
+Roger,Branca,Mais de 1 a 2 SM,609
+Roger,Branca,Mais de 2 a 3 SM,151
+Roger,Branca,Mais de 3 a 5 SM,142
+Roger,Branca,Mais de 5 a 10 SM,92
+Roger,Branca,Mais de 10 SM,31
+Roger,Branca,Sem rendimento,1274
+Roger,Branca,Total,3518
+Roger,Parda,Até 1/2 SM,286
+Roger,Parda,Mais de 1/2 a 1 SM,1289
+Roger,Parda,Mais de 1 a 2 SM,508
+Roger,Parda,Mais de 2 a 3 SM,93
+Roger,Parda,Mais de 3 a 5 SM,85
+Roger,Parda,Mais de 5 a 10 SM,52
+Roger,Parda,Mais de 10 SM,8
+Roger,Parda,Sem rendimento,1701
+Roger,Parda,Total,4022
+Roger,Preta,Até 1/2 SM,91
+Roger,Preta,Mais de 1/2 a 1 SM,318
+Roger,Preta,Mais de 1 a 2 SM,193
+Roger,Preta,Mais de 2 a 3 SM,29
+Roger,Preta,Mais de 3 a 5 SM,13
+Roger,Preta,Mais de 5 a 10 SM,5
+Roger,Preta,Mais de 10 SM,3
+Roger,Preta,Sem rendimento,459
+Roger,Preta,Total,1111
+Roger,Indígena,Até 1/2 SM,3
+Roger,Indígena,Mais de 1/2 a 1 SM,9
+Roger,Indígena,Mais de 1 a 2 SM,16
+Roger,Indígena,Mais de 2 a 3 SM,3
+Roger,Indígena,Mais de 3 a 5 SM,0
+Roger,Indígena,Mais de 5 a 10 SM,1
+Roger,Indígena,Mais de 10 SM,0
+Roger,Indígena,Sem rendimento,14
+Roger,Indígena,Total,46
+Roger,Amarela,Até 1/2 SM,19
+Roger,Amarela,Mais de 1/2 a 1 SM,39
+Roger,Amarela,Mais de 1 a 2 SM,25
+Roger,Amarela,Mais de 2 a 3 SM,1
+Roger,Amarela,Mais de 3 a 5 SM,1
+Roger,Amarela,Mais de 5 a 10 SM,2
+Roger,Amarela,Mais de 10 SM,0
+Roger,Amarela,Sem rendimento,53
+Roger,Amarela,Total,140
+Roger,Total,Até 1/2 SM,570
+Roger,Total,Mais de 1/2 a 1 SM,2703
+Roger,Total,Mais de 1 a 2 SM,1351
+Roger,Total,Mais de 2 a 3 SM,277
+Roger,Total,Mais de 3 a 5 SM,241
+Roger,Total,Mais de 5 a 10 SM,152
+Roger,Total,Mais de 10 SM,42
+Roger,Total,Sem rendimento,3501
+Roger,Total,Total,8837
+São José,Branca,Até 1/2 SM,154
+São José,Branca,Mais de 1/2 a 1 SM,521
+São José,Branca,Mais de 1 a 2 SM,152
+São José,Branca,Mais de 2 a 3 SM,10
+São José,Branca,Mais de 3 a 5 SM,3
+São José,Branca,Mais de 5 a 10 SM,1
+São José,Branca,Mais de 10 SM,0
+São José,Branca,Sem rendimento,764
+São José,Branca,Total,1605
+São José,Parda,Até 1/2 SM,389
+São José,Parda,Mais de 1/2 a 1 SM,1170
+São José,Parda,Mais de 1 a 2 SM,273
+São José,Parda,Mais de 2 a 3 SM,25
+São José,Parda,Mais de 3 a 5 SM,8
+São José,Parda,Mais de 5 a 10 SM,3
+São José,Parda,Mais de 10 SM,1
+São José,Parda,Sem rendimento,1654
+São José,Parda,Total,3523
+São José,Preta,Até 1/2 SM,49
+São José,Preta,Mais de 1/2 a 1 SM,151
+São José,Preta,Mais de 1 a 2 SM,49
+São José,Preta,Mais de 2 a 3 SM,6
+São José,Preta,Mais de 3 a 5 SM,0
+São José,Preta,Mais de 5 a 10 SM,0
+São José,Preta,Mais de 10 SM,0
+São José,Preta,Sem rendimento,145
+São José,Preta,Total,400
+São José,Indígena,Até 1/2 SM,1
+São José,Indígena,Mais de 1/2 a 1 SM,0
+São José,Indígena,Mais de 1 a 2 SM,0
+São José,Indígena,Mais de 2 a 3 SM,0
+São José,Indígena,Mais de 3 a 5 SM,0
+São José,Indígena,Mais de 5 a 10 SM,0
+São José,Indígena,Mais de 10 SM,0
+São José,Indígena,Sem rendimento,1
+São José,Indígena,Total,2
+São José,Amarela,Até 1/2 SM,4
+São José,Amarela,Mais de 1/2 a 1 SM,24
+São José,Amarela,Mais de 1 a 2 SM,8
+São José,Amarela,Mais de 2 a 3 SM,0
+São José,Amarela,Mais de 3 a 5 SM,0
+São José,Amarela,Mais de 5 a 10 SM,0
+São José,Amarela,Mais de 10 SM,0
+São José,Amarela,Sem rendimento,37
+São José,Amarela,Total,73
+São José,Total,Até 1/2 SM,597
+São José,Total,Mais de 1/2 a 1 SM,1866
+São José,Total,Mais de 1 a 2 SM,482
+São José,Total,Mais de 2 a 3 SM,41
+São José,Total,Mais de 3 a 5 SM,11
+São José,Total,Mais de 5 a 10 SM,4
+São José,Total,Mais de 10 SM,1
+São José,Total,Sem rendimento,2601
+São José,Total,Total,5603
+Tambaú,Branca,Até 1/2 SM,38
+Tambaú,Branca,Mais de 1/2 a 1 SM,411
+Tambaú,Branca,Mais de 1 a 2 SM,487
+Tambaú,Branca,Mais de 2 a 3 SM,346
+Tambaú,Branca,Mais de 3 a 5 SM,558
+Tambaú,Branca,Mais de 5 a 10 SM,1165
+Tambaú,Branca,Mais de 10 SM,1150
+Tambaú,Branca,Sem rendimento,1893
+Tambaú,Branca,Total,6048
+Tambaú,Parda,Até 1/2 SM,39
+Tambaú,Parda,Mais de 1/2 a 1 SM,445
+Tambaú,Parda,Mais de 1 a 2 SM,299
+Tambaú,Parda,Mais de 2 a 3 SM,145
+Tambaú,Parda,Mais de 3 a 5 SM,216
+Tambaú,Parda,Mais de 5 a 10 SM,439
+Tambaú,Parda,Mais de 10 SM,418
+Tambaú,Parda,Sem rendimento,796
+Tambaú,Parda,Total,2797
+Tambaú,Preta,Até 1/2 SM,5
+Tambaú,Preta,Mais de 1/2 a 1 SM,73
+Tambaú,Preta,Mais de 1 a 2 SM,36
+Tambaú,Preta,Mais de 2 a 3 SM,10
+Tambaú,Preta,Mais de 3 a 5 SM,14
+Tambaú,Preta,Mais de 5 a 10 SM,22
+Tambaú,Preta,Mais de 10 SM,24
+Tambaú,Preta,Sem rendimento,74
+Tambaú,Preta,Total,258
+Tambaú,Indígena,Até 1/2 SM,0
+Tambaú,Indígena,Mais de 1/2 a 1 SM,9
+Tambaú,Indígena,Mais de 1 a 2 SM,8
+Tambaú,Indígena,Mais de 2 a 3 SM,4
+Tambaú,Indígena,Mais de 3 a 5 SM,1
+Tambaú,Indígena,Mais de 5 a 10 SM,3
+Tambaú,Indígena,Mais de 10 SM,3
+Tambaú,Indígena,Sem rendimento,7
+Tambaú,Indígena,Total,35
+Tambaú,Amarela,Até 1/2 SM,0
+Tambaú,Amarela,Mais de 1/2 a 1 SM,14
+Tambaú,Amarela,Mais de 1 a 2 SM,10
+Tambaú,Amarela,Mais de 2 a 3 SM,14
+Tambaú,Amarela,Mais de 3 a 5 SM,10
+Tambaú,Amarela,Mais de 5 a 10 SM,14
+Tambaú,Amarela,Mais de 10 SM,12
+Tambaú,Amarela,Sem rendimento,31
+Tambaú,Amarela,Total,105
+Tambaú,Total,Até 1/2 SM,82
+Tambaú,Total,Mais de 1/2 a 1 SM,952
+Tambaú,Total,Mais de 1 a 2 SM,840
+Tambaú,Total,Mais de 2 a 3 SM,519
+Tambaú,Total,Mais de 3 a 5 SM,799
+Tambaú,Total,Mais de 5 a 10 SM,1643
+Tambaú,Total,Mais de 10 SM,1608
+Tambaú,Total,Sem rendimento,2801
+Tambaú,Total,Total,9244
+Tambauzinho,Branca,Até 1/2 SM,33
+Tambauzinho,Branca,Mais de 1/2 a 1 SM,279
+Tambauzinho,Branca,Mais de 1 a 2 SM,282
+Tambauzinho,Branca,Mais de 2 a 3 SM,214
+Tambauzinho,Branca,Mais de 3 a 5 SM,283
+Tambauzinho,Branca,Mais de 5 a 10 SM,421
+Tambauzinho,Branca,Mais de 10 SM,259
+Tambauzinho,Branca,Sem rendimento,779
+Tambauzinho,Branca,Total,2550
+Tambauzinho,Parda,Até 1/2 SM,58
+Tambauzinho,Parda,Mais de 1/2 a 1 SM,276
+Tambauzinho,Parda,Mais de 1 a 2 SM,191
+Tambauzinho,Parda,Mais de 2 a 3 SM,93
+Tambauzinho,Parda,Mais de 3 a 5 SM,128
+Tambauzinho,Parda,Mais de 5 a 10 SM,211
+Tambauzinho,Parda,Mais de 10 SM,120
+Tambauzinho,Parda,Sem rendimento,501
+Tambauzinho,Parda,Total,1578
+Tambauzinho,Preta,Até 1/2 SM,17
+Tambauzinho,Preta,Mais de 1/2 a 1 SM,95
+Tambauzinho,Preta,Mais de 1 a 2 SM,35
+Tambauzinho,Preta,Mais de 2 a 3 SM,4
+Tambauzinho,Preta,Mais de 3 a 5 SM,15
+Tambauzinho,Preta,Mais de 5 a 10 SM,17
+Tambauzinho,Preta,Mais de 10 SM,10
+Tambauzinho,Preta,Sem rendimento,73
+Tambauzinho,Preta,Total,266
+Tambauzinho,Indígena,Até 1/2 SM,0
+Tambauzinho,Indígena,Mais de 1/2 a 1 SM,0
+Tambauzinho,Indígena,Mais de 1 a 2 SM,2
+Tambauzinho,Indígena,Mais de 2 a 3 SM,0
+Tambauzinho,Indígena,Mais de 3 a 5 SM,0
+Tambauzinho,Indígena,Mais de 5 a 10 SM,0
+Tambauzinho,Indígena,Mais de 10 SM,0
+Tambauzinho,Indígena,Sem rendimento,1
+Tambauzinho,Indígena,Total,3
+Tambauzinho,Amarela,Até 1/2 SM,0
+Tambauzinho,Amarela,Mais de 1/2 a 1 SM,4
+Tambauzinho,Amarela,Mais de 1 a 2 SM,6
+Tambauzinho,Amarela,Mais de 2 a 3 SM,3
+Tambauzinho,Amarela,Mais de 3 a 5 SM,12
+Tambauzinho,Amarela,Mais de 5 a 10 SM,3
+Tambauzinho,Amarela,Mais de 10 SM,3
+Tambauzinho,Amarela,Sem rendimento,22
+Tambauzinho,Amarela,Total,53
+Tambauzinho,Total,Até 1/2 SM,108
+Tambauzinho,Total,Mais de 1/2 a 1 SM,654
+Tambauzinho,Total,Mais de 1 a 2 SM,516
+Tambauzinho,Total,Mais de 2 a 3 SM,314
+Tambauzinho,Total,Mais de 3 a 5 SM,438
+Tambauzinho,Total,Mais de 5 a 10 SM,652
+Tambauzinho,Total,Mais de 10 SM,392
+Tambauzinho,Total,Sem rendimento,1376
+Tambauzinho,Total,Total,4450
+Tambiá,Branca,Até 1/2 SM,20
+Tambiá,Branca,Mais de 1/2 a 1 SM,251
+Tambiá,Branca,Mais de 1 a 2 SM,209
+Tambiá,Branca,Mais de 2 a 3 SM,98
+Tambiá,Branca,Mais de 3 a 5 SM,96
+Tambiá,Branca,Mais de 5 a 10 SM,84
+Tambiá,Branca,Mais de 10 SM,24
+Tambiá,Branca,Sem rendimento,394
+Tambiá,Branca,Total,1176
+Tambiá,Parda,Até 1/2 SM,30
+Tambiá,Parda,Mais de 1/2 a 1 SM,199
+Tambiá,Parda,Mais de 1 a 2 SM,185
+Tambiá,Parda,Mais de 2 a 3 SM,78
+Tambiá,Parda,Mais de 3 a 5 SM,61
+Tambiá,Parda,Mais de 5 a 10 SM,40
+Tambiá,Parda,Mais de 10 SM,8
+Tambiá,Parda,Sem rendimento,288
+Tambiá,Parda,Total,889
+Tambiá,Preta,Até 1/2 SM,5
+Tambiá,Preta,Mais de 1/2 a 1 SM,39
+Tambiá,Preta,Mais de 1 a 2 SM,18
+Tambiá,Preta,Mais de 2 a 3 SM,11
+Tambiá,Preta,Mais de 3 a 5 SM,8
+Tambiá,Preta,Mais de 5 a 10 SM,2
+Tambiá,Preta,Mais de 10 SM,0
+Tambiá,Preta,Sem rendimento,51
+Tambiá,Preta,Total,134
+Tambiá,Indígena,Até 1/2 SM,1
+Tambiá,Indígena,Mais de 1/2 a 1 SM,0
+Tambiá,Indígena,Mais de 1 a 2 SM,1
+Tambiá,Indígena,Mais de 2 a 3 SM,0
+Tambiá,Indígena,Mais de 3 a 5 SM,0
+Tambiá,Indígena,Mais de 5 a 10 SM,0
+Tambiá,Indígena,Mais de 10 SM,0
+Tambiá,Indígena,Sem rendimento,0
+Tambiá,Indígena,Total,2
+Tambiá,Amarela,Até 1/2 SM,0
+Tambiá,Amarela,Mais de 1/2 a 1 SM,2
+Tambiá,Amarela,Mais de 1 a 2 SM,9
+Tambiá,Amarela,Mais de 2 a 3 SM,1
+Tambiá,Amarela,Mais de 3 a 5 SM,2
+Tambiá,Amarela,Mais de 5 a 10 SM,1
+Tambiá,Amarela,Mais de 10 SM,0
+Tambiá,Amarela,Sem rendimento,9
+Tambiá,Amarela,Total,24
+Tambiá,Total,Até 1/2 SM,56
+Tambiá,Total,Mais de 1/2 a 1 SM,491
+Tambiá,Total,Mais de 1 a 2 SM,422
+Tambiá,Total,Mais de 2 a 3 SM,188
+Tambiá,Total,Mais de 3 a 5 SM,167
+Tambiá,Total,Mais de 5 a 10 SM,127
+Tambiá,Total,Mais de 10 SM,32
+Tambiá,Total,Sem rendimento,742
+Tambiá,Total,Total,2225
+Torre,Branca,Até 1/2 SM,144
+Torre,Branca,Mais de 1/2 a 1 SM,1336
+Torre,Branca,Mais de 1 a 2 SM,1161
+Torre,Branca,Mais de 2 a 3 SM,541
+Torre,Branca,Mais de 3 a 5 SM,602
+Torre,Branca,Mais de 5 a 10 SM,517
+Torre,Branca,Mais de 10 SM,189
+Torre,Branca,Sem rendimento,2109
+Torre,Branca,Total,6599
+Torre,Parda,Até 1/2 SM,209
+Torre,Parda,Mais de 1/2 a 1 SM,1602
+Torre,Parda,Mais de 1 a 2 SM,1156
+Torre,Parda,Mais de 2 a 3 SM,412
+Torre,Parda,Mais de 3 a 5 SM,415
+Torre,Parda,Mais de 5 a 10 SM,347
+Torre,Parda,Mais de 10 SM,94
+Torre,Parda,Sem rendimento,1934
+Torre,Parda,Total,6169
+Torre,Preta,Até 1/2 SM,23
+Torre,Preta,Mais de 1/2 a 1 SM,212
+Torre,Preta,Mais de 1 a 2 SM,130
+Torre,Preta,Mais de 2 a 3 SM,52
+Torre,Preta,Mais de 3 a 5 SM,40
+Torre,Preta,Mais de 5 a 10 SM,29
+Torre,Preta,Mais de 10 SM,6
+Torre,Preta,Sem rendimento,162
+Torre,Preta,Total,654
+Torre,Indígena,Até 1/2 SM,3
+Torre,Indígena,Mais de 1/2 a 1 SM,24
+Torre,Indígena,Mais de 1 a 2 SM,7
+Torre,Indígena,Mais de 2 a 3 SM,7
+Torre,Indígena,Mais de 3 a 5 SM,2
+Torre,Indígena,Mais de 5 a 10 SM,1
+Torre,Indígena,Mais de 10 SM,1
+Torre,Indígena,Sem rendimento,17
+Torre,Indígena,Total,62
+Torre,Amarela,Até 1/2 SM,5
+Torre,Amarela,Mais de 1/2 a 1 SM,62
+Torre,Amarela,Mais de 1 a 2 SM,45
+Torre,Amarela,Mais de 2 a 3 SM,16
+Torre,Amarela,Mais de 3 a 5 SM,10
+Torre,Amarela,Mais de 5 a 10 SM,10
+Torre,Amarela,Mais de 10 SM,2
+Torre,Amarela,Sem rendimento,61
+Torre,Amarela,Total,211
+Torre,Total,Até 1/2 SM,384
+Torre,Total,Mais de 1/2 a 1 SM,3236
+Torre,Total,Mais de 1 a 2 SM,2499
+Torre,Total,Mais de 2 a 3 SM,1028
+Torre,Total,Mais de 3 a 5 SM,1069
+Torre,Total,Mais de 5 a 10 SM,904
+Torre,Total,Mais de 10 SM,292
+Torre,Total,Sem rendimento,4283
+Torre,Total,Total,13695
+Treze de Maio,Branca,Até 1/2 SM,83
+Treze de Maio,Branca,Mais de 1/2 a 1 SM,576
+Treze de Maio,Branca,Mais de 1 a 2 SM,542
+Treze de Maio,Branca,Mais de 2 a 3 SM,278
+Treze de Maio,Branca,Mais de 3 a 5 SM,342
+Treze de Maio,Branca,Mais de 5 a 10 SM,315
+Treze de Maio,Branca,Mais de 10 SM,141
+Treze de Maio,Branca,Sem rendimento,1149
+Treze de Maio,Branca,Total,3426
+Treze de Maio,Parda,Até 1/2 SM,180
+Treze de Maio,Parda,Mais de 1/2 a 1 SM,716
+Treze de Maio,Parda,Mais de 1 a 2 SM,489
+Treze de Maio,Parda,Mais de 2 a 3 SM,186
+Treze de Maio,Parda,Mais de 3 a 5 SM,169
+Treze de Maio,Parda,Mais de 5 a 10 SM,163
+Treze de Maio,Parda,Mais de 10 SM,43
+Treze de Maio,Parda,Sem rendimento,1052
+Treze de Maio,Parda,Total,2998
+Treze de Maio,Preta,Até 1/2 SM,16
+Treze de Maio,Preta,Mais de 1/2 a 1 SM,95
+Treze de Maio,Preta,Mais de 1 a 2 SM,49
+Treze de Maio,Preta,Mais de 2 a 3 SM,18
+Treze de Maio,Preta,Mais de 3 a 5 SM,9
+Treze de Maio,Preta,Mais de 5 a 10 SM,10
+Treze de Maio,Preta,Mais de 10 SM,4
+Treze de Maio,Preta,Sem rendimento,85
+Treze de Maio,Preta,Total,286
+Treze de Maio,Indígena,Até 1/2 SM,5
+Treze de Maio,Indígena,Mais de 1/2 a 1 SM,5
+Treze de Maio,Indígena,Mais de 1 a 2 SM,1
+Treze de Maio,Indígena,Mais de 2 a 3 SM,0
+Treze de Maio,Indígena,Mais de 3 a 5 SM,0
+Treze de Maio,Indígena,Mais de 5 a 10 SM,2
+Treze de Maio,Indígena,Mais de 10 SM,0
+Treze de Maio,Indígena,Sem rendimento,4
+Treze de Maio,Indígena,Total,17
+Treze de Maio,Amarela,Até 1/2 SM,7
+Treze de Maio,Amarela,Mais de 1/2 a 1 SM,29
+Treze de Maio,Amarela,Mais de 1 a 2 SM,22
+Treze de Maio,Amarela,Mais de 2 a 3 SM,4
+Treze de Maio,Amarela,Mais de 3 a 5 SM,7
+Treze de Maio,Amarela,Mais de 5 a 10 SM,2
+Treze de Maio,Amarela,Mais de 10 SM,3
+Treze de Maio,Amarela,Sem rendimento,35
+Treze de Maio,Amarela,Total,109
+Treze de Maio,Total,Até 1/2 SM,291
+Treze de Maio,Total,Mais de 1/2 a 1 SM,1421
+Treze de Maio,Total,Mais de 1 a 2 SM,1103
+Treze de Maio,Total,Mais de 2 a 3 SM,486
+Treze de Maio,Total,Mais de 3 a 5 SM,527
+Treze de Maio,Total,Mais de 5 a 10 SM,492
+Treze de Maio,Total,Mais de 10 SM,191
+Treze de Maio,Total,Sem rendimento,2325
+Treze de Maio,Total,Total,6836
+Trincheiras,Branca,Até 1/2 SM,146
+Trincheiras,Branca,Mais de 1/2 a 1 SM,615
+Trincheiras,Branca,Mais de 1 a 2 SM,330
+Trincheiras,Branca,Mais de 2 a 3 SM,97
+Trincheiras,Branca,Mais de 3 a 5 SM,60
+Trincheiras,Branca,Mais de 5 a 10 SM,67
+Trincheiras,Branca,Mais de 10 SM,13
+Trincheiras,Branca,Sem rendimento,890
+Trincheiras,Branca,Total,2218
+Trincheiras,Parda,Até 1/2 SM,254
+Trincheiras,Parda,Mais de 1/2 a 1 SM,885
+Trincheiras,Parda,Mais de 1 a 2 SM,355
+Trincheiras,Parda,Mais de 2 a 3 SM,99
+Trincheiras,Parda,Mais de 3 a 5 SM,66
+Trincheiras,Parda,Mais de 5 a 10 SM,37
+Trincheiras,Parda,Mais de 10 SM,10
+Trincheiras,Parda,Sem rendimento,1364
+Trincheiras,Parda,Total,3070
+Trincheiras,Preta,Até 1/2 SM,57
+Trincheiras,Preta,Mais de 1/2 a 1 SM,167
+Trincheiras,Preta,Mais de 1 a 2 SM,67
+Trincheiras,Preta,Mais de 2 a 3 SM,12
+Trincheiras,Preta,Mais de 3 a 5 SM,11
+Trincheiras,Preta,Mais de 5 a 10 SM,7
+Trincheiras,Preta,Mais de 10 SM,0
+Trincheiras,Preta,Sem rendimento,170
+Trincheiras,Preta,Total,491
+Trincheiras,Indígena,Até 1/2 SM,2
+Trincheiras,Indígena,Mais de 1/2 a 1 SM,11
+Trincheiras,Indígena,Mais de 1 a 2 SM,4
+Trincheiras,Indígena,Mais de 2 a 3 SM,0
+Trincheiras,Indígena,Mais de 3 a 5 SM,2
+Trincheiras,Indígena,Mais de 5 a 10 SM,0
+Trincheiras,Indígena,Mais de 10 SM,0
+Trincheiras,Indígena,Sem rendimento,7
+Trincheiras,Indígena,Total,26
+Trincheiras,Amarela,Até 1/2 SM,8
+Trincheiras,Amarela,Mais de 1/2 a 1 SM,16
+Trincheiras,Amarela,Mais de 1 a 2 SM,15
+Trincheiras,Amarela,Mais de 2 a 3 SM,5
+Trincheiras,Amarela,Mais de 3 a 5 SM,2
+Trincheiras,Amarela,Mais de 5 a 10 SM,1
+Trincheiras,Amarela,Mais de 10 SM,0
+Trincheiras,Amarela,Sem rendimento,39
+Trincheiras,Amarela,Total,86
+Trincheiras,Total,Até 1/2 SM,467
+Trincheiras,Total,Mais de 1/2 a 1 SM,1694
+Trincheiras,Total,Mais de 1 a 2 SM,771
+Trincheiras,Total,Mais de 2 a 3 SM,213
+Trincheiras,Total,Mais de 3 a 5 SM,141
+Trincheiras,Total,Mais de 5 a 10 SM,112
+Trincheiras,Total,Mais de 10 SM,23
+Trincheiras,Total,Sem rendimento,2470
+Trincheiras,Total,Total,5891
+Valentina,Branca,Até 1/2 SM,316
+Valentina,Branca,Mais de 1/2 a 1 SM,2100
+Valentina,Branca,Mais de 1 a 2 SM,1870
+Valentina,Branca,Mais de 2 a 3 SM,576
+Valentina,Branca,Mais de 3 a 5 SM,383
+Valentina,Branca,Mais de 5 a 10 SM,220
+Valentina,Branca,Mais de 10 SM,24
+Valentina,Branca,Sem rendimento,3221
+Valentina,Branca,Total,8710
+Valentina,Parda,Até 1/2 SM,379
+Valentina,Parda,Mais de 1/2 a 1 SM,2302
+Valentina,Parda,Mais de 1 a 2 SM,1720
+Valentina,Parda,Mais de 2 a 3 SM,585
+Valentina,Parda,Mais de 3 a 5 SM,419
+Valentina,Parda,Mais de 5 a 10 SM,191
+Valentina,Parda,Mais de 10 SM,28
+Valentina,Parda,Sem rendimento,3371
+Valentina,Parda,Total,8995
+Valentina,Preta,Até 1/2 SM,90
+Valentina,Preta,Mais de 1/2 a 1 SM,428
+Valentina,Preta,Mais de 1 a 2 SM,269
+Valentina,Preta,Mais de 2 a 3 SM,97
+Valentina,Preta,Mais de 3 a 5 SM,59
+Valentina,Preta,Mais de 5 a 10 SM,41
+Valentina,Preta,Mais de 10 SM,4
+Valentina,Preta,Sem rendimento,463
+Valentina,Preta,Total,1451
+Valentina,Indígena,Até 1/2 SM,1
+Valentina,Indígena,Mais de 1/2 a 1 SM,15
+Valentina,Indígena,Mais de 1 a 2 SM,6
+Valentina,Indígena,Mais de 2 a 3 SM,3
+Valentina,Indígena,Mais de 3 a 5 SM,3
+Valentina,Indígena,Mais de 5 a 10 SM,2
+Valentina,Indígena,Mais de 10 SM,1
+Valentina,Indígena,Sem rendimento,12
+Valentina,Indígena,Total,43
+Valentina,Amarela,Até 1/2 SM,31
+Valentina,Amarela,Mais de 1/2 a 1 SM,91
+Valentina,Amarela,Mais de 1 a 2 SM,75
+Valentina,Amarela,Mais de 2 a 3 SM,17
+Valentina,Amarela,Mais de 3 a 5 SM,15
+Valentina,Amarela,Mais de 5 a 10 SM,9
+Valentina,Amarela,Mais de 10 SM,1
+Valentina,Amarela,Sem rendimento,159
+Valentina,Amarela,Total,398
+Valentina,Total,Até 1/2 SM,817
+Valentina,Total,Mais de 1/2 a 1 SM,4936
+Valentina,Total,Mais de 1 a 2 SM,3940
+Valentina,Total,Mais de 2 a 3 SM,1278
+Valentina,Total,Mais de 3 a 5 SM,879
+Valentina,Total,Mais de 5 a 10 SM,463
+Valentina,Total,Mais de 10 SM,58
+Valentina,Total,Sem rendimento,7226
+Valentina,Total,Total,19597
+Varadouro,Branca,Até 1/2 SM,73
+Varadouro,Branca,Mais de 1/2 a 1 SM,424
+Varadouro,Branca,Mais de 1 a 2 SM,258
+Varadouro,Branca,Mais de 2 a 3 SM,48
+Varadouro,Branca,Mais de 3 a 5 SM,35
+Varadouro,Branca,Mais de 5 a 10 SM,18
+Varadouro,Branca,Mais de 10 SM,5
+Varadouro,Branca,Sem rendimento,487
+Varadouro,Branca,Total,1348
+Varadouro,Parda,Até 1/2 SM,98
+Varadouro,Parda,Mais de 1/2 a 1 SM,529
+Varadouro,Parda,Mais de 1 a 2 SM,255
+Varadouro,Parda,Mais de 2 a 3 SM,36
+Varadouro,Parda,Mais de 3 a 5 SM,27
+Varadouro,Parda,Mais de 5 a 10 SM,18
+Varadouro,Parda,Mais de 10 SM,4
+Varadouro,Parda,Sem rendimento,610
+Varadouro,Parda,Total,1577
+Varadouro,Preta,Até 1/2 SM,12
+Varadouro,Preta,Mais de 1/2 a 1 SM,57
+Varadouro,Preta,Mais de 1 a 2 SM,26
+Varadouro,Preta,Mais de 2 a 3 SM,8
+Varadouro,Preta,Mais de 3 a 5 SM,5
+Varadouro,Preta,Mais de 5 a 10 SM,2
+Varadouro,Preta,Mais de 10 SM,1
+Varadouro,Preta,Sem rendimento,68
+Varadouro,Preta,Total,179
+Varadouro,Indígena,Até 1/2 SM,2
+Varadouro,Indígena,Mais de 1/2 a 1 SM,3
+Varadouro,Indígena,Mais de 1 a 2 SM,1
+Varadouro,Indígena,Mais de 2 a 3 SM,0
+Varadouro,Indígena,Mais de 3 a 5 SM,1
+Varadouro,Indígena,Mais de 5 a 10 SM,0
+Varadouro,Indígena,Mais de 10 SM,0
+Varadouro,Indígena,Sem rendimento,10
+Varadouro,Indígena,Total,17
+Varadouro,Amarela,Até 1/2 SM,6
+Varadouro,Amarela,Mais de 1/2 a 1 SM,15
+Varadouro,Amarela,Mais de 1 a 2 SM,7
+Varadouro,Amarela,Mais de 2 a 3 SM,2
+Varadouro,Amarela,Mais de 3 a 5 SM,2
+Varadouro,Amarela,Mais de 5 a 10 SM,1
+Varadouro,Amarela,Mais de 10 SM,0
+Varadouro,Amarela,Sem rendimento,27
+Varadouro,Amarela,Total,60
+Varadouro,Total,Até 1/2 SM,191
+Varadouro,Total,Mais de 1/2 a 1 SM,1028
+Varadouro,Total,Mais de 1 a 2 SM,547
+Varadouro,Total,Mais de 2 a 3 SM,94
+Varadouro,Total,Mais de 3 a 5 SM,70
+Varadouro,Total,Mais de 5 a 10 SM,39
+Varadouro,Total,Mais de 10 SM,10
+Varadouro,Total,Sem rendimento,1202
+Varadouro,Total,Total,3181
+Varjão,Branca,Até 1/2 SM,317
+Varjão,Branca,Mais de 1/2 a 1 SM,1492
+Varjão,Branca,Mais de 1 a 2 SM,754
+Varjão,Branca,Mais de 2 a 3 SM,175
+Varjão,Branca,Mais de 3 a 5 SM,141
+Varjão,Branca,Mais de 5 a 10 SM,59
+Varjão,Branca,Mais de 10 SM,13
+Varjão,Branca,Sem rendimento,2049
+Varjão,Branca,Total,5000
+Varjão,Parda,Até 1/2 SM,679
+Varjão,Parda,Mais de 1/2 a 1 SM,2529
+Varjão,Parda,Mais de 1 a 2 SM,1009
+Varjão,Parda,Mais de 2 a 3 SM,187
+Varjão,Parda,Mais de 3 a 5 SM,138
+Varjão,Parda,Mais de 5 a 10 SM,55
+Varjão,Parda,Mais de 10 SM,12
+Varjão,Parda,Sem rendimento,3402
+Varjão,Parda,Total,8011
+Varjão,Preta,Até 1/2 SM,80
+Varjão,Preta,Mais de 1/2 a 1 SM,426
+Varjão,Preta,Mais de 1 a 2 SM,171
+Varjão,Preta,Mais de 2 a 3 SM,32
+Varjão,Preta,Mais de 3 a 5 SM,19
+Varjão,Preta,Mais de 5 a 10 SM,9
+Varjão,Preta,Mais de 10 SM,0
+Varjão,Preta,Sem rendimento,502
+Varjão,Preta,Total,1239
+Varjão,Indígena,Até 1/2 SM,0
+Varjão,Indígena,Mais de 1/2 a 1 SM,6
+Varjão,Indígena,Mais de 1 a 2 SM,1
+Varjão,Indígena,Mais de 2 a 3 SM,0
+Varjão,Indígena,Mais de 3 a 5 SM,0
+Varjão,Indígena,Mais de 5 a 10 SM,0
+Varjão,Indígena,Mais de 10 SM,0
+Varjão,Indígena,Sem rendimento,1
+Varjão,Indígena,Total,8
+Varjão,Amarela,Até 1/2 SM,5
+Varjão,Amarela,Mais de 1/2 a 1 SM,54
+Varjão,Amarela,Mais de 1 a 2 SM,17
+Varjão,Amarela,Mais de 2 a 3 SM,5
+Varjão,Amarela,Mais de 3 a 5 SM,3
+Varjão,Amarela,Mais de 5 a 10 SM,1
+Varjão,Amarela,Mais de 10 SM,1
+Varjão,Amarela,Sem rendimento,69
+Varjão,Amarela,Total,155
+Varjão,Total,Até 1/2 SM,1081
+Varjão,Total,Mais de 1/2 a 1 SM,4507
+Varjão,Total,Mais de 1 a 2 SM,1952
+Varjão,Total,Mais de 2 a 3 SM,399
+Varjão,Total,Mais de 3 a 5 SM,301
+Varjão,Total,Mais de 5 a 10 SM,124
+Varjão,Total,Mais de 10 SM,26
+Varjão,Total,Sem rendimento,6023
+Varjão,Total,Total,14413

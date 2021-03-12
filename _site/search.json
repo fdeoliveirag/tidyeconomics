@@ -6,14 +6,14 @@
       "description": "MESTRANDO EM ECONOMIA (PIMES-UFPE)",
       "author": [],
       "contents": "\n\nbody{font-size: 14pt;}\ntd{font-size: 16px;}\ncode.r{font-size: 14px;}\npre{font-size: 12px;}\n\nEste blog foi criado para compartilhar minha experiência com rotinas em economia aplicada. Seu público-alvo são leitores com alguma iniciação em R que se interessem pela abordagem {tidyverse} para análise e modelagem.\n\n\n# contato purrr::map(    list( LinkedIn,  GitHub,  Twitter ),    ~ .x$fdeoliveirag )\n\n\n\n",
-      "last_modified": "2021-02-22T00:06:51-03:00"
+      "last_modified": "2021-03-07T16:16:37-03:00"
     },
     {
       "path": "index.html",
       "title": "{tidyeconomics}",
       "author": [],
-      "contents": "\n\nbody{\n  font-size: 14pt;\n  text-align: justify;\n}\ntd{font-size: 16px;}\ncode.r{font-size: 14px;}\npre{font-size: 12px;}\n\n\n\n",
-      "last_modified": "2021-02-22T23:55:51-03:00"
+      "contents": "\n\nbody{\n  font-size: 14pt;\n  text-align: justify;\n}\nh1, h2, h3 {\n  text-align: left;\n}\ntd{font-size: 16px;}\ncode.r{font-size: 14px;}\npre{font-size: 12px;}\n\n\n\n",
+      "last_modified": "2021-03-07T17:16:54-03:00"
     }
   ],
   "collections": ["posts/posts.json"]

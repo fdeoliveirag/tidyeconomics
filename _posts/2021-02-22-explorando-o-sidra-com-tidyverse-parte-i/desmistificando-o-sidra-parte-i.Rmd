@@ -1,15 +1,11 @@
 ---
 title: "Explorando o SIDRA com tidyverse - Parte I"
 categories:
-  - inflação
+  - Inflação
   - SIDRA
-  - dplyr
-  - purrr
-  - forcats
-  - ggplot2
 theme: theme.css
 description: |
-  Esta postagem de abertura integra uma sequência que procurará explorar as bases de dados do SIDRA através de uma abordagem avançada de workflow no R. Neste primeiro episódio, o IPCA por componentes será utilizado para a construção de um gráfico sobre a inflação acumulada no Brasil durante a pandemia, com atenção especial à inflação de alimentos.
+  Usando a composição do IPCA para calcular e visualizar o padrão da inflação acumulada no Brasil em tempos de Covid.
 author:
   - name: Felipe O. Gonçalves
 date: 02-22-2021
@@ -20,7 +16,9 @@ output:
 <style type="text/css">
 body{
   font-size: 14pt;
-  text-align: justify;
+}
+h1, h2, h3 {
+  text-align: left;
 }
 td{font-size: 16px;}
 code.r{font-size: 14px;}
@@ -30,20 +28,18 @@ pre{font-size: 12px;}
 knitr::opts_chunk$set(message = FALSE)
 options(scipen = 999)
 ```
-Para quem ainda não lida com dados do IBGE de maneira sistemática, dificuldades com o SIDRA não são algo incomum. A tentativa de importar as planilhas sob um formato amigável para pesquisa pode trazer dor de cabeça.
+Este blog estreia com a primeira parte de uma sequência de postagens que procurará explorar as bases de dados do SIDRA através de uma abordagem avançada de workflow no R.
 
-Este blog estreia com a primeira parte de uma sequência de postagens que tentará atenuar essas dificuldades. Na postagem de hoje, utiliza-se a variação mensal do IPCA desagregado em grupos para visualizar a inflação brasileira em tempos de Covid.
-
+Na postagem de hoje, calcula-se a variação mensal acumulada do IPCA desagregado em grupos para, em seguida, construir-se um gráfico sobre a inflação brasileira durante a pandemia -- com atenção especial à inflação de alimentos.
+<br/>
+  
 ## Pacotes
 
 ```{r}
-library(sidrar)    # importação via API
-library(ggthemes)  # estética do gráfico
+library(sidrar)     # importação via API
+library(ggthemes)   # estética do gráfico
 #
-library(dplyr)
-library(purrr)
-library(forcats)
-library(ggplot2)
+library(tidyverse)
 ```
 <br/>
   
@@ -67,9 +63,11 @@ Não será preciso baixar nenhum arquivo. Seguindo os passos abaixo, encontra-se
 <br/>
 Feito. Cria-se então um objeto com a expressão (a partir de `"/t"`):
 
+<div class="sourceCode" style="overflow: auto !important;">
 ```{r}
 t7061 <- "/t/7061/n1/all/v/306/p/last%2011/c315/7170,7445,7486,7558,7625,7660,7712,7766,7786/d/v306%202"
 ```
+</div>
   
 <br/>
 E esse objeto é suficiente para importar os dados por meio do providencial `{sidrar}`:
@@ -154,12 +152,14 @@ O primeiro passo para o sucesso do gráfico de barras será, seguindo o embalo d
 ipca <- ipca %>%
   mutate(
     component = component %>%
-      substring(3) %>%                                    # retirada de numeração
-      recode("Alimentação e bebidas" = "Alimentação",
-             "Artigos de residência" = "Residência",
-             "Saúde e cuidados pessoais" = "Saúde",
-             "Despesas pessoais" = "Desp. Pessoais") %>%  # concisão
-      fct_reorder(accum_inflation)                        # critério de ordenação
+      str_sub(3) %>%                              # retirada de numeração
+      recode(                                     # concisão
+        "Alimentação e bebidas" = "Alimentação",
+        "Artigos de residência" = "Residência",
+        "Saúde e cuidados pessoais" = "Saúde",
+        "Despesas pessoais" = "Desp. Pessoais"
+      ) %>%
+      fct_reorder(accum_inflation)                # critério de ordenação
   )
 ```
   
