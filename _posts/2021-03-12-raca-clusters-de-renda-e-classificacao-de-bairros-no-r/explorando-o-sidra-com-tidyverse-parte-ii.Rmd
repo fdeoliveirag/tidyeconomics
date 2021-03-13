@@ -89,7 +89,8 @@ df_pop %>%
 ```
 
 ### Rendimento mensal por grupo racial em João Pessoa (2010)
-```{r, echo=FALSE}
+![](table_crop.png){width=90%}
+```{r, echo=FALSE, eval=FALSE}
 df_pop %>%
   group_by(racial, renda) %>%
   summarize(valor = sum(valor), .groups = "drop_last") %>%
@@ -106,8 +107,8 @@ df_pop %>%
   kableExtra::kable_classic_2() %>%
   kableExtra::add_header_above(c(" " = 1, "Salários Mínimos" = 8))
 ```
-[\@fdeoliveirag]{style="float:left"}
-
+<br/>
+  
 As frações da população branca ganhando de dois salários mínimos em diante são sempre --- e gradativamente --- maiores que as respectivas frações dos outros grupos raciais. Estas, por sua vez, somente decrescem na medida em que a renda aumenta.
 <br/><br/>
   
