@@ -1,8 +1,10 @@
 ---
 title: "Explorando o SIDRA com tidyverse - Parte I"
 categories:
-  - IPCA
   - SIDRA
+  - IPCA
+  - inflation
+theme: theme.css
 description: |
   Usando a composição do IPCA para calcular e visualizar o padrão da inflação acumulada no Brasil em tempos de Covid.
 author:
@@ -188,4 +190,4 @@ Um senhor ganho de apelo estético.
 Na segunda parte da sequência, será possível trabalhar com planilhas mais complexas do SIDRA.
 <br/>
   
-<span style='color: #182539'>###</span></br>
+<span style='color: #183139'>###</span></br>

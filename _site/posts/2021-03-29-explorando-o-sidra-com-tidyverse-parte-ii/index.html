@@ -85,47 +85,47 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-<title>Ciência de Dados Econômicos: Raça, clusters de renda e classificação de bairros no R</title>
+<title>Ciência de Dados Econômicos: Explorando o SIDRA com tidyverse - Parte II</title>
 
-<meta property="description" itemprop="description" content="Um algoritmo simples de machine learning sobre a relação entre raça e renda nas cidades brasileiras."/>
+<meta property="description" itemprop="description" content="A short description of the post."/>
 
-<link rel="canonical" href="https://tidyeconomics.netlify.app/posts/2021-03-12-raca-clusters-de-renda-e-classificacao-de-bairros-no-r/"/>
+<link rel="canonical" href="https://tidyeconomics.netlify.app/posts/2021-03-29-explorando-o-sidra-com-tidyverse-parte-ii/"/>
 
 <!--  https://schema.org/Article -->
-<meta property="article:published" itemprop="datePublished" content="2021-03-12"/>
-<meta property="article:created" itemprop="dateCreated" content="2021-03-12"/>
+<meta property="article:published" itemprop="datePublished" content="2021-03-29"/>
+<meta property="article:created" itemprop="dateCreated" content="2021-03-29"/>
 <meta name="article:author" content="Felipe O. Gonçalves"/>
 
 <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-<meta property="og:title" content="Ciência de Dados Econômicos: Raça, clusters de renda e classificação de bairros no R"/>
+<meta property="og:title" content="Ciência de Dados Econômicos: Explorando o SIDRA com tidyverse - Parte II"/>
 <meta property="og:type" content="article"/>
-<meta property="og:description" content="Um algoritmo simples de machine learning sobre a relação entre raça e renda nas cidades brasileiras."/>
-<meta property="og:url" content="https://tidyeconomics.netlify.app/posts/2021-03-12-raca-clusters-de-renda-e-classificacao-de-bairros-no-r/"/>
-<meta property="og:image" content="https://tidyeconomics.netlify.app/posts/2021-03-12-raca-clusters-de-renda-e-classificacao-de-bairros-no-r/explorando-o-sidra-com-tidyverse-parte-ii_files/figure-html5/unnamed-chunk-20-1.png"/>
+<meta property="og:description" content="A short description of the post."/>
+<meta property="og:url" content="https://tidyeconomics.netlify.app/posts/2021-03-29-explorando-o-sidra-com-tidyverse-parte-ii/"/>
+<meta property="og:image" content="https://tidyeconomics.netlify.app/posts/2021-03-29-explorando-o-sidra-com-tidyverse-parte-ii/explorando-o-sidra-com-tidyverse-parte-ii_files/figure-html5/unnamed-chunk-12-1.png"/>
 <meta property="og:image:width" content="1248"/>
-<meta property="og:image:height" content="768"/>
+<meta property="og:image:height" content="1344"/>
 <meta property="og:locale" content="en_US"/>
 <meta property="og:site_name" content="Ciência de Dados Econômicos"/>
 
 <!--  https://dev.twitter.com/cards/types/summary -->
 <meta property="twitter:card" content="summary_large_image"/>
-<meta property="twitter:title" content="Ciência de Dados Econômicos: Raça, clusters de renda e classificação de bairros no R"/>
-<meta property="twitter:description" content="Um algoritmo simples de machine learning sobre a relação entre raça e renda nas cidades brasileiras."/>
-<meta property="twitter:url" content="https://tidyeconomics.netlify.app/posts/2021-03-12-raca-clusters-de-renda-e-classificacao-de-bairros-no-r/"/>
-<meta property="twitter:image" content="https://tidyeconomics.netlify.app/posts/2021-03-12-raca-clusters-de-renda-e-classificacao-de-bairros-no-r/explorando-o-sidra-com-tidyverse-parte-ii_files/figure-html5/unnamed-chunk-20-1.png"/>
+<meta property="twitter:title" content="Ciência de Dados Econômicos: Explorando o SIDRA com tidyverse - Parte II"/>
+<meta property="twitter:description" content="A short description of the post."/>
+<meta property="twitter:url" content="https://tidyeconomics.netlify.app/posts/2021-03-29-explorando-o-sidra-com-tidyverse-parte-ii/"/>
+<meta property="twitter:image" content="https://tidyeconomics.netlify.app/posts/2021-03-29-explorando-o-sidra-com-tidyverse-parte-ii/explorando-o-sidra-com-tidyverse-parte-ii_files/figure-html5/unnamed-chunk-12-1.png"/>
 <meta property="twitter:image:width" content="1248"/>
-<meta property="twitter:image:height" content="768"/>
+<meta property="twitter:image:height" content="1344"/>
 
 <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","categories","theme","description","author","date","output","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["Raça, clusters de renda e classificação de bairros no R"]},{"type":"character","attributes":{},"value":["Censo Demográfico","race","income"]},{"type":"character","attributes":{},"value":["theme.css"]},{"type":"character","attributes":{},"value":["Um algoritmo simples de machine learning sobre a relação entre raça e renda nas cidades brasileiras."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Felipe O. Gonçalves"]}]}]},{"type":"character","attributes":{},"value":["03-12-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["https://tidyeconomics.netlify.app/posts/2021-03-12-raca-clusters-de-renda-e-classificacao-de-bairros-no-r/"]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","categories","theme","description","author","date","output","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["Explorando o SIDRA com tidyverse - Parte II"]},{"type":"character","attributes":{},"value":["SIDRA","PNADC","employment"]},{"type":"character","attributes":{},"value":["theme.css"]},{"type":"character","attributes":{},"value":["A short description of the post."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Felipe O. Gonçalves"]}]}]},{"type":"character","attributes":{},"value":["03-29-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["https://tidyeconomics.netlify.app/posts/2021-03-29-explorando-o-sidra-com-tidyverse-parte-ii/"]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["explorando-o-sidra-com-tidyverse-parte-ii_files/anchor-4.2.2/anchor.min.js","explorando-o-sidra-com-tidyverse-parte-ii_files/bowser-1.9.3/bowser.min.js","explorando-o-sidra-com-tidyverse-parte-ii_files/distill-2.2.21/template.v2.js","explorando-o-sidra-com-tidyverse-parte-ii_files/figure-html5/unnamed-chunk-10-1.png","explorando-o-sidra-com-tidyverse-parte-ii_files/figure-html5/unnamed-chunk-11-1.png","explorando-o-sidra-com-tidyverse-parte-ii_files/figure-html5/unnamed-chunk-12-1.png","explorando-o-sidra-com-tidyverse-parte-ii_files/figure-html5/unnamed-chunk-13-1.png","explorando-o-sidra-com-tidyverse-parte-ii_files/figure-html5/unnamed-chunk-14-1.png","explorando-o-sidra-com-tidyverse-parte-ii_files/figure-html5/unnamed-chunk-16-1.png","explorando-o-sidra-com-tidyverse-parte-ii_files/figure-html5/unnamed-chunk-17-1.png","explorando-o-sidra-com-tidyverse-parte-ii_files/figure-html5/unnamed-chunk-18-1.png","explorando-o-sidra-com-tidyverse-parte-ii_files/figure-html5/unnamed-chunk-19-1.png","explorando-o-sidra-com-tidyverse-parte-ii_files/figure-html5/unnamed-chunk-20-1.png","explorando-o-sidra-com-tidyverse-parte-ii_files/figure-html5/unnamed-chunk-21-1.png","explorando-o-sidra-com-tidyverse-parte-ii_files/figure-html5/unnamed-chunk-22-1.png","explorando-o-sidra-com-tidyverse-parte-ii_files/figure-html5/unnamed-chunk-22-2.png","explorando-o-sidra-com-tidyverse-parte-ii_files/figure-html5/unnamed-chunk-23-1.png","explorando-o-sidra-com-tidyverse-parte-ii_files/figure-html5/unnamed-chunk-24-1.png","explorando-o-sidra-com-tidyverse-parte-ii_files/figure-html5/unnamed-chunk-25-1.png","explorando-o-sidra-com-tidyverse-parte-ii_files/figure-html5/unnamed-chunk-26-1.png","explorando-o-sidra-com-tidyverse-parte-ii_files/figure-html5/unnamed-chunk-27-1.png","explorando-o-sidra-com-tidyverse-parte-ii_files/figure-html5/unnamed-chunk-7-1.png","explorando-o-sidra-com-tidyverse-parte-ii_files/header-attrs-2.6/header-attrs.js","explorando-o-sidra-com-tidyverse-parte-ii_files/htmlwidgets-1.5.2/htmlwidgets.js","explorando-o-sidra-com-tidyverse-parte-ii_files/jquery-1.11.3/jquery.min.js","explorando-o-sidra-com-tidyverse-parte-ii_files/jquery-1.12.4/jquery.min.js","explorando-o-sidra-com-tidyverse-parte-ii_files/kePrint-0.0.1/kePrint.js","explorando-o-sidra-com-tidyverse-parte-ii_files/lightable-0.0.1/lightable.css","explorando-o-sidra-com-tidyverse-parte-ii_files/pagedtable-1.1/css/pagedtable.css","explorando-o-sidra-com-tidyverse-parte-ii_files/pagedtable-1.1/js/pagedtable.js","explorando-o-sidra-com-tidyverse-parte-ii_files/popper-2.6.0/popper.min.js","explorando-o-sidra-com-tidyverse-parte-ii_files/tippy-6.2.7/tippy-bundle.umd.min.js","explorando-o-sidra-com-tidyverse-parte-ii_files/tippy-6.2.7/tippy-light-border.css","explorando-o-sidra-com-tidyverse-parte-ii_files/tippy-6.2.7/tippy.css","explorando-o-sidra-com-tidyverse-parte-ii_files/tippy-6.2.7/tippy.umd.min.js","explorando-o-sidra-com-tidyverse-parte-ii_files/webcomponents-2.0.0/webcomponents.js","plot_rendim_crop.png","table_crop.png"]}
+  {"type":"character","attributes":{},"value":["explorando-o-sidra-com-tidyverse-parte-ii_files/anchor-4.2.2/anchor.min.js","explorando-o-sidra-com-tidyverse-parte-ii_files/bowser-1.9.3/bowser.min.js","explorando-o-sidra-com-tidyverse-parte-ii_files/distill-2.2.21/template.v2.js","explorando-o-sidra-com-tidyverse-parte-ii_files/figure-html5/unnamed-chunk-10-1.png","explorando-o-sidra-com-tidyverse-parte-ii_files/figure-html5/unnamed-chunk-11-1.png","explorando-o-sidra-com-tidyverse-parte-ii_files/figure-html5/unnamed-chunk-12-1.png","explorando-o-sidra-com-tidyverse-parte-ii_files/figure-html5/unnamed-chunk-7-1.png","explorando-o-sidra-com-tidyverse-parte-ii_files/figure-html5/unnamed-chunk-8-1.png","explorando-o-sidra-com-tidyverse-parte-ii_files/figure-html5/unnamed-chunk-9-1.png","explorando-o-sidra-com-tidyverse-parte-ii_files/header-attrs-2.6/header-attrs.js","explorando-o-sidra-com-tidyverse-parte-ii_files/jquery-1.11.3/jquery.min.js","explorando-o-sidra-com-tidyverse-parte-ii_files/popper-2.6.0/popper.min.js","explorando-o-sidra-com-tidyverse-parte-ii_files/tippy-6.2.7/tippy-bundle.umd.min.js","explorando-o-sidra-com-tidyverse-parte-ii_files/tippy-6.2.7/tippy-light-border.css","explorando-o-sidra-com-tidyverse-parte-ii_files/tippy-6.2.7/tippy.css","explorando-o-sidra-com-tidyverse-parte-ii_files/tippy-6.2.7/tippy.umd.min.js","explorando-o-sidra-com-tidyverse-parte-ii_files/webcomponents-2.0.0/webcomponents.js","layout.png"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -2144,7 +2144,7 @@ d-appendix d-footnote-list a.footnote-backlink {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Raça, clusters de renda e classificação de bairros no R","description":"Um algoritmo simples de machine learning sobre a relação entre raça e renda nas cidades brasileiras.","authors":[{"author":"Felipe O. Gonçalves","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-03-12T00:00:00.000-03:00","citationText":"Gonçalves, 2021"}
+{"title":"Explorando o SIDRA com tidyverse - Parte II","description":"A short description of the post.","authors":[{"author":"Felipe O. Gonçalves","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-03-29T00:00:00.000-03:00","citationText":"Gonçalves, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2166,21 +2166,21 @@ d-appendix d-footnote-list a.footnote-backlink {
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Raça, clusters de renda e classificação de bairros no R</h1>
+<h1>Explorando o SIDRA com tidyverse - Parte II</h1>
 <!--radix_placeholder_categories-->
 <div class="dt-tags">
-  <a href="../../index.html#category:Censo_Demográfico" class="dt-tag">Censo Demográfico</a>
-  <a href="../../index.html#category:race" class="dt-tag">race</a>
-  <a href="../../index.html#category:income" class="dt-tag">income</a>
+  <a href="../../index.html#category:SIDRA" class="dt-tag">SIDRA</a>
+  <a href="../../index.html#category:PNADC" class="dt-tag">PNADC</a>
+  <a href="../../index.html#category:employment" class="dt-tag">employment</a>
 </div>
 <!--/radix_placeholder_categories-->
-<p><p>Um algoritmo simples de machine learning sobre a relação entre raça e renda nas cidades brasileiras.</p></p>
+<p><p>A short description of the post.</p></p>
 </div>
 
 <div class="d-byline">
   Felipe O. Gonçalves  
   
-<br/>03-12-2021
+<br/>03-29-2021
 </div>
 
 <div class="d-article">
@@ -2195,298 +2195,164 @@ td{font-size: 16px;}
 code.r{font-size: 14px;}
 pre{font-size: 12px;}
 </style>
-<p>Esta postagem representa um esforço preliminar no sentido de testar a possibilidade de prever o nível de renda de um bairro brasileiro apenas com base em sua configuração racial.</p>
-<p>O caso analisado será a cidade de origem do autor: a antiga João Pessoa, que conta com 63 bairros registrados no IBGE até então. O algoritmo, todavia, é generalizável para qualquer cidade. Seu instrumental é dividido em duas partes:</p>
-<ul>
-<li>Na primeira (não supervisionada), uma <a href="https://rss.onlinelibrary.wiley.com/doi/abs/10.2307/2346830">clusterização k-means</a> agrupa os bairros em três classes relativas de renda: alta, média e baixa;</li>
-<li>Na segunda (supervisionada), uma <a href="https://www.jstor.org/stable/2984952">classificação logística não-binária</a> prevê a qual cluster o bairro pertence dada sua proporção de indivíduos brancos.</li>
-</ul>
-<h2 id="pacotes">Pacotes</h2>
+<h1 id="pacotes">Pacotes</h1>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://github.com/ipeaGIT/geobr'>geobr</a></span><span class='op'>)</span>      <span class='co'># mapa de bairros</span>
-<span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://github.com/sfirke/janitor'>janitor</a></span><span class='op'>)</span>    <span class='co'># limpeza de nomes</span>
-<span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='http://www.stats.ox.ac.uk/pub/MASS4/'>MASS</a></span><span class='op'>)</span>       <span class='co'># logit ordenado</span>
+<pre class="sourceCode r"><code class="sourceCode r"><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='http://github.com/rpradosiqueira/sidrar'>sidrar</a></span><span class='op'>)</span>     <span class='co'># importação via API</span>
+<span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'>ggseas</span><span class='op'>)</span>     <span class='co'># gráfico sem sazonalidade</span>
+<span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='http://github.com/jrnold/ggthemes'>ggthemes</a></span><span class='op'>)</span>   <span class='co'># estética do gráfico</span>
 <span class='co'>#</span>
 <span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='http://tidyverse.tidyverse.org'>tidyverse</a></span><span class='op'>)</span>
 </code></pre>
 </div>
 </div>
-<p><br/></p>
-<h2 id="dados">Dados</h2>
-<p>A matéria-prima da análise é a <a href="https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2010/universo-caracteristicas-da-populacao-e-dos-domicilios">Tabela 3177</a> do Censo Demográfico 2010.</p>
-<p>Após sua importação, um trabalho razoável de limpeza — valores ausentes, concisão, renivelamento e reordenação de categorias — resulta num data frame que apresenta as diferentes combinações para os 63 bairros entre 5 grupos raciais e 8 grupos de renda. É possível baixá-lo <a href="https://github.com/fdeoliveirag/datasets">neste repositório</a>.</p>
+<h1 id="dados">Dados</h1>
+<img src="layout.png" />
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>df_pop</span> <span class='op'>&lt;-</span> <span class='fu'>read_rds</span><span class='op'>(</span><span class='st'>"censo_3177_pb.rds"</span><span class='op'>)</span>
+<pre class="sourceCode r"><code class="sourceCode r"><span class='co'># condição de ocupação (trimestres móveis)</span>
+<span class='va'>t6318</span> <span class='op'>&lt;-</span> <span class='st'>"/t/6318/n1/all/v/1641/p/all/c629/all"</span>
+</code></pre>
+</div>
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>df_ibge</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/pkg/sidrar/man/get_sidra.html'>get_sidra</a></span><span class='op'>(</span>api <span class='op'>=</span> <span class='va'>t6318</span><span class='op'>)</span>
 
-<span class='co'># ex. bairro mais populoso da cidade, população parda</span>
-<span class='fu'><a href='https://rdrr.io/r/stats/filter.html'>filter</a></span><span class='op'>(</span><span class='va'>df_pop</span>, <span class='va'>bairro</span> <span class='op'>==</span> <span class='st'>"Mangabeira"</span>, <span class='va'>racial</span> <span class='op'>==</span> <span class='st'>"Parda"</span><span class='op'>)</span>
+<span class='fu'><a href='https://rdrr.io/r/base/names.html'>names</a></span><span class='op'>(</span><span class='va'>df_ibge</span><span class='op'>)</span>
 </code></pre>
 </div>
-<pre><code># A tibble: 9 x 4
-  bairro     racial renda              valor
-  &lt;chr&gt;      &lt;fct&gt;  &lt;fct&gt;              &lt;dbl&gt;
-1 Mangabeira Parda  Até 1/2 SM          1656
-2 Mangabeira Parda  Mais de 1/2 a 1 SM  8345
-3 Mangabeira Parda  Mais de 1 a 2 SM    6439
-4 Mangabeira Parda  Mais de 2 a 3 SM    1738
-5 Mangabeira Parda  Mais de 3 a 5 SM    1195
-6 Mangabeira Parda  Mais de 5 a 10 SM    509
-7 Mangabeira Parda  Mais de 10 SM         68
-8 Mangabeira Parda  Sem rendimento     12430
-9 Mangabeira Parda  Total              32380</code></pre>
 </div>
 <div class="layout-chunk" data-layout="l-body">
+<pre><code> [1] &quot;Nível Territorial (Código)&quot;                                             
+ [2] &quot;Nível Territorial&quot;                                                      
+ [3] &quot;Unidade de Medida (Código)&quot;                                             
+ [4] &quot;Unidade de Medida&quot;                                                      
+ [5] &quot;Valor&quot;                                                                  
+ [6] &quot;Brasil (Código)&quot;                                                        
+ [7] &quot;Brasil&quot;                                                                 
+ [8] &quot;Variável (Código)&quot;                                                      
+ [9] &quot;Variável&quot;                                                               
+[10] &quot;Trimestre Móvel (Código)&quot;                                               
+[11] &quot;Trimestre Móvel&quot;                                                        
+[12] &quot;Condição em relação à força de trabalho e condição de ocupação (Código)&quot;
+[13] &quot;Condição em relação à força de trabalho e condição de ocupação&quot;         </code></pre>
+</div>
+<h1 id="manipulação">Manipulação</h1>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>pnad</span> <span class='op'>&lt;-</span> <span class='va'>df_ibge</span> <span class='op'>%&gt;%</span>
+  <span class='fu'>as_tibble</span><span class='op'>(</span><span class='op'>)</span> <span class='op'>%&gt;%</span>
+  <span class='fu'>select</span><span class='op'>(</span>
+    date  <span class='op'>=</span> <span class='st'>"Trimestre Móvel (Código)"</span>,
+    name  <span class='op'>=</span> <span class='st'>"Condição em relação à força de trabalho e condição de ocupação"</span>,
+    value <span class='op'>=</span> <span class='st'>"Valor"</span>
+  <span class='op'>)</span>
 
-</div>
-<p>E para garantir uma visualização espacial dos dados, os polígonos dos bairros podem ser importados através do excelente <code>{geobr}</code>:</p>
-<div class="layout-chunk" data-layout="l-body">
-<div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>sf_bairros</span> <span class='op'>&lt;-</span> <span class='fu'>geobr</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/geobr/man/read_neighborhood.html'>read_neighborhood</a></span><span class='op'>(</span>year <span class='op'>=</span> <span class='fl'>2010</span><span class='op'>)</span> <span class='op'>%&gt;%</span>
-  <span class='fu'><a href='https://rdrr.io/r/stats/filter.html'>filter</a></span><span class='op'>(</span><span class='va'>code_muni</span> <span class='op'>==</span> <span class='fl'>2507507</span><span class='op'>)</span> <span class='op'>%&gt;%</span>  <span class='co'># código de João Pessoa</span>
-  <span class='fu'><a href='https://rdrr.io/pkg/MASS/man/lm.ridge.html'>select</a></span><span class='op'>(</span><span class='va'>name_neighborhood</span>, <span class='va'>geom</span><span class='op'>)</span>
+<span class='fu'>summarize</span><span class='op'>(</span><span class='va'>pnad</span>, feature <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/levels.html'>levels</a></span><span class='op'>(</span><span class='fu'>as_factor</span><span class='op'>(</span><span class='va'>name</span><span class='op'>)</span><span class='op'>)</span><span class='op'>)</span>
 </code></pre>
 </div>
+<pre><code># A tibble: 5 x 1
+  feature                       
+  &lt;chr&gt;                         
+1 Total                         
+2 Força de trabalho             
+3 Força de trabalho - ocupada   
+4 Força de trabalho - desocupada
+5 Fora da força de trabalho     </code></pre>
 </div>
-<p><br/></p>
-<h2 id="contexto">Contexto</h2>
-<p>Um panorama das combinações raça-renda para o agregado dos bairros é bastante elucidativo e, dado o escopo do blog, suficiente como justificativa:</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>df_pop</span> <span class='op'>%&gt;%</span>
-  <span class='co'># para cada combinação entre raça e estrato de renda...</span>
-  <span class='fu'>group_by</span><span class='op'>(</span><span class='va'>racial</span>, <span class='va'>renda</span><span class='op'>)</span> <span class='op'>%&gt;%</span>
-  <span class='co'># ...o agregado de todos os bairros; e para cada grupo racial...</span>
-  <span class='fu'>summarize</span><span class='op'>(</span>valor <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/sum.html'>sum</a></span><span class='op'>(</span><span class='va'>valor</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>%&gt;%</span>
-  <span class='co'># ...a proporção de cada estrato;</span>
-  <span class='fu'>mutate</span><span class='op'>(</span>valor <span class='op'>=</span> <span class='va'>valor</span> <span class='op'>/</span> <span class='fu'>last</span><span class='op'>(</span><span class='va'>valor</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>%&gt;%</span>
-  <span class='co'># formato largo (estratos de renda em colunas)</span>
-  <span class='fu'>pivot_wider</span><span class='op'>(</span>names_from <span class='op'>=</span> <span class='va'>renda</span>, values_from <span class='op'>=</span> <span class='va'>valor</span><span class='op'>)</span>
-</code></pre>
-</div>
-</div>
-<h3 id="rendimento-mensal-por-grupo-racial-em-joão-pessoa-2010">Rendimento mensal por grupo racial em João Pessoa (2010)</h3>
-<img src="table_crop.png" style="width:90.0%" />
-<div class="layout-chunk" data-layout="l-body">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>pnad</span> <span class='op'>&lt;-</span> <span class='va'>pnad</span> <span class='op'>%&gt;%</span>
+  <span class='fu'>pivot_wider</span><span class='op'>(</span>names_from <span class='op'>=</span> <span class='va'>name</span>, values_from <span class='op'>=</span> <span class='va'>value</span><span class='op'>)</span> <span class='op'>%&gt;%</span>
+  <span class='fu'>rename_with</span><span class='op'>(</span><span class='op'>~</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"pia"</span>, <span class='st'>"pea"</span>, <span class='st'>"ocup"</span>, <span class='st'>"desocup"</span>, <span class='st'>"pnea"</span><span class='op'>)</span>, <span class='op'>-</span><span class='va'>date</span><span class='op'>)</span>
 
+<span class='fu'>glimpse</span><span class='op'>(</span><span class='va'>pnad</span><span class='op'>)</span>
+</code></pre>
 </div>
-<p><br/></p>
-<p>As frações da população branca ganhando de dois salários mínimos em diante são sempre — e gradativamente — maiores que as respectivas frações dos outros grupos raciais. Estas, por sua vez, somente decrescem na medida em que a renda aumenta. <br/><br/></p>
-<h2 id="get_split">get_split()</h2>
-<p>Uma boa tática para lidar com as variáveis é cindir os dados para elas terem suas bases próprias, manipulá-las separadamente e depois reuni-las.</p>
-<p>Evitando repetição desnecessária, é possível construir com <a href="https://tidyeval.tidyverse.org/dplyr.html">tidy evaluation</a> uma função usando <code>dplyr::enquo()</code> para chamar as colunas dentro do pipe:</p>
+<pre><code>Rows: 106
+Columns: 6
+$ date    &lt;chr&gt; &quot;201203&quot;, &quot;201204&quot;, &quot;201205&quot;, &quot;201206&quot;, &quot;201207&quot;, &quot;2…
+$ pia     &lt;dbl&gt; 155670, 155810, 155920, 156215, 156344, 156543, 1567…
+$ pea     &lt;dbl&gt; 95191, 95833, 96179, 96375, 96342, 96458, 96454, 963…
+$ ocup    &lt;dbl&gt; 87632, 88407, 88863, 89129, 89181, 89428, 89639, 897…
+$ desocup &lt;dbl&gt; 7559, 7426, 7317, 7245, 7162, 7030, 6815, 6639, 6519…
+$ pnea    &lt;dbl&gt; 60479, 59977, 59741, 59841, 60002, 60085, 60320, 606…</code></pre>
+</div>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>get_split</span> <span class='op'>&lt;-</span> <span class='kw'>function</span><span class='op'>(</span><span class='va'>y</span>, <span class='va'>x</span><span class='op'>)</span> <span class='op'>{</span>
-  <span class='co'># variável</span>
-  <span class='va'>x</span> <span class='op'>&lt;-</span> <span class='fu'>enquo</span><span class='op'>(</span><span class='va'>x</span><span class='op'>)</span>
-  <span class='co'># data frame</span>
-  <span class='va'>y</span> <span class='op'>%&gt;%</span>
-    <span class='co'># indivíduos por bairro pertencendo a cada categoria da variável</span>
-    <span class='fu'>group_by</span><span class='op'>(</span><span class='va'>bairro</span>, <span class='op'>!</span><span class='op'>!</span><span class='va'>x</span><span class='op'>)</span> <span class='op'>%&gt;%</span>
-    <span class='fu'>summarize</span><span class='op'>(</span>valor <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/sum.html'>sum</a></span><span class='op'>(</span><span class='va'>valor</span><span class='op'>)</span>, .groups <span class='op'>=</span> <span class='st'>"drop"</span><span class='op'>)</span> <span class='op'>%&gt;%</span>
-    <span class='co'># categorias formando colunas</span>
-    <span class='fu'>pivot_wider</span><span class='op'>(</span>names_from <span class='op'>=</span> <span class='op'>!</span><span class='op'>!</span><span class='va'>x</span>, values_from <span class='op'>=</span> <span class='va'>valor</span><span class='op'>)</span> <span class='op'>%&gt;%</span>
-    <span class='co'># limpando os nomes das colunas</span>
-    <span class='fu'>janitor</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/janitor/man/clean_names.html'>clean_names</a></span><span class='op'>(</span><span class='op'>)</span>
-<span class='op'>}</span>
+<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>df</span> <span class='op'>&lt;-</span> <span class='va'>pnad</span> <span class='op'>%&gt;%</span>
+  <span class='fu'>transmute</span><span class='op'>(</span>
+    date   <span class='op'>=</span> <span class='fu'>parse_date</span><span class='op'>(</span><span class='va'>date</span>, format <span class='op'>=</span> <span class='st'>"%Y%m"</span><span class='op'>)</span>,
+    desemp <span class='op'>=</span> <span class='va'>desocup</span> <span class='op'>/</span> <span class='va'>pea</span> <span class='op'>*</span> <span class='fl'>100</span>,
+    partic <span class='op'>=</span> <span class='va'>pea</span> <span class='op'>/</span> <span class='va'>pia</span> <span class='op'>*</span> <span class='fl'>100</span>
+  <span class='op'>)</span>
 </code></pre>
 </div>
 </div>
-<p><br/></p>
-<h2 id="proporção-de-brancos">Proporção de brancos</h2>
-<p>Com os dados raciais, precisa-se da medida quantitativa de branquitude dos bairros:</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>branq</span> <span class='op'>&lt;-</span> <span class='va'>df_pop</span> <span class='op'>%&gt;%</span>
-  <span class='fu'>get_split</span><span class='op'>(</span><span class='va'>racial</span><span class='op'>)</span> <span class='op'>%&gt;%</span>
-  <span class='fu'>summarize</span><span class='op'>(</span><span class='va'>bairro</span>,
-            prop_branq <span class='op'>=</span> <span class='va'>branca</span> <span class='op'>/</span> <span class='va'>total</span><span class='op'>)</span>
+<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'><a href='https://rdrr.io/r/utils/head.html'>tail</a></span><span class='op'>(</span><span class='va'>df</span>, <span class='fl'>12</span><span class='op'>)</span>
+</code></pre>
+</div>
+<pre><code># A tibble: 12 x 3
+   date       desemp partic
+   &lt;date&gt;      &lt;dbl&gt;  &lt;dbl&gt;
+ 1 2020-01-01   11.2   61.7
+ 2 2020-02-01   11.6   61.7
+ 3 2020-03-01   12.2   61.0
+ 4 2020-04-01   12.6   59.0
+ 5 2020-05-01   12.9   56.8
+ 6 2020-06-01   13.3   55.3
+ 7 2020-07-01   13.8   54.7
+ 8 2020-08-01   14.5   54.7
+ 9 2020-09-01   14.6   55.1
+10 2020-10-01   14.3   56.0
+11 2020-11-01   14.1   56.6
+12 2020-12-01   13.9   56.8</code></pre>
+</div>
+<h1 id="visualização">Visualização</h1>
+<p>Segundo o Comitê de Datação de Ciclos Econômicos (<a href="https://portalibre.fgv.br/codace">CODACE</a>)…</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>codace</span>     <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/as.Date.html'>as.Date</a></span><span class='op'>(</span><span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"2014-06-01"</span>, <span class='st'>"2016-12-01"</span>, <span class='st'>"2020-01-01"</span><span class='op'>)</span><span class='op'>)</span>
 
-<span class='fu'>glimpse</span><span class='op'>(</span><span class='va'>branq</span><span class='op'>)</span>
+<span class='va'>labs_facet</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span>desemp <span class='op'>=</span> <span class='st'>"Taxa de Desemprego"</span>,
+                partic <span class='op'>=</span> <span class='st'>"Taxa de Participação na Força de Trabalho"</span><span class='op'>)</span>
 </code></pre>
 </div>
-<pre><code>Rows: 63
-Columns: 2
-$ bairro     &lt;chr&gt; &quot;Aeroclube&quot;, &quot;Água Fria&quot;, &quot;Altiplano Cabo Branco&quot;…
-$ prop_branq &lt;dbl&gt; 0.6256013, 0.5011933, 0.5281250, 0.2883413, 0.339…</code></pre>
 </div>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='co'># branquitude</span>
-<span class='va'>branq</span> <span class='op'>%&gt;%</span>
-  <span class='fu'>ggplot</span><span class='op'>(</span><span class='fu'>aes</span><span class='op'>(</span>x <span class='op'>=</span> <span class='va'>prop_branq</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span>
-  <span class='fu'>geom_histogram</span><span class='op'>(</span><span class='fu'>aes</span><span class='op'>(</span>y <span class='op'>=</span> <span class='va'>..density..</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span>
-  <span class='fu'>geom_density</span><span class='op'>(</span><span class='op'>)</span>
+<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>df</span> <span class='op'>%&gt;%</span>
+  <span class='fu'>pivot_longer</span><span class='op'>(</span><span class='op'>-</span><span class='va'>date</span><span class='op'>)</span> <span class='op'>%&gt;%</span>
+  <span class='fu'>ggplot</span><span class='op'>(</span><span class='fu'>aes</span><span class='op'>(</span>x <span class='op'>=</span> <span class='va'>date</span>, y <span class='op'>=</span> <span class='va'>value</span>, color <span class='op'>=</span> <span class='va'>name</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span>
+  <span class='fu'><a href='https://rdrr.io/pkg/ggseas/man/stat_seas.html'>stat_seas</a></span><span class='op'>(</span>frequency <span class='op'>=</span> <span class='fl'>12</span>, start <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='fl'>2012</span>, <span class='fl'>3</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span>
+  <span class='fu'>annotate</span><span class='op'>(</span><span class='st'>"rect"</span>,
+           xmin  <span class='op'>=</span> <span class='va'>codace</span><span class='op'>[</span><span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='fl'>1</span>, <span class='fl'>3</span><span class='op'>)</span><span class='op'>]</span>, xmax  <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='va'>codace</span><span class='op'>[</span><span class='fl'>2</span><span class='op'>]</span>, <span class='cn'>Inf</span><span class='op'>)</span>,
+           ymin  <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='op'>-</span><span class='cn'>Inf</span>, <span class='op'>-</span><span class='cn'>Inf</span><span class='op'>)</span>,   ymax  <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='cn'>Inf</span>, <span class='cn'>Inf</span><span class='op'>)</span>,
+           alpha <span class='op'>=</span> <span class='fl'>.3</span><span class='op'>)</span> <span class='op'>+</span>
+  <span class='fu'>facet_wrap</span><span class='op'>(</span><span class='op'>~</span> <span class='va'>name</span>,
+             ncol     <span class='op'>=</span> <span class='fl'>1</span>,
+             scales   <span class='op'>=</span> <span class='st'>"free"</span>,
+             labeller <span class='op'>=</span> <span class='fu'>as_labeller</span><span class='op'>(</span><span class='va'>labs_facet</span><span class='op'>)</span><span class='op'>)</span>
 </code></pre>
 </div>
 </div>
-<h3 id="distribuição-racial-dos-bairros-de-joão-pessoa-2010">Distribuição racial dos bairros de João Pessoa (2010)</h3>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="explorando-o-sidra-com-tidyverse-parte-ii_files/figure-html5/unnamed-chunk-11-1.png" width="624" /></p>
+<p><img src="explorando-o-sidra-com-tidyverse-parte-ii_files/figure-html5/unnamed-chunk-12-1.png" width="624" /></p>
 </div>
-<p><br/></p>
-<h2 id="clusters-de-renda">Clusters de renda</h2>
-<p>No caso dos dados de renda, tem-se como medida a participação de cada estrato na população ocupada dos bairros:</p>
-<div class="layout-chunk" data-layout="l-body">
-<div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>rendim</span> <span class='op'>&lt;-</span> <span class='va'>df_pop</span> <span class='op'>%&gt;%</span>
-  <span class='fu'>get_split</span><span class='op'>(</span><span class='va'>renda</span><span class='op'>)</span> <span class='op'>%&gt;%</span>
-  <span class='fu'>mutate</span><span class='op'>(</span><span class='fu'>across</span><span class='op'>(</span><span class='fu'>where</span><span class='op'>(</span><span class='va'>is.numeric</span><span class='op'>)</span>, <span class='op'>~</span> <span class='va'>.x</span> <span class='op'>/</span> <span class='op'>(</span><span class='va'>total</span> <span class='op'>-</span> <span class='va'>sem_rendimento</span><span class='op'>)</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>%&gt;%</span>
-  <span class='fu'><a href='https://rdrr.io/pkg/MASS/man/lm.ridge.html'>select</a></span><span class='op'>(</span><span class='va'>bairro</span>, <span class='fu'>contains</span><span class='op'>(</span><span class='st'>"_sm"</span><span class='op'>)</span><span class='op'>)</span>
-
-<span class='fu'>glimpse</span><span class='op'>(</span><span class='va'>rendim</span><span class='op'>)</span>
-</code></pre>
-</div>
-<pre><code>Rows: 63
-Columns: 8
-$ bairro             &lt;chr&gt; &quot;Aeroclube&quot;, &quot;Água Fria&quot;, &quot;Altiplano Cabo…
-$ ate_1_2_sm         &lt;dbl&gt; 0.008200837, 0.011596548, 0.067423231, 0.…
-$ mais_de_1_2_a_1_sm &lt;dbl&gt; 0.1358996, 0.2014563, 0.2830441, 0.598030…
-$ mais_de_1_a_2_sm   &lt;dbl&gt; 0.2060251, 0.2758900, 0.1965955, 0.200843…
-$ mais_de_2_a_3_sm   &lt;dbl&gt; 0.12702929, 0.17637540, 0.09012016, 0.031…
-$ mais_de_3_a_5_sm   &lt;dbl&gt; 0.17456067, 0.18959008, 0.11014686, 0.019…
-$ mais_de_5_a_10_sm  &lt;dbl&gt; 0.213221757, 0.121089536, 0.143858478, 0.…
-$ mais_de_10_sm      &lt;dbl&gt; 0.1350627615, 0.0240021575, 0.1088117490,…</code></pre>
-</div>
-<p>Seja por silhueta ou cotovelo, o número ótimo de clusters varia entre dois e três. Para trabalhar com a ideia de classe média, optou-se pelo último:</p>
-<div class="layout-chunk" data-layout="l-body">
-<div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'><a href='https://rdrr.io/r/base/Random.html'>set.seed</a></span><span class='op'>(</span><span class='fl'>321</span><span class='op'>)</span>  <span class='co'># ordem dos clusters preservada</span>
-
-<span class='va'>k_rendim</span> <span class='op'>&lt;-</span> <span class='va'>rendim</span> <span class='op'>%&gt;%</span>
-  <span class='fu'>summarize</span><span class='op'>(</span><span class='va'>bairro</span>,
-            cluster <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/pkg/MASS/man/lm.ridge.html'>select</a></span><span class='op'>(</span><span class='va'>.</span>, <span class='op'>-</span><span class='va'>bairro</span><span class='op'>)</span> <span class='op'>%&gt;%</span>
-              <span class='fu'><a href='https://rdrr.io/r/stats/kmeans.html'>kmeans</a></span><span class='op'>(</span>centers   <span class='op'>=</span> <span class='fl'>3</span>,
-                     nstart    <span class='op'>=</span> <span class='fl'>10</span>,
-                     algorithm <span class='op'>=</span> <span class='st'>"Hartigan-Wong"</span><span class='op'>)</span> <span class='op'>%&gt;%</span>
-              <span class='fu'>pluck</span><span class='op'>(</span><span class='st'>"cluster"</span><span class='op'>)</span> <span class='op'>%&gt;%</span>
-              <span class='fu'>as_factor</span><span class='op'>(</span><span class='op'>)</span><span class='op'>)</span>
-
-<span class='fu'>glimpse</span><span class='op'>(</span><span class='va'>k_rendim</span><span class='op'>)</span>
-</code></pre>
-</div>
-<pre><code>Rows: 63
-Columns: 2
-$ bairro  &lt;chr&gt; &quot;Aeroclube&quot;, &quot;Água Fria&quot;, &quot;Altiplano Cabo Branco&quot;, &quot;…
-$ cluster &lt;fct&gt; 3, 3, 3, 1, 1, 3, 3, 1, 3, 3, 3, 2, 2, 2, 1, 1, 2, 1…</code></pre>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-<div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='co'># geografia</span>
-<span class='va'>k_rendim</span> <span class='op'>%&gt;%</span>
-  <span class='fu'>mutate</span><span class='op'>(</span>bairro <span class='op'>=</span> <span class='fu'>str_to_title</span><span class='op'>(</span><span class='va'>bairro</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>%&gt;%</span>
-  <span class='fu'>inner_join</span><span class='op'>(</span><span class='va'>sf_ibge</span>, by <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"bairro"</span> <span class='op'>=</span> <span class='st'>"name_neighborhood"</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>%&gt;%</span>
-  <span class='fu'>ggplot</span><span class='op'>(</span><span class='fu'>aes</span><span class='op'>(</span>geometry <span class='op'>=</span> <span class='va'>geom</span>, fill <span class='op'>=</span> <span class='va'>cluster</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span>
-  <span class='fu'>geom_sf</span><span class='op'>(</span><span class='op'>)</span>
-</code></pre>
-</div>
-</div>
-<h3 id="clusters-dos-bairros-de-joão-pessoa-por-renda-2010">Clusters dos bairros de João Pessoa por renda (2010)</h3>
-<p><img src="plot_rendim_crop.png" style="width:70.0%" /></p>
-<p>Nota: O “buraco” no meio do mapa, na verdade, são mais de 500 hectares remanescentes de Mata Atlântica natural, que abrigam o <a href="https://turismo.joaopessoa.pb.gov.br/o-que-fazer/pontos-turisticos/pracas-e-parques/jardim-botanico-benjamim-maranhao/">Jardim Botânico</a> da cidade.</p>
-<div class="layout-chunk" data-layout="l-body">
-
-</div>
-<p><br/></p>
-<h2 id="classificação">Classificação</h2>
-<p>Estimando por logit ordenado:</p>
-<div class="layout-chunk" data-layout="l-body">
-<div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>pred_logit</span> <span class='op'>&lt;-</span> <span class='va'>k_rendim</span> <span class='op'>%&gt;%</span>
-  <span class='fu'>inner_join</span><span class='op'>(</span><span class='va'>branq</span>, by <span class='op'>=</span> <span class='st'>"bairro"</span><span class='op'>)</span> <span class='op'>%&gt;%</span>
-  <span class='fu'>mutate</span><span class='op'>(</span>pred <span class='op'>=</span> <span class='op'>(</span><span class='va'>cluster</span> <span class='op'>~</span> <span class='va'>prop_branq</span><span class='op'>)</span> <span class='op'>%&gt;%</span>
-           <span class='fu'>MASS</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/MASS/man/polr.html'>polr</a></span><span class='op'>(</span>method <span class='op'>=</span> <span class='st'>"logistic"</span><span class='op'>)</span> <span class='op'>%&gt;%</span>
-           <span class='fu'><a href='https://rdrr.io/r/stats/predict.html'>predict</a></span><span class='op'>(</span><span class='op'>)</span>,
-         acc  <span class='op'>=</span> <span class='op'>(</span><span class='va'>cluster</span> <span class='op'>==</span> <span class='va'>pred</span><span class='op'>)</span><span class='op'>)</span>
-
-<span class='fu'>glimpse</span><span class='op'>(</span><span class='va'>pred_logit</span><span class='op'>)</span>
-</code></pre>
-</div>
-<pre><code>Rows: 63
-Columns: 5
-$ bairro     &lt;chr&gt; &quot;Aeroclube&quot;, &quot;Água Fria&quot;, &quot;Altiplano Cabo Branco&quot;…
-$ cluster    &lt;fct&gt; 3, 3, 3, 1, 1, 3, 3, 1, 3, 3, 3, 2, 2, 2, 1, 1, 2…
-$ prop_branq &lt;dbl&gt; 0.6256013, 0.5011933, 0.5281250, 0.2883413, 0.339…
-$ pred       &lt;fct&gt; 3, 2, 3, 1, 1, 3, 2, 2, 3, 3, 3, 2, 3, 1, 1, 1, 2…
-$ acc        &lt;lgl&gt; TRUE, FALSE, TRUE, TRUE, TRUE, TRUE, FALSE, FALSE…</code></pre>
-</div>
-<p>Na prática, o que acontece com esse modelo bivariado é simplesmente uma otimização da escolha de três intervalos de branquitude para o encaixe de cada cluster:</p>
-<div class="layout-chunk" data-layout="l-body">
-<div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='co'># intervalos</span>
-<span class='va'>pred_logit</span> <span class='op'>%&gt;%</span>
-  <span class='fu'><a href='https://rdrr.io/r/stats/filter.html'>filter</a></span><span class='op'>(</span><span class='va'>acc</span> <span class='op'>==</span> <span class='cn'>TRUE</span><span class='op'>)</span> <span class='op'>%&gt;%</span>
-  <span class='fu'>group_by</span><span class='op'>(</span><span class='va'>cluster</span><span class='op'>)</span> <span class='op'>%&gt;%</span>
-  <span class='fu'>summarize</span><span class='op'>(</span>min_prop_branq <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/Extremes.html'>min</a></span><span class='op'>(</span><span class='va'>prop_branq</span><span class='op'>)</span>,
-            max_prop_branq <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/Extremes.html'>max</a></span><span class='op'>(</span><span class='va'>prop_branq</span><span class='op'>)</span><span class='op'>)</span>
-</code></pre>
-</div>
-<pre><code># A tibble: 3 x 3
-  cluster min_prop_branq max_prop_branq
-  &lt;fct&gt;            &lt;dbl&gt;          &lt;dbl&gt;
-1 1                0.284          0.377
-2 2                0.396          0.501
-3 3                0.517          0.699</code></pre>
-</div>
-<p>Porém, a dimensão racial da estrutura socioeconômica da cidade é tão forte que mesmo essa simplicidade é capaz de prever corretamente o nível de renda de 51 dos 63 bairros:</p>
-<div class="layout-chunk" data-layout="l-body">
-<div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='co'># acurácia por grupos</span>
-<span class='va'>pred_logit</span> <span class='op'>%&gt;%</span>
-  <span class='fu'>group_by</span><span class='op'>(</span><span class='va'>cluster</span><span class='op'>)</span> <span class='op'>%&gt;%</span>
-  <span class='fu'>summarize</span><span class='op'>(</span>true        <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/sum.html'>sum</a></span><span class='op'>(</span><span class='va'>acc</span> <span class='op'>==</span> <span class='cn'>TRUE</span><span class='op'>)</span>,
-            false       <span class='op'>=</span> <span class='fu'>n</span><span class='op'>(</span><span class='op'>)</span> <span class='op'>-</span> <span class='va'>true</span>,
-            performance <span class='op'>=</span> <span class='va'>true</span> <span class='op'>/</span> <span class='fu'>n</span><span class='op'>(</span><span class='op'>)</span><span class='op'>)</span>
-</code></pre>
-</div>
-<pre><code># A tibble: 3 x 4
-  cluster  true false performance
-  &lt;fct&gt;   &lt;int&gt; &lt;int&gt;       &lt;dbl&gt;
-1 1          21     3       0.875
-2 2          12     6       0.667
-3 3          18     3       0.857</code></pre>
-<div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='co'># acurácia total</span>
-<span class='fu'>summarize</span><span class='op'>(</span><span class='va'>pred_logit</span>, performance <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/sum.html'>sum</a></span><span class='op'>(</span><span class='va'>acc</span> <span class='op'>==</span> <span class='cn'>TRUE</span><span class='op'>)</span> <span class='op'>/</span> <span class='fu'>n</span><span class='op'>(</span><span class='op'>)</span><span class='op'>)</span>
-</code></pre>
-</div>
-<pre><code># A tibble: 1 x 1
-  performance
-        &lt;dbl&gt;
-1       0.810</code></pre>
-</div>
-<p>Logo, ao separar os bairros de João Pessoa em três faixas de branquitude: i) de 28 a 38%; ii) de 39 a 50% e; iii) de 51 a 70% de brancos, torna-se possível classificar corretamente mais de 4/5 deles entre baixa, média e alta renda.</p>
-<div class="layout-chunk" data-layout="l-body">
-<div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='co'># visualização final</span>
-<span class='va'>pred_logit</span> <span class='op'>%&gt;%</span>
-  <span class='fu'>ggplot</span><span class='op'>(</span><span class='fu'>aes</span><span class='op'>(</span>x <span class='op'>=</span> <span class='va'>prop_branq</span>, y <span class='op'>=</span> <span class='va'>cluster</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span>
-  <span class='fu'>geom_boxplot</span><span class='op'>(</span><span class='fu'>aes</span><span class='op'>(</span>fill <span class='op'>=</span> <span class='va'>cluster</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span>
-  <span class='fu'>geom_jitter</span><span class='op'>(</span><span class='fu'>aes</span><span class='op'>(</span>color <span class='op'>=</span> <span class='va'>acc</span><span class='op'>)</span><span class='op'>)</span>
-</code></pre>
-</div>
-</div>
-<h3 id="bairros-de-joão-pessoa-raça-vs.-renda-2010">Bairros de João Pessoa: Raça vs. Renda (2010)</h3>
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="explorando-o-sidra-com-tidyverse-parte-ii_files/figure-html5/unnamed-chunk-20-1.png" width="624" data-distill-preview=1 /></p>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-
-</div>
-<p><br/></p>
 <p><span style="color: #183139">###</span></br></p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <div class="article-footer">
   <p class="social_footer">
     <span class="article-sharing">
       Share: &nbsp;
-      <a href="https://twitter.com/share?text=Ra%C3%A7a%2C%20clusters%20de%20renda%20e%20classifica%C3%A7%C3%A3o%20de%20bairros%20no%20R&amp;url=https%3A%2F%2Ftidyeconomics.netlify.app%2Fposts%2F2021-03-12-raca-clusters-de-renda-e-classificacao-de-bairros-no-r%2F">
+      <a href="https://twitter.com/share?text=Explorando%20o%20SIDRA%20com%20tidyverse%20-%20Parte%20II&amp;url=https%3A%2F%2Ftidyeconomics.netlify.app%2Fposts%2F2021-03-29-explorando-o-sidra-com-tidyverse-parte-ii%2F">
         <i class="fab fa-twitter"></i>
       </a>
-      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Ftidyeconomics.netlify.app%2Fposts%2F2021-03-12-raca-clusters-de-renda-e-classificacao-de-bairros-no-r%2F&amp;title=Ra%C3%A7a%2C%20clusters%20de%20renda%20e%20classifica%C3%A7%C3%A3o%20de%20bairros%20no%20R">
+      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Ftidyeconomics.netlify.app%2Fposts%2F2021-03-29-explorando-o-sidra-com-tidyverse-parte-ii%2F&amp;title=Explorando%20o%20SIDRA%20com%20tidyverse%20-%20Parte%20II">
         <i class="fab fa-linkedin"></i>
       </a>
     </span>

@@ -1,0 +1,153 @@
+---
+title: "Explorando o SIDRA com tidyverse - Parte II"
+categories:
+  - SIDRA
+  - PNADC
+  - employment
+theme: theme.css
+description: |
+  A short description of the post.
+author:
+  - name: Felipe O. Gonçalves
+date: 03-29-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+<style type="text/css">
+body{
+  font-size: 14pt;
+}
+h1, h2, h3 {
+  text-align: left;
+}
+td{font-size: 16px;}
+code.r{font-size: 14px;}
+pre{font-size: 12px;}
+</style>
+# Pacotes
+```{r, message=FALSE}
+library(sidrar)     # importação via API
+library(ggseas)     # gráfico sem sazonalidade
+library(ggthemes)   # estética do gráfico
+#
+library(tidyverse)
+```
+
+```{r, include=FALSE}
+options(scipen = 999)
+options(dplyr.summarize.inform = FALSE)
+```
+
+# Dados
+
+![](layout.png){}
+```{r}
+# condição de ocupação (trimestres móveis)
+t6318 <- "/t/6318/n1/all/v/1641/p/all/c629/all"
+```
+
+```{r, eval=FALSE}
+df_ibge <- get_sidra(api = t6318)
+
+names(df_ibge)
+```
+
+```{r, echo=FALSE}
+df_ibge <- read_rds("ibge_6318.rds")
+
+names(df_ibge)
+```
+
+# Manipulação
+```{r}
+pnad <- df_ibge %>%
+  as_tibble() %>%
+  select(
+    date  = "Trimestre Móvel (Código)",
+    name  = "Condição em relação à força de trabalho e condição de ocupação",
+    value = "Valor"
+  )
+
+summarize(pnad, feature = levels(as_factor(name)))
+```
+
+```{r}
+pnad <- pnad %>%
+  pivot_wider(names_from = name, values_from = value) %>%
+  rename_with(~ c("pia", "pea", "ocup", "desocup", "pnea"), -date)
+
+glimpse(pnad)
+```
+
+```{r}
+df <- pnad %>%
+  transmute(
+    date   = parse_date(date, format = "%Y%m"),
+    desemp = desocup / pea * 100,
+    partic = pea / pia * 100
+  )
+```
+
+```{r}
+tail(df, 12)
+```
+# Visualização
+
+Segundo o Comitê de Datação de Ciclos Econômicos ([CODACE](https://portalibre.fgv.br/codace))...
+
+```{r}
+codace     <- as.Date(c("2014-06-01", "2016-12-01", "2020-01-01"))
+
+labs_facet <- c(desemp = "Taxa de Desemprego",
+                partic = "Taxa de Participação na Força de Trabalho")
+```
+
+
+```{r, fig.height=7, eval=FALSE}
+df %>%
+  pivot_longer(-date) %>%
+  ggplot(aes(x = date, y = value, color = name)) +
+  stat_seas(frequency = 12, start = c(2012, 3)) +
+  annotate("rect",
+           xmin  = codace[c(1, 3)], xmax  = c(codace[2], Inf),
+           ymin  = c(-Inf, -Inf),   ymax  = c(Inf, Inf),
+           alpha = .3) +
+  facet_wrap(~ name,
+             ncol     = 1,
+             scales   = "free",
+             labeller = as_labeller(labs_facet))
+```
+
+```{r, fig.height=7, echo=FALSE}
+df %>%
+  pivot_longer(-date) %>%
+  ggplot(aes(x = date, y = value, color = name)) +
+  stat_seas(size = .75, frequency = 12, start = c(2012, 3)) +
+  annotate("rect",
+           xmin  = codace[c(1, 3)], xmax  = c(codace[2], Inf),
+           ymin  = c(-Inf, -Inf),   ymax  = c(Inf, Inf),
+           alpha = .3) +
+  facet_wrap(~ name,
+             ncol     = 1,
+             scales   = "free",
+             labeller = as_labeller(labs_facet)) +
+  labs(x       = NULL,
+       y       = NULL,
+       caption = "Fonte: @fdeoliveirag via PNAD Contínua.",
+       title   = "Mercado de trabalho no Brasil durante recessões") +
+  scale_y_continuous(labels = function(x) paste0(x, "%")) +
+  scale_color_stata() +
+  theme_hc(base_family = "Segoe UI") +
+  theme(plot.title       = element_text(face = "bold"),
+        plot.caption     = element_text(size   = 11,
+                                        face   = "italic",
+                                        margin = margin(t = .5, unit = "cm")),
+        strip.background = element_rect(fill = "white"),
+        strip.text       = element_text(size = 12),
+        axis.ticks.y     = element_blank(),
+        panel.spacing    = unit(1, "lines"),
+        legend.position  = "none")
+```
+
+<span style='color: #183139'>###</span></br>

@@ -101,7 +101,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <meta property="og:type" content="article"/>
 <meta property="og:description" content="Usando a composição do IPCA para calcular e visualizar o padrão da inflação acumulada no Brasil em tempos de Covid."/>
 <meta property="og:url" content="https://tidyeconomics.netlify.app/posts/2021-02-22-explorando-o-sidra-com-tidyverse-parte-i/"/>
-<meta property="og:image" content="https://tidyeconomics.netlify.app/posts/2021-02-22-explorando-o-sidra-com-tidyverse-parte-i/desmistificando-o-sidra-parte-i_files/figure-html5/unnamed-chunk-12-1.png"/>
+<meta property="og:image" content="https://tidyeconomics.netlify.app/posts/2021-02-22-explorando-o-sidra-com-tidyverse-parte-i/desmistificando-o-sidra-parte-i_files/figure-html5/unnamed-chunk-13-1.png"/>
 <meta property="og:image:width" content="1248"/>
 <meta property="og:image:height" content="768"/>
 <meta property="og:locale" content="en_US"/>
@@ -112,7 +112,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <meta property="twitter:title" content="Ciência de Dados Econômicos: Explorando o SIDRA com tidyverse - Parte I"/>
 <meta property="twitter:description" content="Usando a composição do IPCA para calcular e visualizar o padrão da inflação acumulada no Brasil em tempos de Covid."/>
 <meta property="twitter:url" content="https://tidyeconomics.netlify.app/posts/2021-02-22-explorando-o-sidra-com-tidyverse-parte-i/"/>
-<meta property="twitter:image" content="https://tidyeconomics.netlify.app/posts/2021-02-22-explorando-o-sidra-com-tidyverse-parte-i/desmistificando-o-sidra-parte-i_files/figure-html5/unnamed-chunk-12-1.png"/>
+<meta property="twitter:image" content="https://tidyeconomics.netlify.app/posts/2021-02-22-explorando-o-sidra-com-tidyverse-parte-i/desmistificando-o-sidra-parte-i_files/figure-html5/unnamed-chunk-13-1.png"/>
 <meta property="twitter:image:width" content="1248"/>
 <meta property="twitter:image:height" content="768"/>
 
@@ -120,12 +120,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","categories","theme","description","author","date","output","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["Explorando o SIDRA com tidyverse - Parte I"]},{"type":"character","attributes":{},"value":["Inflação","SIDRA"]},{"type":"character","attributes":{},"value":["theme.css"]},{"type":"character","attributes":{},"value":["Usando a composição do IPCA para calcular e visualizar o padrão da inflação acumulada no Brasil em tempos de Covid."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Felipe O. Gonçalves"]}]}]},{"type":"character","attributes":{},"value":["02-22-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["https://tidyeconomics.netlify.app/posts/2021-02-22-explorando-o-sidra-com-tidyverse-parte-i/"]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","categories","theme","description","author","date","output","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["Explorando o SIDRA com tidyverse - Parte I"]},{"type":"character","attributes":{},"value":["SIDRA","IPCA","inflation"]},{"type":"character","attributes":{},"value":["theme.css"]},{"type":"character","attributes":{},"value":["Usando a composição do IPCA para calcular e visualizar o padrão da inflação acumulada no Brasil em tempos de Covid."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Felipe O. Gonçalves"]}]}]},{"type":"character","attributes":{},"value":["02-22-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["https://tidyeconomics.netlify.app/posts/2021-02-22-explorando-o-sidra-com-tidyverse-parte-i/"]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["desmistificando-o-sidra-parte-i_files/anchor-4.2.2/anchor.min.js","desmistificando-o-sidra-parte-i_files/bowser-1.9.3/bowser.min.js","desmistificando-o-sidra-parte-i_files/distill-2.2.21/template.v2.js","desmistificando-o-sidra-parte-i_files/figure-html5/unnamed-chunk-11-1.png","desmistificando-o-sidra-parte-i_files/figure-html5/unnamed-chunk-12-1.png","desmistificando-o-sidra-parte-i_files/header-attrs-2.6/header-attrs.js","desmistificando-o-sidra-parte-i_files/jquery-1.11.3/jquery.min.js","desmistificando-o-sidra-parte-i_files/popper-2.6.0/popper.min.js","desmistificando-o-sidra-parte-i_files/tippy-6.2.7/tippy-bundle.umd.min.js","desmistificando-o-sidra-parte-i_files/tippy-6.2.7/tippy-light-border.css","desmistificando-o-sidra-parte-i_files/tippy-6.2.7/tippy.css","desmistificando-o-sidra-parte-i_files/tippy-6.2.7/tippy.umd.min.js","desmistificando-o-sidra-parte-i_files/webcomponents-2.0.0/webcomponents.js","layout.png"]}
+  {"type":"character","attributes":{},"value":["desmistificando-o-sidra-parte-i_files/anchor-4.2.2/anchor.min.js","desmistificando-o-sidra-parte-i_files/bowser-1.9.3/bowser.min.js","desmistificando-o-sidra-parte-i_files/distill-2.2.21/template.v2.js","desmistificando-o-sidra-parte-i_files/figure-html5/unnamed-chunk-11-1.png","desmistificando-o-sidra-parte-i_files/figure-html5/unnamed-chunk-12-1.png","desmistificando-o-sidra-parte-i_files/figure-html5/unnamed-chunk-13-1.png","desmistificando-o-sidra-parte-i_files/figure-html5/unnamed-chunk-14-1.png","desmistificando-o-sidra-parte-i_files/header-attrs-2.6/header-attrs.js","desmistificando-o-sidra-parte-i_files/jquery-1.11.3/jquery.min.js","desmistificando-o-sidra-parte-i_files/popper-2.6.0/popper.min.js","desmistificando-o-sidra-parte-i_files/tippy-6.2.7/tippy-bundle.umd.min.js","desmistificando-o-sidra-parte-i_files/tippy-6.2.7/tippy-light-border.css","desmistificando-o-sidra-parte-i_files/tippy-6.2.7/tippy.css","desmistificando-o-sidra-parte-i_files/tippy-6.2.7/tippy.umd.min.js","desmistificando-o-sidra-parte-i_files/webcomponents-2.0.0/webcomponents.js","layout.png"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -1932,7 +1932,7 @@ d-appendix {
   --text-color:       #FFFFFF;                   /* edited */
   --text-size:        20px;                      /* edited */
   --hover-color:      #383838;                   /* edited */
-  --bkgd-color:       rgb(249, 83, 85);          /* edited */
+  --bkgd-color:       rgb(24, 49, 57);          /* edited */
 }
 
 .distill-site-footer {
@@ -1946,18 +1946,18 @@ d-appendix {
 /*-- Additional custom styles --*/
 
 .posts-list .metadata .publishedDate {
-    color: rgb(249, 83, 85);
+    color: rgb(24, 49, 57);
 }
 
 d-article p code {
   color: #383838;
-  background: rgba(249, 83, 85, 0.1);
+  background: rgba(24, 49, 57, 0.1);
   font-weight: 400;
   font-size: 0.9em;
 }
 
 d-article a {
-    border-bottom: 2px solid rgba(249, 83, 85, 0.4);
+    border-bottom: 2px solid rgba(24, 49, 57, 0.4);
     text-decoration: none;
 }
 
@@ -1966,7 +1966,7 @@ d-article a {
 }
 
 ul > li::marker {
-  color: rgb(249, 83, 85);
+  color: rgb(24, 49, 57);
 }</style>
 <style type="text/css">
 /* base style */
@@ -2169,8 +2169,9 @@ d-appendix d-footnote-list a.footnote-backlink {
 <h1>Explorando o SIDRA com tidyverse - Parte I</h1>
 <!--radix_placeholder_categories-->
 <div class="dt-tags">
-  <a href="../../index.html#category:Inflação" class="dt-tag">Inflação</a>
   <a href="../../index.html#category:SIDRA" class="dt-tag">SIDRA</a>
+  <a href="../../index.html#category:IPCA" class="dt-tag">IPCA</a>
+  <a href="../../index.html#category:inflation" class="dt-tag">inflation</a>
 </div>
 <!--/radix_placeholder_categories-->
 <p><p>Usando a composição do IPCA para calcular e visualizar o padrão da inflação acumulada no Brasil em tempos de Covid.</p></p>
@@ -2242,19 +2243,21 @@ pre{font-size: 12px;}
 <span class='fu'><a href='https://rdrr.io/r/base/names.html'>names</a></span><span class='op'>(</span><span class='va'>df_ibge</span><span class='op'>)</span>
 </code></pre>
 </div>
+</div>
+<div class="layout-chunk" data-layout="l-body">
 <pre><code> [1] &quot;Nível Territorial (Código)&quot;                     
  [2] &quot;Nível Territorial&quot;                              
- [3] &quot;Brasil (Código)&quot;                                
- [4] &quot;Brasil&quot;                                         
- [5] &quot;Variável (Código)&quot;                              
- [6] &quot;Variável&quot;                                       
- [7] &quot;Mês (Código)&quot;                                   
- [8] &quot;Mês&quot;                                            
- [9] &quot;Geral, grupo, subgrupo, item e subitem (Código)&quot;
-[10] &quot;Geral, grupo, subgrupo, item e subitem&quot;         
-[11] &quot;Unidade de Medida (Código)&quot;                     
-[12] &quot;Unidade de Medida&quot;                              
-[13] &quot;Valor&quot;                                          </code></pre>
+ [3] &quot;Unidade de Medida (Código)&quot;                     
+ [4] &quot;Unidade de Medida&quot;                              
+ [5] &quot;Valor&quot;                                          
+ [6] &quot;Brasil (Código)&quot;                                
+ [7] &quot;Brasil&quot;                                         
+ [8] &quot;Variável (Código)&quot;                              
+ [9] &quot;Variável&quot;                                       
+[10] &quot;Mês (Código)&quot;                                   
+[11] &quot;Mês&quot;                                            
+[12] &quot;Geral, grupo, subgrupo, item e subitem (Código)&quot;
+[13] &quot;Geral, grupo, subgrupo, item e subitem&quot;         </code></pre>
 </div>
 <p><br/></p>
 <h2 id="manipulação">Manipulação</h2>
@@ -2264,8 +2267,8 @@ pre{font-size: 12px;}
 <pre class="sourceCode r"><code class="sourceCode r"><span class='va'>ipca</span> <span class='op'>&lt;-</span> <span class='va'>df_ibge</span> <span class='op'>%&gt;%</span>
   <span class='fu'>as_tibble</span><span class='op'>(</span><span class='op'>)</span> <span class='op'>%&gt;%</span>
   <span class='fu'>select</span><span class='op'>(</span>
-    date <span class='op'>=</span> <span class='st'>"Mês"</span>,
-    component <span class='op'>=</span> <span class='st'>"Geral, grupo, subgrupo, item e subitem"</span>,
+    date          <span class='op'>=</span> <span class='st'>"Mês"</span>,
+    component     <span class='op'>=</span> <span class='st'>"Geral, grupo, subgrupo, item e subitem"</span>,
     mth_inflation <span class='op'>=</span> <span class='st'>"Valor"</span>
   <span class='op'>)</span>
 
@@ -2275,15 +2278,15 @@ pre{font-size: 12px;}
 <pre><code># A tibble: 9 x 3
   date       component                   mth_inflation
   &lt;chr&gt;      &lt;chr&gt;                               &lt;dbl&gt;
-1 abril 2020 1.Alimentação e bebidas              1.57
-2 abril 2020 2.Habitação                         -0.1 
-3 abril 2020 3.Artigos de residência             -1.37
-4 abril 2020 4.Vestuário                          0.1 
-5 abril 2020 5.Transportes                       -2.66
-6 abril 2020 6.Saúde e cuidados pessoais         -0.22
-7 abril 2020 7.Despesas pessoais                 -0.14
-8 abril 2020 8.Educação                           0   
-9 abril 2020 9.Comunicação                       -0.2 </code></pre>
+1 março 2020 1.Alimentação e bebidas              0.84
+2 março 2020 2.Habitação                          0.13
+3 março 2020 3.Artigos de residência             -1.08
+4 março 2020 4.Vestuário                          0.21
+5 março 2020 5.Transportes                       -0.9 
+6 março 2020 6.Saúde e cuidados pessoais          0.21
+7 março 2020 7.Despesas pessoais                 -0.23
+8 março 2020 8.Educação                           0.59
+9 março 2020 9.Comunicação                        0.04</code></pre>
 </div>
 <p>Os dados vêm num padrão “comprido” ao invés de “largo”: não há uma coluna para cada componente, e isso faz com que se tenha nove observações para cada mês. Diante da finalidade desta postagem, o ideal será mantê-los assim.</p>
 <p><br/> O cálculo da inflação acumulada para <span class="math inline">\(t \in \{1,\ ..., 11\}\)</span> meses de pandemia é recursivo (depende dos próprios valores defasados). De uma variação mensal inicial <span class="math inline">\(\pi_1^{ac} = \pi_1\)</span>, tem-se</p>
@@ -2292,12 +2295,12 @@ pre{font-size: 12px;}
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span class='va'>ipca</span> <span class='op'>&lt;-</span> <span class='va'>ipca</span> <span class='op'>%&gt;%</span>
-  <span class='fu'>group_by</span><span class='op'>(</span><span class='va'>component</span><span class='op'>)</span> <span class='op'>%&gt;%</span>         <span class='co'># agrupamento</span>
+  <span class='fu'>group_by</span><span class='op'>(</span><span class='va'>component</span><span class='op'>)</span> <span class='op'>%&gt;%</span>          <span class='co'># agrupamento</span>
   <span class='fu'>mutate</span><span class='op'>(</span>
     <span class='co'># .y</span>
     accum_inflation <span class='op'>=</span> <span class='fu'>accumulate</span><span class='op'>(</span>
-      <span class='va'>mth_inflation</span>,              <span class='co'># .x</span>
-      <span class='op'>~</span> <span class='op'>(</span><span class='fl'>1</span> <span class='op'>+</span> <span class='va'>.x</span> <span class='op'>/</span> <span class='fl'>100</span><span class='op'>)</span> <span class='op'>*</span> <span class='va'>.y</span> <span class='op'>+</span> <span class='va'>.x</span>  <span class='co'># atribuição recursiva de .y</span>
+      <span class='va'>mth_inflation</span>,               <span class='co'># .x</span>
+      <span class='op'>~</span> <span class='op'>(</span><span class='fl'>1</span> <span class='op'>+</span> <span class='va'>.x</span> <span class='op'>/</span> <span class='fl'>100</span><span class='op'>)</span> <span class='op'>*</span> <span class='va'>.y</span> <span class='op'>+</span> <span class='va'>.x</span>   <span class='co'># atribuição recursiva de .y</span>
     <span class='op'>)</span>
   <span class='op'>)</span>
 </code></pre>
@@ -2311,28 +2314,25 @@ pre{font-size: 12px;}
 </div>
 <pre><code># A tibble: 11 x 4
 # Groups:   component [1]
-   date           component              mth_inflation accum_inflation
-   &lt;chr&gt;          &lt;chr&gt;                          &lt;dbl&gt;           &lt;dbl&gt;
- 1 abril 2020     1.Alimentação e bebid…          1.57            1.57
- 2 maio 2020      1.Alimentação e bebid…          0.33            1.91
- 3 junho 2020     1.Alimentação e bebid…          0.64            2.56
- 4 julho 2020     1.Alimentação e bebid…          0.42            2.99
- 5 agosto 2020    1.Alimentação e bebid…          1.17            4.19
- 6 setembro 2020  1.Alimentação e bebid…          2.54            6.84
- 7 outubro 2020   1.Alimentação e bebid…          1.9             8.87
- 8 novembro 2020  1.Alimentação e bebid…          2.28           11.4 
- 9 dezembro 2020  1.Alimentação e bebid…          1.37           12.9 
-10 janeiro 2021   1.Alimentação e bebid…          0.68           13.6 
-11 fevereiro 2021 1.Alimentação e bebid…          0.4            14.1 </code></pre>
+   date          component               mth_inflation accum_inflation
+   &lt;chr&gt;         &lt;chr&gt;                           &lt;dbl&gt;           &lt;dbl&gt;
+ 1 março 2020    1.Alimentação e bebidas          0.84            0.84
+ 2 abril 2020    1.Alimentação e bebidas          1.57            2.42
+ 3 maio 2020     1.Alimentação e bebidas          0.33            2.76
+ 4 junho 2020    1.Alimentação e bebidas          0.64            3.42
+ 5 julho 2020    1.Alimentação e bebidas          0.42            3.85
+ 6 agosto 2020   1.Alimentação e bebidas          1.17            5.07
+ 7 setembro 2020 1.Alimentação e bebidas          2.54            7.74
+ 8 outubro 2020  1.Alimentação e bebidas          1.9             9.78
+ 9 novembro 2020 1.Alimentação e bebidas          2.28           12.3 
+10 dezembro 2020 1.Alimentação e bebidas          1.37           13.8 
+11 janeiro 2021  1.Alimentação e bebidas          0.68           14.6 </code></pre>
 </div>
 <p><br/> Agora, chega-se ao valor acumulado no final do período para todos os componentes:</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>ipca</span> <span class='op'>&lt;-</span> <span class='va'>ipca</span> <span class='op'>%&gt;%</span>
-  <span class='fu'>summarize</span><span class='op'>(</span>
-    accum_inflation <span class='op'>=</span> <span class='fu'>last</span><span class='op'>(</span><span class='va'>accum_inflation</span><span class='op'>)</span>,  <span class='co'># jan/2021</span>
-    .groups <span class='op'>=</span> <span class='st'>"drop"</span>                          <span class='co'># desagrupamento</span>
-  <span class='op'>)</span>
+<pre class="sourceCode r"><code class="sourceCode r"><span class='co'># jan/2021</span>
+<span class='va'>ipca</span> <span class='op'>&lt;-</span> <span class='fu'>summarize</span><span class='op'>(</span><span class='va'>ipca</span>, accum_inflation <span class='op'>=</span> <span class='fu'>last</span><span class='op'>(</span><span class='va'>accum_inflation</span><span class='op'>)</span><span class='op'>)</span>
 </code></pre>
 </div>
 </div>
@@ -2345,15 +2345,15 @@ pre{font-size: 12px;}
 <pre><code># A tibble: 9 x 2
   component                   accum_inflation
   &lt;chr&gt;                                 &lt;dbl&gt;
-1 1.Alimentação e bebidas              14.1  
-2 3.Artigos de residência               8.95 
-3 5.Transportes                         4.61 
-4 2.Habitação                           4.26 
-5 9.Comunicação                         2.93 
-6 6.Saúde e cuidados pessoais           1.83 
-7 7.Despesas pessoais                   1.15 
-8 4.Vestuário                           0.194
-9 8.Educação                           -0.671</code></pre>
+1 1.Alimentação e bebidas             14.6   
+2 3.Artigos de residência              7.07  
+3 2.Habitação                          3.98  
+4 9.Comunicação                        3.11  
+5 6.Saúde e cuidados pessoais          1.41  
+6 5.Transportes                        1.36  
+7 7.Despesas pessoais                  0.749 
+8 4.Vestuário                          0.0240
+9 8.Educação                          -2.50  </code></pre>
 </div>
 <p>Nota: Ao olhar para a deflação dos serviços educacionais, deve-se ter em conta que fevereiro, um mês <a href="https://valorinveste.globo.com/mercados/brasil-e-politica/noticia/2021/02/09/inflacao-de-fevereiro-deve-ter-impacto-adicional-de-educacao.ghtml">particularmente importante</a> para o componente, é o único que não se faz presente nos dados. <br/><br/></p>
 <h2 id="visualização">Visualização</h2>
@@ -2363,14 +2363,15 @@ pre{font-size: 12px;}
 <pre class="sourceCode r"><code class="sourceCode r"><span class='va'>ipca</span> <span class='op'>&lt;-</span> <span class='va'>ipca</span> <span class='op'>%&gt;%</span>
   <span class='fu'>mutate</span><span class='op'>(</span>
     component <span class='op'>=</span> <span class='va'>component</span> <span class='op'>%&gt;%</span>
-      <span class='fu'>str_sub</span><span class='op'>(</span><span class='fl'>3</span><span class='op'>)</span> <span class='op'>%&gt;%</span>                              <span class='co'># retirada de numeração</span>
-      <span class='fu'>recode</span><span class='op'>(</span>                                     <span class='co'># concisão</span>
-        <span class='st'>"Alimentação e bebidas"</span> <span class='op'>=</span> <span class='st'>"Alimentação"</span>,
-        <span class='st'>"Artigos de residência"</span> <span class='op'>=</span> <span class='st'>"Residência"</span>,
-        <span class='st'>"Saúde e cuidados pessoais"</span> <span class='op'>=</span> <span class='st'>"Saúde"</span>,
-        <span class='st'>"Despesas pessoais"</span> <span class='op'>=</span> <span class='st'>"Desp. Pessoais"</span>
-      <span class='op'>)</span> <span class='op'>%&gt;%</span>
-      <span class='fu'>fct_reorder</span><span class='op'>(</span><span class='va'>accum_inflation</span><span class='op'>)</span>                <span class='co'># critério de ordenação</span>
+      <span class='co'># retirada de numeração</span>
+      <span class='fu'>str_sub</span><span class='op'>(</span><span class='fl'>3</span><span class='op'>)</span> <span class='op'>%&gt;%</span>
+      <span class='co'># concisão</span>
+      <span class='fu'>recode</span><span class='op'>(</span><span class='st'>"Alimentação e bebidas"</span>     <span class='op'>=</span> <span class='st'>"Alimentação"</span>,
+             <span class='st'>"Artigos de residência"</span>     <span class='op'>=</span> <span class='st'>"Residência"</span>,
+             <span class='st'>"Saúde e cuidados pessoais"</span> <span class='op'>=</span> <span class='st'>"Saúde"</span>,
+             <span class='st'>"Despesas pessoais"</span>         <span class='op'>=</span> <span class='st'>"Desp. Pessoais"</span><span class='op'>)</span> <span class='op'>%&gt;%</span>
+      <span class='co'># critério de ordenação</span>
+      <span class='fu'>fct_reorder</span><span class='op'>(</span><span class='va'>accum_inflation</span><span class='op'>)</span>
   <span class='op'>)</span>
 </code></pre>
 </div>
@@ -2383,16 +2384,16 @@ pre{font-size: 12px;}
   <span class='fu'>geom_col</span><span class='op'>(</span><span class='op'>)</span>
 </code></pre>
 </div>
-<p><img src="desmistificando-o-sidra-parte-i_files/figure-html5/unnamed-chunk-11-1.png" width="624" /></p>
+<p><img src="desmistificando-o-sidra-parte-i_files/figure-html5/unnamed-chunk-12-1.png" width="624" /></p>
 </div>
 <p>Porém ela é pouco apelativa (apesar de ter seu charme). O segundo passo será desfrutar das possibilidades de montagem em cima dessa carcaça — por exemplo, a função <code>ggplot2::geom_label()</code>. Esmiuçá-las exigiria uma postagem à parte.</p>
 <p>Por último, escolhe-se tema e paleta de cores a gosto. Como a inspiração para esta postagem veio justamente de <a href="https://www1.folha.uol.com.br/mercado/2020/11/alta-no-preco-de-alimentos-faz-governo-elevar-projecao-de-inflacao-para-2020-e-2021.shtml">matérias jornalísticas</a> sobre a trajetória recente da inflação de alimentos, foi escolhido um padrão do <a href="https://www.wsj.com/">Wall Street Journal</a> encontrado no <code>{ggthemes}</code>:</p>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="desmistificando-o-sidra-parte-i_files/figure-html5/unnamed-chunk-12-1.png" width="624" data-distill-preview=1 /></p>
+<p><img src="desmistificando-o-sidra-parte-i_files/figure-html5/unnamed-chunk-13-1.png" width="624" data-distill-preview=1 /></p>
 </div>
 <p>Um senhor ganho de apelo estético.</p>
 <p>Na segunda parte da sequência, será possível trabalhar com planilhas mais complexas do SIDRA. <br/></p>
-<p><span style="color: darkred">###</span></br></p>
+<p><span style="color: #183139">###</span></br></p>
 <div class="sourceCode" id="cb5"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <div class="article-footer">

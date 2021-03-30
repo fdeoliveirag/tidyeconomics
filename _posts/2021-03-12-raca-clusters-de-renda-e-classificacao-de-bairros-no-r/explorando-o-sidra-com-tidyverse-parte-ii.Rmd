@@ -1,9 +1,9 @@
 ---
 title: "Raça, clusters de renda e classificação de bairros no R"
 categories:
-  - Raça
-  - Renda
   - Censo Demográfico
+  - race
+  - income
 theme: theme.css
 description: |
   Um algoritmo simples de machine learning sobre a relação entre raça e renda nas cidades brasileiras.
@@ -39,6 +39,11 @@ library(janitor)    # limpeza de nomes
 library(MASS)       # logit ordenado
 #
 library(tidyverse)
+```
+
+```{r, include=FALSE}
+options(scipen = 999)
+options(dplyr.summarize.inform = FALSE)
 ```
 <br/>
   
@@ -81,7 +86,7 @@ df_pop %>%
   # para cada combinação entre raça e estrato de renda...
   group_by(racial, renda) %>%
   # ...o agregado de todos os bairros; e para cada grupo racial...
-  summarize(valor = sum(valor), .groups = "drop_last") %>%
+  summarize(valor = sum(valor)) %>%
   # ...a proporção de cada estrato;
   mutate(valor = valor / last(valor)) %>%
   # formato largo (estratos de renda em colunas)
@@ -142,10 +147,8 @@ Com os dados raciais, precisa-se da medida quantitativa de branquitude dos bairr
 ```{r}
 branq <- df_pop %>%
   get_split(racial) %>%
-  summarize(
-    bairro,
-    prop_branq = branca / total
-  )
+  summarize(bairro,
+            prop_branq = branca / total)
 
 glimpse(branq)
 ```
@@ -196,10 +199,7 @@ No caso dos dados de renda, tem-se como medida a participação de cada estrato 
 ```{r}
 rendim <- df_pop %>%
   get_split(renda) %>%
-  mutate(
-    across(where(is.numeric),
-           ~ .x / (total - sem_rendimento))
-  ) %>%
+  mutate(across(where(is.numeric), ~ .x / (total - sem_rendimento))) %>%
   select(bairro, contains("_sm"))
 
 glimpse(rendim)
@@ -211,14 +211,13 @@ Seja por silhueta ou cotovelo, o número ótimo de clusters varia entre dois e t
 set.seed(321)  # ordem dos clusters preservada
 
 k_rendim <- rendim %>%
-  summarize(
-    bairro,
-    cluster = select(., -bairro) %>%
-      kmeans(centers = 3, nstart = 10,
-             algorithm = "Hartigan-Wong") %>%
-      pluck("cluster") %>%
-      as_factor()
-  )
+  summarize(bairro,
+            cluster = select(., -bairro) %>%
+              kmeans(centers   = 3,
+                     nstart    = 10,
+                     algorithm = "Hartigan-Wong") %>%
+              pluck("cluster") %>%
+              as_factor())
 
 glimpse(k_rendim)
 ```
@@ -259,12 +258,10 @@ Estimando por logit ordenado:
 ```{r}
 pred_logit <- k_rendim %>%
   inner_join(branq, by = "bairro") %>%
-  mutate(
-    pred = (cluster ~ prop_branq) %>%
-      MASS::polr(method = "logistic") %>%
-      predict(),
-    acc = (cluster == pred)
-  )
+  mutate(pred = (cluster ~ prop_branq) %>%
+           MASS::polr(method = "logistic") %>%
+           predict(),
+         acc  = (cluster == pred))
 
 glimpse(pred_logit)
 ```
@@ -276,11 +273,8 @@ Na prática, o que acontece com esse modelo bivariado é simplesmente uma otimiz
 pred_logit %>%
   filter(acc == TRUE) %>%
   group_by(cluster) %>%
-  summarize(
-    min_prop_branq = min(prop_branq),
-    max_prop_branq = max(prop_branq),
-    .groups = "drop"
-  )
+  summarize(min_prop_branq = min(prop_branq),
+            max_prop_branq = max(prop_branq))
 ```
 
 Porém, a dimensão racial da estrutura socioeconômica da cidade é tão forte que mesmo essa simplicidade é capaz de prever corretamente o nível de renda de 51 dos 63 bairros:
@@ -289,12 +283,9 @@ Porém, a dimensão racial da estrutura socioeconômica da cidade é tão forte 
 # acurácia por grupos
 pred_logit %>%
   group_by(cluster) %>%
-  summarize(
-    true = sum(acc == TRUE),
-    false = n() - true,
-    performance = true / n(),
-    .groups = "drop"
-  )
+  summarize(true        = sum(acc == TRUE),
+            false       = n() - true,
+            performance = true / n())
 
 # acurácia total
 summarize(pred_logit, performance = sum(acc == TRUE) / n())
@@ -399,4 +390,4 @@ k_rendim %>%
 ```
 <br/>
   
-<span style='color: darkred'>###</span></br>
+<span style='color: #183139'>###</span></br>
