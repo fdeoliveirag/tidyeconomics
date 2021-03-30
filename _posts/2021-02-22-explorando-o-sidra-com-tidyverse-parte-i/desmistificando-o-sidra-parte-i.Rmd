@@ -1,9 +1,8 @@
 ---
 title: "Explorando o SIDRA com tidyverse - Parte I"
 categories:
-  - Inflação
+  - IPCA
   - SIDRA
-theme: theme.css
 description: |
   Usando a composição do IPCA para calcular e visualizar o padrão da inflação acumulada no Brasil em tempos de Covid.
 author:
@@ -24,10 +23,6 @@ td{font-size: 16px;}
 code.r{font-size: 14px;}
 pre{font-size: 12px;}
 </style>
-```{r, include=FALSE}
-knitr::opts_chunk$set(message = FALSE)
-options(scipen = 999)
-```
 Este blog estreia com a primeira parte de uma sequência de postagens que procurará explorar as bases de dados do SIDRA através de uma abordagem avançada de workflow no R.
 
 Na postagem de hoje, calcula-se a variação mensal acumulada do IPCA desagregado em grupos para, em seguida, construir-se um gráfico sobre a inflação brasileira durante a pandemia -- com atenção especial à inflação de alimentos.
@@ -40,6 +35,11 @@ library(sidrar)     # importação via API
 library(ggthemes)   # estética do gráfico
 #
 library(tidyverse)
+```
+
+```{r, include=FALSE}
+options(scipen = 999)
+options(dplyr.summarize.inform = FALSE)
 ```
 <br/>
   
@@ -72,8 +72,14 @@ t7061 <- "/t/7061/n1/all/v/306/p/last%2011/c315/7170,7445,7486,7558,7625,7660,77
 <br/>
 E esse objeto é suficiente para importar os dados por meio do providencial `{sidrar}`:
 
-```{r}
+```{r, eval=FALSE}
 df_ibge <- sidrar::get_sidra(api = t7061)
+
+names(df_ibge)
+```
+
+```{r, echo=FALSE}
+df_ibge <- read_rds("ibge_7061.rds")
 
 names(df_ibge)
 ```
@@ -87,8 +93,8 @@ Das treze colunas, apenas três serão necessárias aqui:
 ipca <- df_ibge %>%
   as_tibble() %>%
   select(
-    date = "Mês",
-    component = "Geral, grupo, subgrupo, item e subitem",
+    date          = "Mês",
+    component     = "Geral, grupo, subgrupo, item e subitem",
     mth_inflation = "Valor"
   )
 
@@ -106,12 +112,12 @@ para $t\neq1$. Essa atribuição requer a função `purrr::accumulate()` para se
 
 ```{r}
 ipca <- ipca %>%
-  group_by(component) %>%         # agrupamento
+  group_by(component) %>%          # agrupamento
   mutate(
     # .y
     accum_inflation = accumulate(
-      mth_inflation,              # .x
-      ~ (1 + .x / 100) * .y + .x  # atribuição recursiva de .y
+      mth_inflation,               # .x
+      ~ (1 + .x / 100) * .y + .x   # atribuição recursiva de .y
     )
   )
 ```
@@ -127,11 +133,8 @@ head(arrange(ipca, component), 11)
 Agora, chega-se ao valor acumulado no final do período para todos os componentes:
 
 ```{r}
-ipca <- ipca %>%
-  summarize(
-    accum_inflation = last(accum_inflation),  # jan/2021
-    .groups = "drop"                          # desagrupamento
-  )
+# jan/2021
+ipca <- summarize(ipca, accum_inflation = last(accum_inflation))
 ```
   
 <br/>
@@ -152,14 +155,15 @@ O primeiro passo para o sucesso do gráfico de barras será, seguindo o embalo d
 ipca <- ipca %>%
   mutate(
     component = component %>%
-      str_sub(3) %>%                              # retirada de numeração
-      recode(                                     # concisão
-        "Alimentação e bebidas" = "Alimentação",
-        "Artigos de residência" = "Residência",
-        "Saúde e cuidados pessoais" = "Saúde",
-        "Despesas pessoais" = "Desp. Pessoais"
-      ) %>%
-      fct_reorder(accum_inflation)                # critério de ordenação
+      # retirada de numeração
+      str_sub(3) %>%
+      # concisão
+      recode("Alimentação e bebidas"     = "Alimentação",
+             "Artigos de residência"     = "Residência",
+             "Saúde e cuidados pessoais" = "Saúde",
+             "Despesas pessoais"         = "Desp. Pessoais") %>%
+      # critério de ordenação
+      fct_reorder(accum_inflation)
   )
 ```
   
@@ -177,11 +181,11 @@ Porém ela é pouco apelativa (apesar de ter seu charme). O segundo passo será 
 Por último, escolhe-se tema e paleta de cores a gosto. Como a inspiração para esta postagem veio justamente de [matérias jornalísticas](https://www1.folha.uol.com.br/mercado/2020/11/alta-no-preco-de-alimentos-faz-governo-elevar-projecao-de-inflacao-para-2020-e-2021.shtml) sobre a trajetória recente da inflação de alimentos, foi escolhido um padrão do [Wall Street Journal](https://www.wsj.com/) encontrado no `{ggthemes}`:
 
 ```{r, echo=FALSE, preview=TRUE}
-readRDS("plot-sidra-1.rds")
+read_rds("plot-sidra-1.rds")
 ```
 Um senhor ganho de apelo estético.
 
 Na segunda parte da sequência, será possível trabalhar com planilhas mais complexas do SIDRA.
 <br/>
   
-<span style='color: darkred'>###</span></br>
+<span style='color: #182539'>###</span></br>

@@ -63,7 +63,7 @@ d-appendix {
   --text-color:       #FFFFFF;                   /* edited */
   --text-size:        20px;                      /* edited */
   --hover-color:      #383838;                   /* edited */
-  --bkgd-color:       rgb(249, 83, 85);          /* edited */
+  --bkgd-color:       rgb(24, 49, 57);          /* edited */
 }
 
 .distill-site-footer {
@@ -77,18 +77,18 @@ d-appendix {
 /*-- Additional custom styles --*/
 
 .posts-list .metadata .publishedDate {
-    color: rgb(249, 83, 85);
+    color: rgb(24, 49, 57);
 }
 
 d-article p code {
   color: #383838;
-  background: rgba(249, 83, 85, 0.1);
+  background: rgba(24, 49, 57, 0.1);
   font-weight: 400;
   font-size: 0.9em;
 }
 
 d-article a {
-    border-bottom: 2px solid rgba(249, 83, 85, 0.4);
+    border-bottom: 2px solid rgba(24, 49, 57, 0.4);
     text-decoration: none;
 }
 
@@ -97,5 +97,5 @@ d-article a {
 }
 
 ul > li::marker {
-  color: rgb(249, 83, 85);
+  color: rgb(24, 49, 57);
 }
