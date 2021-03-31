@@ -1,5 +1,6 @@
 ---
 title: "Explorando o SIDRA com tidyverse - Parte II"
+draft: TRUE
 categories:
   - SIDRA
   - PNADC

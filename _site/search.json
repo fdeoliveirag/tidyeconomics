@@ -13,7 +13,7 @@
       "title": "{tidyeconomics}",
       "author": [],
       "contents": "\n\nbody{\n  font-size: 14pt;\n  text-align: justify;\n}\nh1, h2, h3 {\n  text-align: left;\n}\ntd{font-size: 16px;}\ncode.r{font-size: 14px;}\npre{font-size: 12px;}\n\n\n\n",
-      "last_modified": "2021-03-30T12:52:54-03:00"
+      "last_modified": "2021-03-31T18:57:57-03:00"
     }
   ],
   "collections": ["posts/posts.json"]
