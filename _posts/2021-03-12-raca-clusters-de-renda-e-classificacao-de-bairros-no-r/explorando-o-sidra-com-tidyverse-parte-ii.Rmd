@@ -2,8 +2,6 @@
 title: "Raça, clusters de renda e classificação de bairros no R"
 categories:
   - Censo Demográfico
-  - race
-  - income
 theme: theme.css
 description: |
   Um algoritmo simples de machine learning sobre a relação entre raça e renda nas cidades brasileiras.
