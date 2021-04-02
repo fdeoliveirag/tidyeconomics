@@ -2,7 +2,7 @@
 title: "Felipe O. Gonçalves"
 theme: theme.css
 description: |
-  MESTRANDO EM ECONOMIA (PIMES-UFPE)
+  Economics MSc. (PIMES-UFPE) 2019-21
 ---
 <style type='text/css'>
 body{font-size: 14pt;}
@@ -12,10 +12,12 @@ pre{font-size: 12px;}
 </style>
 
 <p style="text-align: justify;">Este blog foi criado para compartilhar minha experiência com rotinas em economia aplicada. Seu público-alvo são leitores com alguma iniciação em **R** que se interessem pela abordagem {[tidyverse](https://www.tidyverse.org/)} para análise e modelagem.</p>
-</br></br>
+</br>
 
 <span style='color: #183139'># contato</span></br>
 <span style='color: gray'>purrr::map(</span></br>
 \ \ \ list<span style='color: gray'>(</span>\ [LinkedIn](https://www.linkedin.com/in/fdeoliveirag/),\  [GitHub](https://github.com/fdeoliveirag/),\  [Twitter](https://twitter.com/fdeoliveirag)<span style='color: gray'>\ )</span>,</br>
 \ \ \ <span style='color: gray'>~</span> .x<span style='color: gray'>$</span>fdeoliveirag</br>
 <span style='color: gray'>)</span>
+
+email \ \ <span style='color: gray'><-</span> \ \ "felipe.oliveiragoncalves@ufpe.br"
