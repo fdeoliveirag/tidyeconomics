@@ -1,8 +1,8 @@
 ---
-title: "Felipe O. Gonçalves"
+title: "Filippe de Oliveira Gonçalves"
 theme: theme.css
 description: |
-  Economics MSc. (PIMES-UFPE) 2019-21
+  Data Scientist | Economics MSc.
 ---
 <style type='text/css'>
 body{font-size: 14pt;}
@@ -20,4 +20,4 @@ pre{font-size: 12px;}
 \ \ \ <span style='color: gray'>~</span> .x<span style='color: gray'>$</span>fdeoliveirag</br>
 <span style='color: gray'>)</span>
 
-email \ \ <span style='color: gray'><-</span> \ \ "felipe.oliveiragoncalves@ufpe.br"
+email \ \ <span style='color: gray'><-</span> \ \ "og.filippe@gmail.com"
