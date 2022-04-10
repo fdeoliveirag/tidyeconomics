@@ -11,7 +11,7 @@ code.r{font-size: 14px;}
 pre{font-size: 12px;}
 </style>
 
-<p style="text-align: justify;">Este blog foi criado para compartilhar minha experiência com rotinas em economia aplicada. Seu público-alvo são leitores com alguma iniciação em **R** que se interessem pela abordagem {[tidyverse](https://www.tidyverse.org/)} para análise e modelagem.</p>
+<p style="text-align: justify;">Este blog foi criado para compartilhar experiências de coding em economia aplicada. Seu público-alvo são pessoas da área com alguma iniciação em **R** e interessadas no ecossistema {[tidyverse](https://www.tidyverse.org)} para análise e modelagem.</p>
 </br>
 
 <span style='color: #183139'># contato</span></br>
@@ -20,4 +20,4 @@ pre{font-size: 12px;}
 \ \ \ <span style='color: gray'>~</span> .x<span style='color: gray'>$</span>fdeoliveirag</br>
 <span style='color: gray'>)</span>
 
-email \ \ <span style='color: gray'><-</span> \ \ "og.filippe@gmail.com"
+email \ \ <span style='color: gray'><-</span> \ \ "fdeoliveirag@outlook.com"

@@ -2,18 +2,18 @@
   "articles": [
     {
       "path": "about.html",
-      "title": "Felipe O. Gonçalves",
-      "description": "Economics MSc. (PIMES-UFPE) 2019-21",
+      "title": "Filippe de Oliveira Gonçalves",
+      "description": "Data Scientist | Economics MSc.",
       "author": [],
-      "contents": "\n\nbody{font-size: 14pt;}\ntd{font-size: 16px;}\ncode.r{font-size: 14px;}\npre{font-size: 12px;}\n\nEste blog foi criado para compartilhar minha experiência com rotinas em economia aplicada. Seu público-alvo são leitores com alguma iniciação em R que se interessem pela abordagem {tidyverse} para análise e modelagem.\n\n\n# contato purrr::map(    list( LinkedIn,  GitHub,  Twitter ),    ~ .x$fdeoliveirag )\nemail   <-   “felipe.oliveiragoncalves@ufpe.br”\n\n\n\n",
-      "last_modified": "2021-04-02T14:43:51-03:00"
+      "contents": "\n\nbody{font-size: 14pt;}\ntd{font-size: 16px;}\ncode.r{font-size: 14px;}\npre{font-size: 12px;}\n\nEste blog foi criado para compartilhar experiências de coding em economia aplicada. Seu público-alvo são pessoas da área com alguma iniciação em R e interessadas no ecossistema {tidyverse} para análise e modelagem.\n\n\n# contato purrr::map(    list( LinkedIn,  GitHub,  Twitter ),    ~ .x$fdeoliveirag )\nemail   <-   “fdeoliveirag@outlook.com”\n\n\n\n",
+      "last_modified": "2022-04-09T22:33:04-03:00"
     },
     {
       "path": "index.html",
       "title": "{tidyeconomics}",
       "author": [],
       "contents": "\n\nbody{\n  font-size: 14pt;\n  text-align: justify;\n}\nh1, h2, h3 {\n  text-align: left;\n}\ntd{font-size: 16px;}\ncode.r{font-size: 14px;}\npre{font-size: 12px;}\n\n\n\n",
-      "last_modified": "2021-04-02T14:31:59-03:00"
+      "last_modified": "2022-04-09T22:33:05-03:00"
     }
   ],
   "collections": ["posts/posts.json"]
