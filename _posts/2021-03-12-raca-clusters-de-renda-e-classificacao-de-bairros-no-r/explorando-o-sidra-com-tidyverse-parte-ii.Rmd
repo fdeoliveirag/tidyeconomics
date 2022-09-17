@@ -6,7 +6,7 @@ theme: theme.css
 description: |
   Um algoritmo simples de machine learning sobre a relação entre raça e renda nas cidades brasileiras.
 author:
-  - name: Felipe O. Gonçalves
+  - name: Filippe O. Gonçalves
 date: 03-12-2021
 output:
   distill::distill_article:

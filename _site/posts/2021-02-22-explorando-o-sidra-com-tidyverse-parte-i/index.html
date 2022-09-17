@@ -23,6 +23,7 @@
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
 div.sourceCode { margin: 1em 0; }
 pre.sourceCode { margin: 0; }
@@ -49,16 +50,17 @@ pre.numberSource code > span > a:first-child::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {   }
+  { color: #00769e; background-color: #f1f3f5; }
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
+code span { color: #00769e; } /* Normal */
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { color: #20794d; } /* Attribute */
+code span.at { color: #657422; } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
-code span.cf { color: #007ba5; } /* ControlFlow */
+code span.cf { color: #00769e; } /* ControlFlow */
 code span.ch { color: #20794d; } /* Char */
 code span.cn { color: #8f5902; } /* Constant */
 code span.co { color: #5e5e5e; } /* Comment */
@@ -72,17 +74,18 @@ code span.fl { color: #ad0000; } /* Float */
 code span.fu { color: #4758ab; } /* Function */
 code span.im { } /* Import */
 code span.in { color: #5e5e5e; } /* Information */
-code span.kw { color: #007ba5; } /* Keyword */
+code span.kw { color: #00769e; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
-code span.ot { color: #007ba5; } /* Other */
+code span.ot { color: #00769e; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
-code span.sc { color: #20794d; } /* SpecialChar */
+code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
 code span.st { color: #20794d; } /* String */
 code span.va { color: #111111; } /* Variable */
 code span.vs { color: #20794d; } /* VerbatimString */
 code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
+
 
   <!--radix_placeholder_meta_tags-->
 <title>Ciência de Dados Econômicos: Explorando o SIDRA com tidyverse - Parte I</title>
@@ -94,7 +97,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--  https://schema.org/Article -->
 <meta property="article:published" itemprop="datePublished" content="2021-02-22"/>
 <meta property="article:created" itemprop="dateCreated" content="2021-02-22"/>
-<meta name="article:author" content="Felipe O. Gonçalves"/>
+<meta name="article:author" content="Filippe O. Gonçalves"/>
 
 <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
 <meta property="og:title" content="Ciência de Dados Econômicos: Explorando o SIDRA com tidyverse - Parte I"/>
@@ -120,7 +123,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","categories","theme","description","author","date","output","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["Explorando o SIDRA com tidyverse - Parte I"]},{"type":"character","attributes":{},"value":["SIDRA","IPCA"]},{"type":"character","attributes":{},"value":["theme.css"]},{"type":"character","attributes":{},"value":["Usando a composição do IPCA para calcular e visualizar o padrão da inflação acumulada no Brasil em tempos de Covid."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Felipe O. Gonçalves"]}]}]},{"type":"character","attributes":{},"value":["02-22-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["https://tidyeconomics.netlify.app/posts/2021-02-22-explorando-o-sidra-com-tidyverse-parte-i/"]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","categories","theme","description","author","date","output","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["Explorando o SIDRA com tidyverse - Parte I"]},{"type":"character","attributes":{},"value":["SIDRA","IPCA"]},{"type":"character","attributes":{},"value":["theme.css"]},{"type":"character","attributes":{},"value":["Usando a composição do IPCA para calcular e visualizar o padrão da inflação acumulada no Brasil em tempos de Covid."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Filippe O. Gonçalves"]}]}]},{"type":"character","attributes":{},"value":["02-22-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["https://tidyeconomics.netlify.app/posts/2021-02-22-explorando-o-sidra-com-tidyverse-parte-i/"]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
@@ -471,7 +474,7 @@ d-title {
 
 </style>
 
-<script src="../../site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <link href="../../site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
 <link href="../../site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
 <script src="../../site_libs/headroom-0.9.4/headroom.min.js"></script>
@@ -784,10 +787,6 @@ figure img.external {
   position: relative;
   margin-bottom: 2.5em;
   margin-top: 1.5em;
-}
-
-.figure img {
-  width: 100%;
 }
 
 .figure .caption {
@@ -1619,7 +1618,16 @@ function init_distill() {
 
     // hoverable references
     $('span.citation[data-cites]').each(function() {
-      var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+      if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
+        var fn = $(this).children()[0]
+        $(this).html(fn.shadowRoot.querySelector("sup"))
+        $(this).id = fn.id
+        fn.remove()
+      }
+      var refs = $(this).attr('data-cites').split(" ");
+      var refHtml = refs.map(function(ref) {
+        return "<p>" + $('#ref-' + ref).html() + "</p>";
+      }).join("\n");
       window.tippy(this, {
         allowHTML: true,
         content: refHtml,
@@ -1630,6 +1638,31 @@ function init_distill() {
         placement: 'bottom-start'
       });
     });
+
+    // fix footnotes in tables (#411)
+    // replacing broken distill.pub feature
+    $('table d-footnote').each(function() {
+      // we replace internal showAtNode methode which is triggered when hovering a footnote
+      this.hoverBox.showAtNode = function(node) {
+        // ported from https://github.com/distillpub/template/pull/105/files
+        calcOffset = function(elem) {
+            let x = elem.offsetLeft;
+            let y = elem.offsetTop;
+            // Traverse upwards until an `absolute` element is found or `elem`
+            // becomes null.
+            while (elem = elem.offsetParent && elem.style.position != 'absolute') {
+                x += elem.offsetLeft;
+                y += elem.offsetTop;
+            }
+
+            return { left: x, top: y };
+        }
+        // https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop
+        const bbox = node.getBoundingClientRect();
+        const offset = calcOffset(node);
+        this.show([offset.left + bbox.width, offset.top + bbox.height]);
+      }
+    })
 
     // clear polling timer
     clearInterval(tid);
@@ -1729,6 +1762,8 @@ function init_common() {
   // mark non-body figures created by knitr chunks as 100% width
   $('.layout-chunk').each(function(i, val) {
     var figures = $(this).find('img, .html-widget');
+    // ignore leaflet img layers (#106)
+    figures = figures.filter(':not(img[class*="leaflet"])')
     if ($(this).attr('data-layout') !== "l-body") {
       figures.css('width', '100%');
     } else {
@@ -1751,7 +1786,7 @@ function init_common() {
   // get rid of index.html references in header
   if (window.location.protocol !== "file:") {
     $('.distill-site-header a[href]').each(function(i,val) {
-      $(this).attr('href', $(this).attr('href').replace("index.html", "./"));
+      $(this).attr('href', $(this).attr('href').replace(/^index[.]html/, "./"));
     });
   }
 
@@ -2123,8 +2158,8 @@ d-appendix d-footnote-list a.footnote-backlink {
   color: var(--hover-color, white);
 }</style>
 <!--/radix_placeholder_distill-->
-  <script src="../../site_libs/header-attrs-2.6/header-attrs.js"></script>
-  <script src="../../site_libs/jquery-1.11.3/jquery.min.js"></script>
+  <script src="../../site_libs/header-attrs-2.16/header-attrs.js"></script>
+  <script src="../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
   <script src="../../site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="../../site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="../../site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2144,7 +2179,7 @@ d-appendix d-footnote-list a.footnote-backlink {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Explorando o SIDRA com tidyverse - Parte I","description":"Usando a composição do IPCA para calcular e visualizar o padrão da inflação acumulada no Brasil em tempos de Covid.","authors":[{"author":"Felipe O. Gonçalves","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-02-22T00:00:00.000-03:00","citationText":"Gonçalves, 2021"}
+{"title":"Explorando o SIDRA com tidyverse - Parte I","description":"Usando a composição do IPCA para calcular e visualizar o padrão da inflação acumulada no Brasil em tempos de Covid.","authors":[{"author":"Filippe O. Gonçalves","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-02-22T00:00:00.000-03:00","citationText":"Gonçalves, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2173,11 +2208,12 @@ d-appendix d-footnote-list a.footnote-backlink {
   <a href="../../index.html#category:IPCA" class="dt-tag">IPCA</a>
 </div>
 <!--/radix_placeholder_categories-->
-<p><p>Usando a composição do IPCA para calcular e visualizar o padrão da inflação acumulada no Brasil em tempos de Covid.</p></p>
+<p><p>Usando a composição do IPCA para calcular e visualizar o padrão da
+inflação acumulada no Brasil em tempos de Covid.</p></p>
 </div>
 
 <div class="d-byline">
-  Felipe O. Gonçalves  
+  Filippe O. Gonçalves  
   
 <br/>02-22-2021
 </div>
@@ -2194,28 +2230,36 @@ td{font-size: 16px;}
 code.r{font-size: 14px;}
 pre{font-size: 12px;}
 </style>
-<p>Este blog estreia com a primeira parte de uma sequência de postagens que procurará explorar as bases de dados do SIDRA através de uma abordagem avançada de workflow no R.</p>
-<p>Na postagem de hoje, calcula-se a variação mensal acumulada do IPCA desagregado em grupos para, em seguida, construir-se um gráfico sobre a inflação brasileira durante a pandemia – com atenção especial à inflação de alimentos. <br/></p>
+<p>Este blog estreia com a primeira parte de uma sequência de postagens
+que procurará explorar as bases de dados do SIDRA através de uma
+abordagem avançada de workflow no R.</p>
+<p>Na postagem de hoje, calcula-se a variação mensal acumulada do IPCA
+desagregado em grupos para, em seguida, construir-se um gráfico sobre a
+inflação brasileira durante a pandemia – com atenção especial à inflação
+de alimentos. <br/></p>
 <h2 id="pacotes">Pacotes</h2>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='http://github.com/rpradosiqueira/sidrar'>sidrar</a></span><span class='op'>)</span>     <span class='co'># importação via API</span>
-<span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='http://github.com/jrnold/ggthemes'>ggthemes</a></span><span class='op'>)</span>   <span class='co'># estética do gráfico</span>
-<span class='co'>#</span>
-<span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='http://tidyverse.tidyverse.org'>tidyverse</a></span><span class='op'>)</span>
-</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://github.com/rpradosiqueira/sidrar/'>sidrar</a></span><span class='op'>)</span>     <span class='co'># importação via API</span></span>
+<span><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://github.com/jrnold/ggthemes'>ggthemes</a></span><span class='op'>)</span>   <span class='co'># estética do gráfico</span></span>
+<span><span class='co'>#</span></span>
+<span><span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://tidyverse.tidyverse.org'>tidyverse</a></span><span class='op'>)</span></span></code></pre>
 </div>
 </div>
 <p><br/></p>
 <h2 id="dados">Dados</h2>
-<p>Não será preciso baixar nenhum arquivo. Seguindo os passos abaixo, encontra-se a expressão que permitirá levar os dados direto para o <strong>R</strong>:</p>
+<p>Não será preciso baixar nenhum arquivo. Seguindo os passos abaixo,
+encontra-se a expressão que permitirá levar os dados direto para o
+<strong>R</strong>:</p>
 <ul>
-<li>Acessar o portal do <a href="https://sidra.ibge.gov.br/">SIDRA</a></li>
+<li>Acessar o portal do <a
+href="https://sidra.ibge.gov.br/">SIDRA</a></li>
 <li>IPCA &gt; Relação de Tabelas &gt; 7061</li>
 <li>Definir opções:
 <ul>
 <li>Variável: <strong>variação mensal</strong> (%)</li>
-<li>Geral, grupo, subgrupo, item e subitem: <strong>9 componentes</strong></li>
+<li>Geral, grupo, subgrupo, item e subitem: <strong>9
+componentes</strong></li>
 <li>Mês: <strong>mar/2020</strong> a <strong>jan/2021</strong></li>
 <li>Unidade Territorial: <strong>Brasil</strong></li>
 </ul></li>
@@ -2223,24 +2267,25 @@ pre{font-size: 12px;}
 </ul>
 <p><img src="layout.png" /></p>
 <ul>
-<li>Menu Inferior Direito: Links de Compartilhar &gt; Parâmetros para a API</li>
+<li>Menu Inferior Direito: Links de Compartilhar &gt; Parâmetros para a
+API</li>
 </ul>
-<p><br/> Feito. Cria-se então um objeto com a expressão (a partir de <code>"/t"</code>):</p>
+<p><br/> Feito. Cria-se então um objeto com a expressão (a partir de
+<code>"/t"</code>):</p>
 <div class="sourceCode" style="overflow: auto !important;">
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>t7061</span> <span class='op'>&lt;-</span> <span class='st'>"/t/7061/n1/all/v/306/p/last%2011/c315/7170,7445,7486,7558,7625,7660,7712,7766,7786/d/v306%202"</span>
-</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='va'>t7061</span> <span class='op'>&lt;-</span> <span class='st'>"/t/7061/n1/all/v/306/p/last%2011/c315/7170,7445,7486,7558,7625,7660,7712,7766,7786/d/v306%202"</span></span></code></pre>
 </div>
 </div>
 </div>
-<p><br/> E esse objeto é suficiente para importar os dados por meio do providencial <code>{sidrar}</code>:</p>
+<p><br/> E esse objeto é suficiente para importar os dados por meio do
+providencial <code>{sidrar}</code>:</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>df_ibge</span> <span class='op'>&lt;-</span> <span class='fu'>sidrar</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/sidrar/man/get_sidra.html'>get_sidra</a></span><span class='op'>(</span>api <span class='op'>=</span> <span class='va'>t7061</span><span class='op'>)</span>
-
-<span class='fu'><a href='https://rdrr.io/r/base/names.html'>names</a></span><span class='op'>(</span><span class='va'>df_ibge</span><span class='op'>)</span>
-</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='va'>df_ibge</span> <span class='op'>&lt;-</span> <span class='fu'>sidrar</span><span class='fu'>::</span><span class='fu'><a href='https://rdrr.io/pkg/sidrar/man/get_sidra.html'>get_sidra</a></span><span class='op'>(</span>api <span class='op'>=</span> <span class='va'>t7061</span><span class='op'>)</span></span>
+<span></span>
+<span><span class='fu'><a href='https://rdrr.io/r/base/names.html'>names</a></span><span class='op'>(</span><span class='va'>df_ibge</span><span class='op'>)</span></span></code></pre>
 </div>
 </div>
 <div class="layout-chunk" data-layout="l-body">
@@ -2263,18 +2308,17 @@ pre{font-size: 12px;}
 <p>Das treze colunas, apenas três serão necessárias aqui:</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>ipca</span> <span class='op'>&lt;-</span> <span class='va'>df_ibge</span> <span class='op'>%&gt;%</span>
-  <span class='fu'>as_tibble</span><span class='op'>(</span><span class='op'>)</span> <span class='op'>%&gt;%</span>
-  <span class='fu'>select</span><span class='op'>(</span>
-    date          <span class='op'>=</span> <span class='st'>"Mês"</span>,
-    component     <span class='op'>=</span> <span class='st'>"Geral, grupo, subgrupo, item e subitem"</span>,
-    mth_inflation <span class='op'>=</span> <span class='st'>"Valor"</span>
-  <span class='op'>)</span>
-
-<span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span><span class='op'>(</span><span class='va'>ipca</span>, <span class='fl'>9</span><span class='op'>)</span>
-</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='va'>ipca</span> <span class='op'>&lt;-</span> <span class='va'>df_ibge</span> <span class='op'><a href='https://magrittr.tidyverse.org/reference/pipe.html'>%&gt;%</a></span></span>
+<span>  <span class='fu'><a href='https://tibble.tidyverse.org/reference/as_tibble.html'>as_tibble</a></span><span class='op'>(</span><span class='op'>)</span> <span class='op'><a href='https://magrittr.tidyverse.org/reference/pipe.html'>%&gt;%</a></span></span>
+<span>  <span class='fu'><a href='https://dplyr.tidyverse.org/reference/select.html'>select</a></span><span class='op'>(</span></span>
+<span>    date          <span class='op'>=</span> <span class='st'>"Mês"</span>,</span>
+<span>    component     <span class='op'>=</span> <span class='st'>"Geral, grupo, subgrupo, item e subitem"</span>,</span>
+<span>    mth_inflation <span class='op'>=</span> <span class='st'>"Valor"</span></span>
+<span>  <span class='op'>)</span></span>
+<span></span>
+<span><span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span><span class='op'>(</span><span class='va'>ipca</span>, <span class='fl'>9</span><span class='op'>)</span></span></code></pre>
 </div>
-<pre><code># A tibble: 9 x 3
+<pre><code># A tibble: 9 × 3
   date       component                   mth_inflation
   &lt;chr&gt;      &lt;chr&gt;                               &lt;dbl&gt;
 1 março 2020 1.Alimentação e bebidas              0.84
@@ -2287,31 +2331,42 @@ pre{font-size: 12px;}
 8 março 2020 8.Educação                           0.59
 9 março 2020 9.Comunicação                        0.04</code></pre>
 </div>
-<p>Os dados vêm num padrão “comprido” ao invés de “largo”: não há uma coluna para cada componente, e isso faz com que se tenha nove observações para cada mês. Diante da finalidade desta postagem, o ideal será mantê-los assim.</p>
-<p><br/> O cálculo da inflação acumulada para <span class="math inline">\(t \in \{1,\ ..., 11\}\)</span> meses de pandemia é recursivo (depende dos próprios valores defasados). De uma variação mensal inicial <span class="math inline">\(\pi_1^{ac} = \pi_1\)</span>, tem-se</p>
-<p><span class="math display">\[\pi_t^{ac} = (1\ +\ \frac{\pi_t}{100})\ \times\ \pi_{t-1}^{ac}\ +\ \pi_t\ \]</span></p>
-<p>para <span class="math inline">\(t\neq1\)</span>. Essa atribuição requer a função <code>purrr::accumulate()</code> para ser realizada dentro do flow — em parceria com <code>dplyr::group_by()</code> para ser aplicada a cada componente em separado:</p>
+<p>Os dados vêm num padrão “comprido” ao invés de “largo”: não há uma
+coluna para cada componente, e isso faz com que se tenha nove
+observações para cada mês. Diante da finalidade desta postagem, o ideal
+será mantê-los assim.</p>
+<p><br/> O cálculo da inflação acumulada para <span
+class="math inline">\(t \in \{1,\ ..., 11\}\)</span> meses de pandemia é
+recursivo (depende dos próprios valores defasados). De uma variação
+mensal inicial <span class="math inline">\(\pi_1^{ac} = \pi_1\)</span>,
+tem-se</p>
+<p><span class="math display">\[\pi_t^{ac} = (1\ +\ \frac{\pi_t}{100})\
+\times\ \pi_{t-1}^{ac}\ +\ \pi_t\ \]</span></p>
+<p>para <span class="math inline">\(t\neq1\)</span>. Essa atribuição
+requer a função <code>purrr::accumulate()</code> para ser realizada
+dentro do flow — em parceria com <code>dplyr::group_by()</code> para ser
+aplicada a cada componente em separado:</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>ipca</span> <span class='op'>&lt;-</span> <span class='va'>ipca</span> <span class='op'>%&gt;%</span>
-  <span class='fu'>group_by</span><span class='op'>(</span><span class='va'>component</span><span class='op'>)</span> <span class='op'>%&gt;%</span>          <span class='co'># agrupamento</span>
-  <span class='fu'>mutate</span><span class='op'>(</span>
-    <span class='co'># .y</span>
-    accum_inflation <span class='op'>=</span> <span class='fu'>accumulate</span><span class='op'>(</span>
-      <span class='va'>mth_inflation</span>,               <span class='co'># .x</span>
-      <span class='op'>~</span> <span class='op'>(</span><span class='fl'>1</span> <span class='op'>+</span> <span class='va'>.x</span> <span class='op'>/</span> <span class='fl'>100</span><span class='op'>)</span> <span class='op'>*</span> <span class='va'>.y</span> <span class='op'>+</span> <span class='va'>.x</span>   <span class='co'># atribuição recursiva de .y</span>
-    <span class='op'>)</span>
-  <span class='op'>)</span>
-</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='va'>ipca</span> <span class='op'>&lt;-</span> <span class='va'>ipca</span> <span class='op'><a href='https://magrittr.tidyverse.org/reference/pipe.html'>%&gt;%</a></span></span>
+<span>  <span class='fu'><a href='https://dplyr.tidyverse.org/reference/group_by.html'>group_by</a></span><span class='op'>(</span><span class='va'>component</span><span class='op'>)</span> <span class='op'><a href='https://magrittr.tidyverse.org/reference/pipe.html'>%&gt;%</a></span>          <span class='co'># agrupamento</span></span>
+<span>  <span class='fu'><a href='https://dplyr.tidyverse.org/reference/mutate.html'>mutate</a></span><span class='op'>(</span></span>
+<span>    <span class='co'># .y</span></span>
+<span>    accum_inflation <span class='op'>=</span> <span class='fu'><a href='https://purrr.tidyverse.org/reference/accumulate.html'>accumulate</a></span><span class='op'>(</span></span>
+<span>      <span class='va'>mth_inflation</span>,               <span class='co'># .x</span></span>
+<span>      <span class='op'>~</span> <span class='op'>(</span><span class='fl'>1</span> <span class='op'>+</span> <span class='va'>.x</span> <span class='op'>/</span> <span class='fl'>100</span><span class='op'>)</span> <span class='op'>*</span> <span class='va'>.y</span> <span class='op'>+</span> <span class='va'>.x</span>   <span class='co'># atribuição recursiva de .y</span></span>
+<span>    <span class='op'>)</span></span>
+<span>  <span class='op'>)</span></span></code></pre>
 </div>
 </div>
-<p><br/> Conferindo o primeiro e <a href="https://www.ipea.gov.br/cartadeconjuntura/index.php/tag/inflacao-de-alimentos/">mais relevante</a> componente do período:</p>
+<p><br/> Conferindo o primeiro e <a
+href="https://www.ipea.gov.br/cartadeconjuntura/index.php/tag/inflacao-de-alimentos/">mais
+relevante</a> componente do período:</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span><span class='op'>(</span><span class='fu'>arrange</span><span class='op'>(</span><span class='va'>ipca</span>, <span class='va'>component</span><span class='op'>)</span>, <span class='fl'>11</span><span class='op'>)</span>
-</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span><span class='op'>(</span><span class='fu'><a href='https://dplyr.tidyverse.org/reference/arrange.html'>arrange</a></span><span class='op'>(</span><span class='va'>ipca</span>, <span class='va'>component</span><span class='op'>)</span>, <span class='fl'>11</span><span class='op'>)</span></span></code></pre>
 </div>
-<pre><code># A tibble: 11 x 4
+<pre><code># A tibble: 11 × 4
 # Groups:   component [1]
    date          component               mth_inflation accum_inflation
    &lt;chr&gt;         &lt;chr&gt;                           &lt;dbl&gt;           &lt;dbl&gt;
@@ -2327,21 +2382,20 @@ pre{font-size: 12px;}
 10 dezembro 2020 1.Alimentação e bebidas          1.37           13.8 
 11 janeiro 2021  1.Alimentação e bebidas          0.68           14.6 </code></pre>
 </div>
-<p><br/> Agora, chega-se ao valor acumulado no final do período para todos os componentes:</p>
+<p><br/> Agora, chega-se ao valor acumulado no final do período para
+todos os componentes:</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='co'># jan/2021</span>
-<span class='va'>ipca</span> <span class='op'>&lt;-</span> <span class='fu'>summarize</span><span class='op'>(</span><span class='va'>ipca</span>, accum_inflation <span class='op'>=</span> <span class='fu'>last</span><span class='op'>(</span><span class='va'>accum_inflation</span><span class='op'>)</span><span class='op'>)</span>
-</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='co'># jan/2021</span></span>
+<span><span class='va'>ipca</span> <span class='op'>&lt;-</span> <span class='fu'><a href='https://dplyr.tidyverse.org/reference/summarise.html'>summarize</a></span><span class='op'>(</span><span class='va'>ipca</span>, accum_inflation <span class='op'>=</span> <span class='fu'><a href='https://dplyr.tidyverse.org/reference/nth.html'>last</a></span><span class='op'>(</span><span class='va'>accum_inflation</span><span class='op'>)</span><span class='op'>)</span></span></code></pre>
 </div>
 </div>
 <p><br/> E eis a matéria-prima do gráfico:</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>arrange</span><span class='op'>(</span><span class='va'>ipca</span>, <span class='fu'>desc</span><span class='op'>(</span><span class='va'>accum_inflation</span><span class='op'>)</span><span class='op'>)</span>
-</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='fu'><a href='https://dplyr.tidyverse.org/reference/arrange.html'>arrange</a></span><span class='op'>(</span><span class='va'>ipca</span>, <span class='fu'><a href='https://dplyr.tidyverse.org/reference/desc.html'>desc</a></span><span class='op'>(</span><span class='va'>accum_inflation</span><span class='op'>)</span><span class='op'>)</span></span></code></pre>
 </div>
-<pre><code># A tibble: 9 x 2
+<pre><code># A tibble: 9 × 2
   component                   accum_inflation
   &lt;chr&gt;                                 &lt;dbl&gt;
 1 1.Alimentação e bebidas             14.6   
@@ -2354,56 +2408,71 @@ pre{font-size: 12px;}
 8 4.Vestuário                          0.0240
 9 8.Educação                          -2.50  </code></pre>
 </div>
-<p>Nota: Ao olhar para a deflação dos serviços educacionais, deve-se ter em conta que fevereiro, um mês <a href="https://valorinveste.globo.com/mercados/brasil-e-politica/noticia/2021/02/09/inflacao-de-fevereiro-deve-ter-impacto-adicional-de-educacao.ghtml">particularmente importante</a> para o componente, é o único que não se faz presente nos dados. <br/><br/></p>
+<p>Nota: Ao olhar para a deflação dos serviços educacionais, deve-se ter
+em conta que fevereiro, um mês <a
+href="https://valorinveste.globo.com/mercados/brasil-e-politica/noticia/2021/02/09/inflacao-de-fevereiro-deve-ter-impacto-adicional-de-educacao.ghtml">particularmente
+importante</a> para o componente, é o único que não se faz presente nos
+dados. <br/><br/></p>
 <h2 id="visualização">Visualização</h2>
-<p>O primeiro passo para o sucesso do gráfico de barras será, seguindo o embalo da formatação, reordenar a sequência de componentes com <code>forcats::fct_reorder()</code> de acordo com o tamanho da inflação acumulada:</p>
+<p>O primeiro passo para o sucesso do gráfico de barras será, seguindo o
+embalo da formatação, reordenar a sequência de componentes com
+<code>forcats::fct_reorder()</code> de acordo com o tamanho da inflação
+acumulada:</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>ipca</span> <span class='op'>&lt;-</span> <span class='va'>ipca</span> <span class='op'>%&gt;%</span>
-  <span class='fu'>mutate</span><span class='op'>(</span>
-    component <span class='op'>=</span> <span class='va'>component</span> <span class='op'>%&gt;%</span>
-      <span class='co'># retirada de numeração</span>
-      <span class='fu'>str_sub</span><span class='op'>(</span><span class='fl'>3</span><span class='op'>)</span> <span class='op'>%&gt;%</span>
-      <span class='co'># concisão</span>
-      <span class='fu'>recode</span><span class='op'>(</span><span class='st'>"Alimentação e bebidas"</span>     <span class='op'>=</span> <span class='st'>"Alimentação"</span>,
-             <span class='st'>"Artigos de residência"</span>     <span class='op'>=</span> <span class='st'>"Residência"</span>,
-             <span class='st'>"Saúde e cuidados pessoais"</span> <span class='op'>=</span> <span class='st'>"Saúde"</span>,
-             <span class='st'>"Despesas pessoais"</span>         <span class='op'>=</span> <span class='st'>"Desp. Pessoais"</span><span class='op'>)</span> <span class='op'>%&gt;%</span>
-      <span class='co'># critério de ordenação</span>
-      <span class='fu'>fct_reorder</span><span class='op'>(</span><span class='va'>accum_inflation</span><span class='op'>)</span>
-  <span class='op'>)</span>
-</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='va'>ipca</span> <span class='op'>&lt;-</span> <span class='va'>ipca</span> <span class='op'><a href='https://magrittr.tidyverse.org/reference/pipe.html'>%&gt;%</a></span></span>
+<span>  <span class='fu'><a href='https://dplyr.tidyverse.org/reference/mutate.html'>mutate</a></span><span class='op'>(</span></span>
+<span>    component <span class='op'>=</span> <span class='va'>component</span> <span class='op'><a href='https://magrittr.tidyverse.org/reference/pipe.html'>%&gt;%</a></span></span>
+<span>      <span class='co'># retirada de numeração</span></span>
+<span>      <span class='fu'><a href='https://stringr.tidyverse.org/reference/str_sub.html'>str_sub</a></span><span class='op'>(</span><span class='fl'>3</span><span class='op'>)</span> <span class='op'><a href='https://magrittr.tidyverse.org/reference/pipe.html'>%&gt;%</a></span></span>
+<span>      <span class='co'># concisão</span></span>
+<span>      <span class='fu'><a href='https://dplyr.tidyverse.org/reference/recode.html'>recode</a></span><span class='op'>(</span><span class='st'>"Alimentação e bebidas"</span>     <span class='op'>=</span> <span class='st'>"Alimentação"</span>,</span>
+<span>             <span class='st'>"Artigos de residência"</span>     <span class='op'>=</span> <span class='st'>"Residência"</span>,</span>
+<span>             <span class='st'>"Saúde e cuidados pessoais"</span> <span class='op'>=</span> <span class='st'>"Saúde"</span>,</span>
+<span>             <span class='st'>"Despesas pessoais"</span>         <span class='op'>=</span> <span class='st'>"Desp. Pessoais"</span><span class='op'>)</span> <span class='op'><a href='https://magrittr.tidyverse.org/reference/pipe.html'>%&gt;%</a></span></span>
+<span>      <span class='co'># critério de ordenação</span></span>
+<span>      <span class='fu'><a href='https://forcats.tidyverse.org/reference/fct_reorder.html'>fct_reorder</a></span><span class='op'>(</span><span class='va'>accum_inflation</span><span class='op'>)</span></span>
+<span>  <span class='op'>)</span></span></code></pre>
 </div>
 </div>
 <p><br/> A carcaça do gráfico já pode ser criada:</p>
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span class='va'>ipca</span> <span class='op'>%&gt;%</span>
-  <span class='fu'>ggplot</span><span class='op'>(</span><span class='fu'>aes</span><span class='op'>(</span><span class='va'>accum_inflation</span>, <span class='va'>component</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span>
-  <span class='fu'>geom_col</span><span class='op'>(</span><span class='op'>)</span>
-</code></pre>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='va'>ipca</span> <span class='op'><a href='https://magrittr.tidyverse.org/reference/pipe.html'>%&gt;%</a></span></span>
+<span>  <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/ggplot.html'>ggplot</a></span><span class='op'>(</span><span class='fu'><a href='https://ggplot2.tidyverse.org/reference/aes.html'>aes</a></span><span class='op'>(</span><span class='va'>accum_inflation</span>, <span class='va'>component</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span></span>
+<span>  <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/geom_bar.html'>geom_col</a></span><span class='op'>(</span><span class='op'>)</span></span></code></pre>
 </div>
 <p><img src="desmistificando-o-sidra-parte-i_files/figure-html5/unnamed-chunk-12-1.png" width="624" /></p>
 </div>
-<p>Porém ela é pouco apelativa (apesar de ter seu charme). O segundo passo será desfrutar das possibilidades de montagem em cima dessa carcaça — por exemplo, a função <code>ggplot2::geom_label()</code>. Esmiuçá-las exigiria uma postagem à parte.</p>
-<p>Por último, escolhe-se tema e paleta de cores a gosto. Como a inspiração para esta postagem veio justamente de <a href="https://www1.folha.uol.com.br/mercado/2020/11/alta-no-preco-de-alimentos-faz-governo-elevar-projecao-de-inflacao-para-2020-e-2021.shtml">matérias jornalísticas</a> sobre a trajetória recente da inflação de alimentos, foi escolhido um padrão do <a href="https://www.wsj.com/">Wall Street Journal</a> encontrado no <code>{ggthemes}</code>:</p>
+<p>Porém ela é pouco apelativa (apesar de ter seu charme). O segundo
+passo será desfrutar das possibilidades de montagem em cima dessa
+carcaça — por exemplo, a função <code>ggplot2::geom_label()</code>.
+Esmiuçá-las exigiria uma postagem à parte.</p>
+<p>Por último, escolhe-se tema e paleta de cores a gosto. Como a
+inspiração para esta postagem veio justamente de <a
+href="https://www1.folha.uol.com.br/mercado/2020/11/alta-no-preco-de-alimentos-faz-governo-elevar-projecao-de-inflacao-para-2020-e-2021.shtml">matérias
+jornalísticas</a> sobre a trajetória recente da inflação de alimentos,
+foi escolhido um padrão do <a href="https://www.wsj.com/">Wall Street
+Journal</a> encontrado no <code>{ggthemes}</code>:</p>
 <div class="layout-chunk" data-layout="l-body">
 <p><img src="desmistificando-o-sidra-parte-i_files/figure-html5/unnamed-chunk-13-1.png" width="624" data-distill-preview=1 /></p>
 </div>
 <p>Um senhor ganho de apelo estético.</p>
-<p>Na segunda parte da sequência, será possível trabalhar com planilhas mais complexas do SIDRA. <br/></p>
+<p>Na segunda parte da sequência, será possível trabalhar com planilhas
+mais complexas do SIDRA. <br/></p>
 <p><span style="color: #183139">###</span></br></p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <div class="article-footer">
   <p class="social_footer">
     <span class="article-sharing">
       Share: &nbsp;
-      <a href="https://twitter.com/share?text=Explorando%20o%20SIDRA%20com%20tidyverse%20-%20Parte%20I&amp;url=https%3A%2F%2Ftidyeconomics.netlify.app%2Fposts%2F2021-02-22-explorando-o-sidra-com-tidyverse-parte-i%2F">
-        <i class="fab fa-twitter"></i>
+      <a href="https://twitter.com/share?text=Explorando%20o%20SIDRA%20com%20tidyverse%20-%20Parte%20I&amp;url=https%3A%2F%2Ftidyeconomics.netlify.app%2Fposts%2F2021-02-22-explorando-o-sidra-com-tidyverse-parte-i%2F" aria-label="share on twitter">
+        <i class="fab fa-twitter" aria-hidden="true"></i>
       </a>
-      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Ftidyeconomics.netlify.app%2Fposts%2F2021-02-22-explorando-o-sidra-com-tidyverse-parte-i%2F&amp;title=Explorando%20o%20SIDRA%20com%20tidyverse%20-%20Parte%20I">
-        <i class="fab fa-linkedin"></i>
+      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Ftidyeconomics.netlify.app%2Fposts%2F2021-02-22-explorando-o-sidra-com-tidyverse-parte-i%2F&amp;title=Explorando%20o%20SIDRA%20com%20tidyverse%20-%20Parte%20I" aria-label="share on linkedin">
+        <i class="fab fa-linkedin" aria-hidden="true"></i>
       </a>
     </span>
   </p>

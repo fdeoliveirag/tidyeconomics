@@ -8,7 +8,7 @@ theme: theme.css
 description: |
   Usando a PNAD Contínua para ilustrar a trajetória recente do mercado de trabalho no Brasil e compará-la ao último período recessivo.
 author:
-  - name: Felipe O. Gonçalves
+  - name: Filippe O. Gonçalves
 date: 04-01-2021
 output:
   distill::distill_article:
